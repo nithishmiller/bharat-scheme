@@ -6,6 +6,8 @@ import { useAsync, listOf } from '../lib/useAsync.js';
 import { Empty, ErrorBox, PageHead, Spinner } from '../components/Common.jsx';
 import { Icon } from '../components/Brand.jsx';
 import { trackerNext } from '../lib/elig.js';
+import PhotoFrame from '../components/photo/PhotoFrame.jsx';
+import { getPagePhoto } from '../components/photo/captions.js';
 
 const FLOW = ['interested', 'started', 'submitted', 'verification', 'approved'];
 const ALL = [...FLOW, 'rejected'];
@@ -94,7 +96,8 @@ function TrackerSkeleton() {
 }
 
 export default function Tracker() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
+  const trkPhoto = getPagePhoto('trackerBanner', lang);
   const items = useAsync(() => API.tracker(), []);
   const schemes = useAsync(() => API.schemes(), []);
   const fam = useAsync(() => API.family().catch(() => null), []);
@@ -107,6 +110,15 @@ export default function Tracker() {
   return (
     <>
       <PageHead kicker={t('trk.kicker')} title={t('trk.title')} sub={t('trk.sub')} />
+      <div className="trk-banner" style={{ margin: '16px 0 24px 0' }}>
+        <PhotoFrame
+          variant="strip"
+          image={trkPhoto.image}
+          alt={trkPhoto.alt}
+          title={trkPhoto.title}
+          text={trkPhoto.text}
+        />
+      </div>
       {items.loading && <TrackerSkeleton />}
       {items.error && <ErrorBox error={items.error} onRetry={items.reload} />}
       {!items.loading && !items.error && list.length === 0 && (

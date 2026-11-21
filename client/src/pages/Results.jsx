@@ -10,6 +10,8 @@ import { StrengthNote, WhyList } from '../components/Why.jsx';
 import { Icon } from '../components/Brand.jsx';
 import { benefitLine, buildStory, k, keyReason, nextActions, RANK } from '../lib/elig.js';
 import { amountOf, familyMoney, inr, inrShort, personYearly } from '../lib/amount.js';
+import PhotoFrame from '../components/photo/PhotoFrame.jsx';
+import { getPagePhoto } from '../components/photo/captions.js';
 
 const GLYPH = { eligible: '✓', likely: '?', 'not-eligible': '✗' };
 const initials = (n = '') => n.trim().split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
@@ -280,6 +282,9 @@ export default function Results() {
   }
   const head = results.find((r) => r.member.relation === 'self')?.member || results[0]?.member;
   const c = story.counts;
+  const { lang } = useI18n();
+  const resBanner = getPagePhoto('resultsBanner', lang);
+  const hhPhoto = getPagePhoto('resultsHousehold', lang);
   return (
     <>
       <header className="map-head">
@@ -289,6 +294,16 @@ export default function Results() {
         </div>
         <Link className="btn sm" to="/family"><Icon name="edit" size={16} />{t('res.editFamily')}</Link>
       </header>
+
+      <div className="results-photo-banner" style={{ margin: '0 0 20px 0' }}>
+        <PhotoFrame
+          variant="strip"
+          image={resBanner.image}
+          alt={resBanner.alt}
+          title={resBanner.title}
+          text={resBanner.text}
+        />
+      </div>
 
       <section className="figs" aria-live="polite" aria-label={t('map.summary')}>
         <div className="fig">
@@ -333,6 +348,15 @@ export default function Results() {
               <h2 id="hh-h">{t('res.hhTitle')}</h2>
               <p>{t('res.hhSub')}</p>
             </div>
+          </div>
+          <div className="results-hh-photo" style={{ margin: '0 0 16px 0' }}>
+            <PhotoFrame
+              variant="tilt"
+              image={hhPhoto.image}
+              alt={hhPhoto.alt}
+              title={hhPhoto.title}
+              text={hhPhoto.text}
+            />
           </div>
           <ul className="lines">{story.household.map((g) => <SchemeRow key={g.scheme.id} scheme={g.scheme} entries={g.entries} hh {...rowProps} />)}</ul>
         </section>

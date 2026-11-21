@@ -216,3 +216,163 @@ export function getLandingPhotosAria(lang = 'en') {
   return item.ariaLabel;
 }
 
+/**
+ * Page-level photography configurations for Results, Wizard, Compare, Tracker, and Landing extras.
+ */
+export const pagePhotos = {
+  resultsBanner: {
+    image: '/images/family.jpg',
+    alt: 'Multi-generational Indian family smiling together',
+    en: {
+      title: 'Personalized Entitlements for Your Family',
+      text: 'Verified central and state schemes matched against your household profile.',
+    },
+    hi: {
+      title: 'आपके परिवार के लिए व्यक्तिगत योजनाएं',
+      text: 'आपके परिवार के विवरण के आधार पर जांची गई सरकारी कल्याणकारी योजनाएं।',
+    },
+    ta: {
+      title: 'உங்கள் குடும்பத்திற்கான தனிப்பயனாக்கப்பட்ட திட்டங்கள்',
+      text: 'உங்கள் குடும்ப விவரங்களின் அடிப்படையில் சரிபார்க்கப்பட்ட மத்திய, மாநில திட்டங்கள்.',
+    },
+  },
+  resultsHousehold: {
+    image: '/images/housing.jpg',
+    alt: 'Traditional pucca home with red-tiled roof in lush greenery',
+    en: {
+      title: 'Household Welfare & Living Standards',
+      text: 'Subsidies, housing grants, and utility support designed for the entire home.',
+    },
+    hi: {
+      title: 'पारिवारिक कल्याण एवं आवास सहायता',
+      text: 'पक्के मकान, स्वच्छता और घरेलू सुविधाओं के लिए सरकारी सहायता।',
+    },
+    ta: {
+      title: 'குடும்ப நலம் மற்றும் வீட்டு வசதி ஆதரவு',
+      text: 'வீட்டு வசதி, தூய்மை மற்றும் குடும்பத்திற்கான அரசு மானிய திட்டங்கள்.',
+    },
+  },
+  wizardStep1: {
+    image: '/images/housing.jpg',
+    alt: 'Indian residential home representing household context',
+    en: {
+      title: 'Household Context & Location',
+      text: 'Your state, income tier, and housing type calibrate base eligibility rules.',
+    },
+    hi: {
+      title: 'पारिवारिक पृष्ठभूमि एवं स्थान',
+      text: 'आपका राज्य, वार्षिक आय और आवास प्रकार पात्रता सीमा निर्धारित करते हैं।',
+    },
+    ta: {
+      title: 'குடும்ப பின்னணி மற்றும் வசிப்பிடம்',
+      text: 'உங்கள் மாநிலம், ஆண்டு வருமானம் மற்றும் குடியிருப்பு வகை ஆகியவை அடிப்படை தகுதியை நிர்ணயிக்கின்றன.',
+    },
+  },
+  wizardStep2: {
+    image: '/images/education.jpg',
+    alt: 'Indian school students studying attentively in class',
+    en: {
+      title: 'Individual Family Members',
+      text: 'Age, gender, education, and occupation unlock targeted welfare for every person.',
+    },
+    hi: {
+      title: 'परिवार के प्रत्येक सदस्य की जानकारी',
+      text: 'आयु, लिंग, शिक्षा और व्यवसाय से व्यक्तिगत लाभ और छात्रवृत्तियां मिलती हैं।',
+    },
+    ta: {
+      title: 'குடும்ப உறுப்பினர்களின் விவரங்கள்',
+      text: 'வயது, பாலினம், கல்வி மற்றும் தொழில் ஆகியவை தனிநபர் நலன்களை பெற்றுத்தருகின்றன.',
+    },
+  },
+  compareBanner: {
+    image: '/images/financial.jpg',
+    alt: 'Local market vendor managing financial inclusion services',
+    en: {
+      title: 'Side-by-Side Scheme Comparison',
+      text: 'Evaluate cash benefits, document requirements, and eligibility side by side.',
+    },
+    hi: {
+      title: 'सरकारी योजनाओं की सीधी तुलना',
+      text: 'प्रत्यक्ष वित्तीय लाभ, आवश्यक कागजात और पात्रता शर्तों की तुलना करें।',
+    },
+    ta: {
+      title: 'அரசு திட்டங்களின் நேரடி ஒப்பீடு',
+      text: 'பணப்பயன்கள், தேவைப்படும் ஆவணங்கள் மற்றும் தகுதி விதிகளை ஒப்பிடுங்கள்.',
+    },
+  },
+  trackerBanner: {
+    image: '/images/employment.jpg',
+    alt: 'Indian citizen working with diligence in local commerce',
+    en: {
+      title: 'Track Your Scheme Applications',
+      text: 'From document collection to official verification and final benefit disbursement.',
+    },
+    hi: {
+      title: 'अपने आवेदन की प्रगति ट्रैक करें',
+      text: 'दस्तावेज एकत्रीकरण से लेकर सत्यापन और प्रत्यक्ष लाभ हस्तांतरण तक का सफर।',
+    },
+    ta: {
+      title: 'உங்கள் விண்ணப்பங்களை கண்காணியுங்கள்',
+      text: 'ஆவணங்கள் சேகரிப்பு முதல் நேரடி பயன் பெறும் வரை அனைத்து நிலைகளையும் அறியுங்கள்.',
+    },
+  },
+  landingMosaic: {
+    images: [
+      { image: '/images/health.jpg', alt: 'Indian healthcare professionals in hospital corridor' },
+      { image: '/images/children.jpg', alt: 'Indian school children outdoors in school uniform' },
+      { image: '/images/employment.jpg', alt: 'Dedicated Indian street merchant managing produce' },
+    ],
+    en: {
+      title: 'Empowering Every Citizen Across Bharat',
+      text: 'Direct benefit transfers deliver financial security, health protection, and dignified livelihoods nationwide.',
+      badge: 'Pan-India Reach',
+    },
+    hi: {
+      title: 'भारत के हर नागरिक का सशक्तिकरण',
+      text: 'प्रत्यक्ष लाभ अंतरण से देश भर में वित्तीय सुरक्षा, स्वास्थ्य और आजीविका सुनिश्चित होती है।',
+      badge: 'राष्ट्रव्यापी पहुंच',
+    },
+    ta: {
+      title: 'பாரதத்தின் ஒவ்வொரு குடிமகனுக்கும் அதிகாரமளித்தல்',
+      text: 'நேரடி நலத்திட்டங்கள் நாடு முழுவதும் நிதி பாதுகாப்பு, நல்வாழ்வு மற்றும் வாழ்வாதாரத்தை உறுதி செய்கின்றன.',
+      badge: 'தேசம் தழுவிய சேவை',
+    },
+  },
+  landingDuotone: {
+    image: '/images/women.jpg',
+    alt: 'Artisan woman shaping handcrafted clay pot outdoors',
+    en: {
+      title: 'Transparent Support, Direct to Account',
+      text: 'Zero middlemen, automated verification, and verified entitlements for self-reliance.',
+      badge: 'Atmanirbhar Bharat',
+    },
+    hi: {
+      title: 'पारदर्शी सहायता, सीधे खाते में',
+      text: 'बिना बिचौलियों के, स्वचालित सत्यापन और आत्मनिर्भरता के लिए सरकारी योजनाएं।',
+      badge: 'आत्मनिर्भर भारत',
+    },
+    ta: {
+      title: 'வெளிப்படையான உதவி, நேரடியாக கணக்கில்',
+      text: 'இடைத்தரகர்கள் இன்றி, உடனடி சரிபார்ப்புடன் நேரடி வங்கிக் கணக்கு பரிமாற்றம்.',
+      badge: 'தன்னிறைவு பாரதம்',
+    },
+  },
+};
+
+/**
+ * Returns localized caption configuration for a given page section.
+ */
+export function getPagePhoto(key, lang = 'en') {
+  const item = pagePhotos[key];
+  if (!item) return getCategoryCaption('family', lang);
+  const langKey = item[lang] ? lang : 'en';
+  const localized = item[langKey] || item.en;
+  return {
+    image: item.image,
+    images: item.images,
+    alt: item.alt,
+    title: localized.title,
+    text: localized.text,
+    badge: localized.badge,
+  };
+}

@@ -6,10 +6,13 @@ import { Empty, ErrorBox, PageHead, Provenance, fmtDate } from '../components/Co
 import { Icon } from '../components/Brand.jsx';
 import { AmountTag } from './Results.jsx';
 import { loadPick } from './Browse.jsx';
+import PhotoFrame from '../components/photo/PhotoFrame.jsx';
+import { getPagePhoto } from '../components/photo/captions.js';
 
 // Side-by-side view of 2-3 schemes, built only from the scheme data the API already returns.
 export default function Compare() {
-  const { t, L, LA } = useI18n();
+  const { t, L, LA, lang } = useI18n();
+  const cmpPhoto = getPagePhoto('compareBanner', lang);
   const [sp] = useSearchParams();
   const ids = (sp.get('ids') || loadPick().join(',')).split(',').filter(Boolean).slice(0, 3);
   const { data, error, loading, reload } = useAsync(() => Promise.all(ids.map((id) => API.scheme(id))), [ids.join(',')]);
@@ -29,6 +32,15 @@ export default function Compare() {
   return (
     <>
       {head}
+      <div className="cmp-banner" style={{ margin: '16px 0 24px 0' }}>
+        <PhotoFrame
+          variant="strip"
+          image={cmpPhoto.image}
+          alt={cmpPhoto.alt}
+          title={cmpPhoto.title}
+          text={cmpPhoto.text}
+        />
+      </div>
       {/* Desktop: table */}
       <div className="cmp-wrap cmp-desktop" role="region" aria-label={t('cmp.title')} tabIndex={0}>
         <table className="cmp" style={{ '--cols': list.length }}>

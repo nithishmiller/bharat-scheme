@@ -5,6 +5,8 @@ import { useAuth } from '../lib/auth.jsx';
 import { API } from '../api/client.js';
 import { EMPTY_HOUSEHOLD, newMember, loadGuest, saveGuest, cleanHousehold, cleanMember } from '../lib/guest.js';
 import { ErrorBox, PageHead, Skeleton } from '../components/Common.jsx';
+import PhotoFrame from '../components/photo/PhotoFrame.jsx';
+import { getPagePhoto } from '../components/photo/captions.js';
 
 const STATES = [
   'Andaman and Nicobar Islands',
@@ -126,10 +128,10 @@ function MemberForm({ m, onSave, onCancel, idx }) {
 }
 
 export default function Wizard() {
-  const { t } = useI18n();
-  const { user, ready } = useAuth();
+  const { t, lang } = useI18n();
   const nav = useNavigate();
   const [step, setStep] = useState(1);
+  const stepPhoto = step === 1 ? getPagePhoto('wizardStep1', lang) : getPagePhoto('wizardStep2', lang);
   const [h, setH] = useState(EMPTY_HOUSEHOLD);
   const [members, setMembers] = useState([]);
   const [removed, setRemoved] = useState([]);
@@ -246,6 +248,15 @@ export default function Wizard() {
           )}
         </div>
         <aside className="note" aria-label={t('wiz.whyTitle')}>
+          <div className="wiz-side-photo" style={{ marginBottom: 16 }}>
+            <PhotoFrame
+              variant="tilt"
+              image={stepPhoto.image}
+              alt={stepPhoto.alt}
+              title={stepPhoto.title}
+              text={stepPhoto.text}
+            />
+          </div>
           <h3>{t('wiz.whyTitle')}</h3>
           <p>{t('wiz.whyIntro')}</p>
           <ul>
