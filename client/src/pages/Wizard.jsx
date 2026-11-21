@@ -129,6 +129,7 @@ function MemberForm({ m, onSave, onCancel, idx }) {
 
 export default function Wizard() {
   const { t, lang } = useI18n();
+  const { user, ready } = useAuth();
   const nav = useNavigate();
   const [step, setStep] = useState(1);
   const stepPhoto = step === 1 ? getPagePhoto('wizardStep1', lang) : getPagePhoto('wizardStep2', lang);
