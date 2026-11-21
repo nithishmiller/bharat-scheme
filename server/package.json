@@ -1,0 +1,24 @@
+{
+  "name": "bharat-scheme-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Bharat Scheme backend: Express API, rules engine, repository layer (local JSON / MySQL), AI proxy.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node db/seed.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.5"
+  },
+  "optionalDependencies": {
+    "openai": "^4.77.0"
+  }
+}

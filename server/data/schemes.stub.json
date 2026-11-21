@@ -1,0 +1,65 @@
+[
+  {
+    "id": "pm-kisan",
+    "name": { "en": "PM-KISAN Samman Nidhi", "ta": "பிஎம்-கிசான் சம்மான் நிதி" },
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "level": "central",
+    "state": null,
+    "category": "farmer",
+    "summary": { "en": "Income support for landholding farmer families.", "ta": "நிலம் வைத்துள்ள விவசாயக் குடும்பங்களுக்கான வருமான ஆதரவு." },
+    "benefits": { "en": ["Direct income support paid to the farmer's bank account (stub data)."], "ta": ["விவசாயியின் வங்கிக் கணக்கில் நேரடி வருமான ஆதரவு (மாதிரித் தரவு)."] },
+    "documents": ["Aadhaar card", "Land ownership record", "Bank passbook"],
+    "howToApply": { "en": ["Register on the official PM-KISAN portal.", "Submit land and bank details."], "ta": ["அதிகாரப்பூர்வ பிஎம்-கிசான் தளத்தில் பதிவு செய்யவும்.", "நிலம் மற்றும் வங்கி விவரங்களை அளிக்கவும்."] },
+    "officialUrl": "https://pmkisan.gov.in/",
+    "sourceUrl": "https://www.myscheme.gov.in/schemes/pm-kisan",
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      { "id": "r1", "field": "occupation", "op": "eq", "value": "farmer", "label": { "en": "Applicant is a farmer", "ta": "விண்ணப்பதாரர் விவசாயி" } },
+      { "id": "r2", "field": "landHoldingAcres", "op": "gt", "value": 0, "label": { "en": "Owns cultivable land", "ta": "பயிரிடக்கூடிய நிலம் உள்ளது" } }
+    ]
+  },
+  {
+    "id": "pm-jay",
+    "name": { "en": "Ayushman Bharat PM-JAY", "ta": "ஆயுஷ்மான் பாரத் பிஎம்-ஜெய்" },
+    "ministry": "Ministry of Health & Family Welfare",
+    "level": "central",
+    "state": null,
+    "category": "health",
+    "summary": { "en": "Health cover for hospital care for eligible low-income families (stub rules).", "ta": "தகுதியுள்ள குறைந்த வருமானக் குடும்பங்களுக்கு மருத்துவமனை சிகிச்சைக் காப்பீடு (மாதிரி விதிகள்)." },
+    "benefits": { "en": ["Cashless hospital treatment at empanelled hospitals."], "ta": ["பட்டியலிடப்பட்ட மருத்துவமனைகளில் பணமில்லா சிகிச்சை."] },
+    "documents": ["Aadhaar card", "Ration card"],
+    "howToApply": { "en": ["Check eligibility on the official portal.", "Visit an empanelled hospital help desk with your documents."], "ta": ["அதிகாரப்பூர்வ தளத்தில் தகுதியைச் சரிபார்க்கவும்.", "ஆவணங்களுடன் மருத்துவமனை உதவி மையத்தை அணுகவும்."] },
+    "officialUrl": "https://pmjay.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      { "id": "r1", "field": "rationCard", "op": "true", "value": null, "label": { "en": "Family holds a ration card", "ta": "குடும்பத்திடம் குடும்ப அட்டை உள்ளது" } },
+      { "id": "r2", "field": "annualIncome", "op": "lte", "value": 250000, "label": { "en": "Annual family income up to ₹2,50,000", "ta": "ஆண்டு குடும்ப வருமானம் ₹2,50,000 வரை" } }
+    ]
+  },
+  {
+    "id": "ignoaps",
+    "name": { "en": "Indira Gandhi National Old Age Pension", "ta": "இந்திரா காந்தி தேசிய முதியோர் ஓய்வூதியம்" },
+    "ministry": "Ministry of Rural Development",
+    "level": "central",
+    "state": null,
+    "category": "senior",
+    "summary": { "en": "Monthly pension for senior citizens from poor households (stub rules).", "ta": "ஏழைக் குடும்பங்களின் மூத்த குடிமக்களுக்கு மாதாந்திர ஓய்வூதியம் (மாதிரி விதிகள்)." },
+    "benefits": { "en": ["Monthly pension paid to the beneficiary."], "ta": ["பயனாளிக்கு மாதாந்திர ஓய்வூதியம்."] },
+    "documents": ["Aadhaar card", "Age proof", "BPL certificate"],
+    "howToApply": { "en": ["Apply through the local panchayat or municipal office."], "ta": ["உள்ளூர் பஞ்சாயத்து அல்லது நகராட்சி அலுவலகம் மூலம் விண்ணப்பிக்கவும்."] },
+    "officialUrl": "https://nsap.nic.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      { "id": "r1", "field": "age", "op": "gte", "value": 60, "label": { "en": "Age 60 or above", "ta": "வயது 60 அல்லது அதற்கு மேல்" } },
+      { "id": "r2", "field": "bplCard", "op": "true", "value": null, "label": { "en": "Household is below the poverty line", "ta": "குடும்பம் வறுமைக் கோட்டுக்குக் கீழ்" } }
+    ]
+  }
+]

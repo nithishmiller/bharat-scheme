@@ -1,0 +1,61 @@
+/* Bharat Scheme design tokens: the only place raw values live. */
+:root {
+  /* ink: text and primary actions (deep civic navy, never indigo) */
+  --ink-900: #10233F;
+  --ink-800: #1B3253;
+  --ink-700: #33465F;
+  --ink-500: #586679;
+  --ink-300: #9AA5B3;
+
+  /* canvas */
+  --page: #F4F5F2;
+  --surface: #FFFFFF;
+  --sunken: #ECEEEA;
+  --line: #DCE0E4;
+  --line-strong: #B7BFC9;
+
+  /* identity accent: marigold. Roles: brand mark, "do this first", focus ring. Never a surface. */
+  --marigold: #E9A21B;
+  --marigold-50: #FDF3DD;
+  --marigold-ink: #7A4F00;
+
+  /* status roles */
+  --green: #0E7A4C;        /* eligible, approved, money you get */
+  --green-50: #E5F3EB;
+  --green-200: #B5DCC6;
+  --amber: #8F5500;        /* needs one detail */
+  --amber-50: #FFF2D9;
+  --amber-200: #EDCF95;
+  --red: #B3261E;          /* not met, rejected, destructive */
+  --red-50: #FBE9E7;
+  --red-200: #EDBDB8;
+
+  /* type */
+  --f-display: 'Anek Tamil Variable', 'Noto Sans Tamil Variable', system-ui, sans-serif;
+  --f-body: 'Inter Variable', 'Noto Sans Tamil Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --f-tamil: 'Noto Sans Tamil Variable', 'Inter Variable', system-ui, sans-serif;
+  --f-mono: ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --t-12: 12px; --t-13: 13px; --t-14: 14px; --t-16: 16px; --t-18: 18px;
+  --t-22: 22px; --t-28: 28px; --t-36: 36px; --t-48: 48px;
+
+  /* space (4px base) */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px;
+
+  /* shape + depth */
+  --r-sm: 4px; --r: 6px; --r-lg: 10px; --r-pill: 999px;
+  --shadow-1: 0 1px 2px rgba(16, 35, 63, .06), 0 1px 1px rgba(16, 35, 63, .04);
+  --shadow-2: 0 8px 24px -8px rgba(16, 35, 63, .18), 0 2px 6px rgba(16, 35, 63, .06);
+
+  /* motion: short and purposeful */
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --d-1: 120ms; --d-2: 200ms; --d-3: 320ms;
+
+  /* layout */
+  --wrap: 1160px;
+  --head-h: 64px;
+  --touch: 44px;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --d-1: 0ms; --d-2: 0ms; --d-3: 0ms; }
+}
