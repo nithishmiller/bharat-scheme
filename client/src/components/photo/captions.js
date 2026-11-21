@@ -196,3 +196,23 @@ export function getCategoryCaption(category, lang = 'en') {
     text: localized.text,
   };
 }
+
+export const landingCardCategories = ['farmer', 'women', 'education', 'senior'];
+
+export const landingPhotosSection = {
+  en: {
+    ariaLabel: 'Citizen schemes and beneficiaries across India',
+  },
+  hi: {
+    ariaLabel: 'भारत भर में नागरिक योजनाएं और लाभार्थी',
+  },
+  ta: {
+    ariaLabel: 'இந்தியா முழுவதும் உள்ள குடிமக்கள் நலத்திட்டங்கள் மற்றும் பயனாளிகள்',
+  },
+};
+
+export function getLandingPhotosAria(lang = 'en') {
+  const item = landingPhotosSection[lang] || landingPhotosSection.en;
+  return item.ariaLabel;
+}
+

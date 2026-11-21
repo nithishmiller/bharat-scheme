@@ -4,6 +4,7 @@ import { useI18n } from '../i18n/index.jsx';
 import { API } from '../api/client.js';
 import { useAsync, listOf } from '../lib/useAsync.js';
 import { Icon } from '../components/Brand.jsx';
+import LandingPhotos from '../components/photo/LandingPhotos.jsx';
 
 // Lazy-load Three.js 3D visual component so non-landing pages do not pay any bundle cost
 const HeroVisual = lazy(() => import('../components/three/HeroVisual.jsx'));
@@ -83,6 +84,8 @@ export default function Landing() {
           <HeroVisual fallback={<Preview />} />
         </Suspense>
       </section>
+
+      <LandingPhotos />
 
       {/* Visual Polish: Value Pillars Strip */}
       <section className="hero-pillars" aria-label={t('landing.pillarsAria')}>
