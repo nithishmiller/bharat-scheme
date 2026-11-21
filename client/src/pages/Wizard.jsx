@@ -6,7 +6,45 @@ import { API } from '../api/client.js';
 import { EMPTY_HOUSEHOLD, newMember, loadGuest, saveGuest, cleanHousehold, cleanMember } from '../lib/guest.js';
 import { ErrorBox, PageHead, Skeleton } from '../components/Common.jsx';
 
-const STATES = ['Tamil Nadu', 'Andhra Pradesh', 'Karnataka', 'Kerala', 'Maharashtra', 'Uttar Pradesh', 'Bihar', 'West Bengal', 'Gujarat', 'Rajasthan', 'Madhya Pradesh', 'Odisha', 'Telangana', 'Punjab', 'Haryana', 'Delhi', 'Other'];
+const STATES = [
+  'Andaman and Nicobar Islands',
+  'Andhra Pradesh',
+  'Arunachal Pradesh',
+  'Assam',
+  'Bihar',
+  'Chandigarh',
+  'Chhattisgarh',
+  'Dadra and Nagar Haveli and Daman and Diu',
+  'Delhi',
+  'Goa',
+  'Gujarat',
+  'Haryana',
+  'Himachal Pradesh',
+  'Jammu and Kashmir',
+  'Jharkhand',
+  'Karnataka',
+  'Kerala',
+  'Ladakh',
+  'Lakshadweep',
+  'Madhya Pradesh',
+  'Maharashtra',
+  'Manipur',
+  'Meghalaya',
+  'Mizoram',
+  'Nagaland',
+  'Odisha',
+  'Puducherry',
+  'Punjab',
+  'Rajasthan',
+  'Sikkim',
+  'Tamil Nadu',
+  'Telangana',
+  'Tripura',
+  'Uttar Pradesh',
+  'Uttarakhand',
+  'West Bengal',
+  'Other',
+];
 const RELATIONS = ['self', 'spouse', 'child', 'parent', 'sibling', 'other'];
 const OCCS = ['farmer', 'student', 'salaried', 'self-employed', 'unemployed', 'homemaker', 'daily-wage', 'retired'];
 const EDUS = ['none', 'primary', 'secondary', 'higher-secondary', 'graduate', 'postgraduate'];

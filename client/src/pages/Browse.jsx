@@ -6,6 +6,8 @@ import { useAsync, listOf } from '../lib/useAsync.js';
 import { Empty, ErrorBox, PageHead, Provenance } from '../components/Common.jsx';
 import { Icon } from '../components/Brand.jsx';
 import { AmountTag } from './Results.jsx';
+import PhotoFrame from '../components/photo/PhotoFrame.jsx';
+import { getCategoryCaption } from '../components/photo/captions.js';
 
 const MAX = 3;
 const KEY = 'bs_compare';
@@ -13,7 +15,7 @@ export const loadPick = () => { try { return JSON.parse(sessionStorage.getItem(K
 const savePick = (ids) => sessionStorage.setItem(KEY, JSON.stringify(ids));
 
 export default function Browse() {
-  const { t, L } = useI18n();
+  const { t, L, lang } = useI18n();
   const nav = useNavigate();
   const [q, setQ] = useState('');
   const [dq, setDq] = useState('');
@@ -48,6 +50,65 @@ export default function Browse() {
           <button key={c.id} className="cat" aria-pressed={category === c.id} onClick={() => setCategory(category === c.id ? '' : c.id)}>{L(c.label) || c.id}<small className="num">{c.count}</small></button>
         ))}
       </div>
+
+      {category && (
+        <div className="br-cat-banner" style={{ margin: '16px 0 24px 0' }}>
+          <PhotoFrame
+            variant="strip"
+            image={getCategoryCaption(category, lang).image}
+            alt={getCategoryCaption(category, lang).alt}
+            title={getCategoryCaption(category, lang).title}
+            text={getCategoryCaption(category, lang).text}
+            badge={
+              <span className="tag" style={{ background: 'var(--marigold)', color: 'var(--ink-900)', fontWeight: 600 }}>
+                {L(listOf(cats.data, 'categories').find((c) => c.id === category)?.label) || category}
+              </span>
+            }
+          />
+        </div>
+      )}
+
+      {!filtered && (
+        <div
+          className="br-spotlight"
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))',
+            gap: 16,
+            margin: '20px 0 24px 0',
+          }}
+        >
+          {['farmer', 'women', 'education'].map((cid) => {
+            const cCap = getCategoryCaption(cid, lang);
+            const cObj = listOf(cats.data, 'categories').find((c) => c.id === cid);
+            return (
+              <div
+                key={cid}
+                onClick={() => setCategory(cid)}
+                style={{ cursor: 'pointer', outline: 'none' }}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setCategory(cid)}
+                aria-label={`Filter by ${L(cObj?.label) || cid}`}
+              >
+                <PhotoFrame
+                  variant="card"
+                  image={cCap.image}
+                  alt={cCap.alt}
+                  title={L(cObj?.label) || cCap.title}
+                  text={cCap.text}
+                  badge={
+                    <span className="tag" style={{ background: 'var(--surface)', color: 'var(--ink-900)' }}>
+                      {cObj?.count ? `${cObj.count} ${t('nav.schemes')}` : ''}
+                    </span>
+                  }
+                />
+              </div>
+            );
+          })}
+        </div>
+      )}
+
       <div className="row between br-bar">
         <p className="small muted" aria-live="polite" style={{ margin: 0 }}>{!res.loading && !res.error && t('br.count', { n: list.length })}</p>
         <p className="small faint" style={{ margin: 0 }}>{t('cmp.hint', { n: MAX })}</p>

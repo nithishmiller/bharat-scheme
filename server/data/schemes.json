@@ -6141,5 +6141,5523 @@
         }
       }
     ]
+  },
+  {
+    "id": "an-pension-destitute",
+    "name": {
+      "en": "Andaman & Nicobar Destitute Senior Pension",
+      "ta": "அந்தமான் நிக்கோபார் ஆதரவற்ற முதியோர் ஓய்வூதியம்",
+      "hi": "अंडमान और निकोबार निराश्रित वृद्धावस्था पेंशन"
+    },
+    "ministry": "Directorate of Social Welfare, Andaman and Nicobar Administration",
+    "level": "state",
+    "state": "Andaman and Nicobar Islands",
+    "category": "senior",
+    "summary": {
+      "en": "Monthly pension for destitute and indigent senior citizens in Andaman and Nicobar Islands.",
+      "ta": "அந்தமான் நிக்கோபார் தீவுகளில் உள்ள ஆதரவற்ற முதியோருக்கான மாதாந்திர ஓய்வூதியம்.",
+      "hi": "अंडमान और निकोबार द्वीप समूह में निराश्रित और गरीब वरिष्ठ नागरिकों के लिए मासिक पेंशन।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly financial pension of ₹2,500 transferred to bank account"
+      ],
+      "ta": [
+        "வங்கிக் கணக்கில் செலுத்தப்படும் ₹2,500 மாதாந்திர நிதி ஓய்வூதியம்"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Proof of age",
+      "Income certificate",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Submit application to the Child Development Project Officer (CDPO) or Directorate of Social Welfare.",
+        "Attach age, income and residence proof.",
+        "Pension is disbursed monthly after field verification."
+      ],
+      "ta": [
+        "குழந்தை வளர்ச்சி திட்ட அலுவலர் அல்லது சமூக நல இயக்குநரகத்தில் விண்ணப்பத்தை சமர்ப்பிக்கவும்.",
+        "வயது, வருமானம் மற்றும் இருப்பிடச் சான்றுகளை இணைக்கவும்.",
+        "களச் சரிபார்ப்பிற்குப் பிறகு மாதந்தோறும் ஓய்வூதியம் வழங்கப்படும்."
+      ]
+    },
+    "officialUrl": "https://andaman.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Andaman and Nicobar Islands",
+        "label": {
+          "en": "Resident of Andaman and Nicobar Islands",
+          "ta": "அந்தமான் நிக்கோபார் தீவுகளில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "age",
+        "op": "gte",
+        "value": 60,
+        "label": {
+          "en": "Age 60 years or above",
+          "ta": "60 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 100000,
+        "label": {
+          "en": "Annual family income up to ₹1,00,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹1,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "an-girl-child-protection",
+    "name": {
+      "en": "Girl Child Protection Scheme (A&N Islands)",
+      "ta": "பெண் குழந்தை பாதுகாப்புத் திட்டம் (அந்தமான்)",
+      "hi": "बालिका संरक्षण योजना (अंडमान और निकोबार)"
+    },
+    "ministry": "Directorate of Social Welfare, Andaman and Nicobar Administration",
+    "level": "state",
+    "state": "Andaman and Nicobar Islands",
+    "category": "children",
+    "summary": {
+      "en": "Financial deposit support for girl children born in low-income families in the UT.",
+      "ta": "யூனியன் பிரதேசத்தில் குறைந்த வருமானம் உள்ள குடும்பங்களில் பிறக்கும் பெண் குழந்தைகளுக்கான நிதி வைப்பு ஆதரவு.",
+      "hi": "केंद्र शासित प्रदेश में कम आय वाले परिवारों में जन्मी बालिकाओं के लिए वित्तीय जमा सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Fixed deposit of ₹10,000 created at birth maturing with interest at age 18"
+      ],
+      "ta": [
+        "பிறப்பின் போது செய்யப்படும் ₹10,000 நிலையான வைப்புத்தொகை 18 வயதில் வட்டியுடன் முதிர்ச்சியடையும்"
+      ]
+    },
+    "documents": [
+      "Birth certificate of child",
+      "Parents Aadhaar card",
+      "Income certificate",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply at the nearest Anganwadi centre or CDPO office within one year of child birth.",
+        "Provide institutional birth record and parent identity documents.",
+        "Fixed deposit bond is issued upon approval."
+      ],
+      "ta": [
+        "குழந்தை பிறந்த ஒரு வருடத்திற்குள் அருகிலுள்ள அங்கன்வாடி மையம் அல்லது சிடிபிஓ அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+        "மருத்துவமனை பிறப்புப் பதிவு மற்றும் பெற்றோர் அடையாள ஆவணங்களை வழங்கவும்.",
+        "ஒப்புதலுக்குப் பிறகு நிலையான வைப்புப் பத்திரம் வழங்கப்படும்."
+      ]
+    },
+    "officialUrl": "https://andaman.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Andaman and Nicobar Islands",
+        "label": {
+          "en": "Resident of Andaman and Nicobar Islands",
+          "ta": "அந்தமான் நிக்கோபார் தீவுகளில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a girl child",
+          "ta": "பயனாளி பெண் குழந்தை"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "lte",
+        "value": 1,
+        "label": {
+          "en": "Age up to 1 year",
+          "ta": "1 வயது வரை"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 200000,
+        "label": {
+          "en": "Annual family income up to ₹2,00,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹2,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ap-ysr-rythu-bharosa",
+    "name": {
+      "en": "YSR Rythu Bharosa",
+      "ta": "ஒய்எஸ்ஆர் ரைத்து பரோசா",
+      "hi": "वाईएसआर रायथू भरोसा"
+    },
+    "ministry": "Department of Agriculture, Government of Andhra Pradesh",
+    "level": "state",
+    "state": "Andhra Pradesh",
+    "category": "farmer",
+    "summary": {
+      "en": "Financial input assistance to farmer and tenant farmer families in Andhra Pradesh.",
+      "ta": "ஆந்திரப் பிரதேசத்தில் உள்ள விவசாய மற்றும் குத்தகை விவசாயக் குடும்பங்களுக்கான இடுபொருள் நிதி உதவி.",
+      "hi": "आंध्र प्रदेश में किसान और काश्तकार किसान परिवारों को वित्तीय आदान सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "₹13,500 per year provided in three instalments for purchase of seeds and fertilizers"
+      ],
+      "ta": [
+        "விதை மற்றும் உரம் வாங்குவதற்கு மூன்று தவணைகளில் ஆண்டுக்கு ₹13,500 வழங்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Pattadar passbook or land records",
+      "Aadhaar-linked bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Register at the local Rythu Bharosa Kendra (RBK) or village secretariat.",
+        "Village Agriculture Assistant verifies land details and crop data.",
+        "Amount is credited through direct benefit transfer."
+      ],
+      "ta": [
+        "உள்ளூர் ரைத்து பரோசா கேந்திரா (RBK) அல்லது கிராம செயலகத்தில் பதிவு செய்யவும்.",
+        "கிராம வேளாண்மை உதவியாளர் நில விவரங்கள் மற்றும் பயிர் தரவைச் சரிபார்க்கிறார்.",
+        "நேரடி பலன் பரிமாற்றம் மூலம் தொகை வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://ysrrythubharosa.ap.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Andhra Pradesh",
+        "label": {
+          "en": "Resident of Andhra Pradesh",
+          "ta": "ஆந்திரப் பிரதேசத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "landHoldingAcres",
+        "op": "gt",
+        "value": 0,
+        "label": {
+          "en": "Cultivates agricultural land",
+          "ta": "விவசாய நிலம் சாகுபடி செய்பவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ap-ysr-cheyutha",
+    "name": {
+      "en": "YSR Cheyutha",
+      "ta": "ஒய்எஸ்ஆர் செய்யூதா",
+      "hi": "वाईएसआर चेयुथा"
+    },
+    "ministry": "Department of Social Welfare, Government of Andhra Pradesh",
+    "level": "state",
+    "state": "Andhra Pradesh",
+    "category": "women",
+    "summary": {
+      "en": "Livelihood financial support to middle-aged women belonging to underprivileged communities.",
+      "ta": "பின்தங்கிய சமூகங்களைச் சேர்ந்த நடுத்தர வயதுப் பெண்களுக்கு வாழ்வாதார நிதி உதவி.",
+      "hi": "वंचित समुदायों की मध्यम आयु वर्ग की महिलाओं को आजीविका वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "₹18,750 per year for four consecutive years (total ₹75,000) for establishing micro-enterprises"
+      ],
+      "ta": [
+        "நுண் நிறுவனங்களை நிறுவுவதற்கு தொடர்ந்து நான்கு ஆண்டுகளுக்கு ஆண்டுக்கு ₹18,750 (மொத்தம் ₹75,000)"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Community caste certificate",
+      "Age proof",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply through the Grama or Ward Sachivalayam volunteer.",
+        "Welfare and Education Assistant verifies caste, age and income criteria.",
+        "Direct fund transfer upon inclusion in social audit list."
+      ],
+      "ta": [
+        "கிராம அல்லது வார்டு செயலக தன்னார்வலர் மூலம் விண்ணப்பிக்கவும்.",
+        "நலன் மற்றும் கல்வி உதவியாளர் சாதி, வயது மற்றும் வருமான நிபந்தனைகளைச் சரிபார்க்கிறார்.",
+        "சமூகத் தணிக்கைப் பட்டியலில் சேர்க்கப்பட்ட பிறகு நேரடி நிதி பரிமாற்றம்."
+      ]
+    },
+    "officialUrl": "https://gramawardsachivalayam.ap.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Andhra Pradesh",
+        "label": {
+          "en": "Resident of Andhra Pradesh",
+          "ta": "ஆந்திரப் பிரதேசத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a woman",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "gte",
+        "value": 45,
+        "label": {
+          "en": "Age 45 years or older",
+          "ta": "வயது 45 அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "age",
+        "op": "lte",
+        "value": 60,
+        "label": {
+          "en": "Age up to 60 years",
+          "ta": "வயது 60 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ar-cm-krishi-rinn",
+    "name": {
+      "en": "Chief Minister Krishi Rinn Yojana",
+      "ta": "முதல்வர் கிரிஷி ரின் திட்டம் (அருணாச்சல பிரதேசம்)",
+      "hi": "मुख्यमंत्री कृषि ऋण योजना (अरुणाचल प्रदेश)"
+    },
+    "ministry": "Department of Agriculture, Government of Arunachal Pradesh",
+    "level": "state",
+    "state": "Arunachal Pradesh",
+    "category": "farmer",
+    "summary": {
+      "en": "Interest subvention on crop loans for farmers of Arunachal Pradesh.",
+      "ta": "அருணாச்சல பிரதேச விவசாயிகளுக்கான பயிர்க் கடன்களுக்கான வட்டி மானியம்.",
+      "hi": "अरुणाचल प्रदेश के किसानों के लिए फसल ऋण पर ब्याज अनुदान।"
+    },
+    "benefits": {
+      "en": [
+        "4% interest subvention on crop loans up to ₹3 lakh making credit affordable"
+      ],
+      "ta": [
+        "₹3 லட்சம் வரையிலான பயிர்க் கடன்களுக்கு 4% வட்டி மானியம் வழங்கி கடன் சுமையை குறைக்கிறது"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Land possession certificate (LPC)",
+      "Kisan Credit Card (KCC) passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Obtain Land Possession Certificate from the district administration.",
+        "Apply at any participating commercial or cooperative bank branch.",
+        "Interest rebate is credited upon timely loan repayment."
+      ],
+      "ta": [
+        "மாவட்ட நிர்வாகத்திடமிருந்து நில உடைமைச் சான்றிதழைப் பெறவும்.",
+        "பங்கேற்கும் எந்தவொரு வணிக அல்லது கூட்டுறவு வங்கி கிளையிலும் விண்ணப்பிக்கவும்.",
+        "சரியான நேரத்தில் கடன் திருப்பிச் செலுத்தும் போது வட்டி தள்ளுபடி வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://arunachalpradesh.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Arunachal Pradesh",
+        "label": {
+          "en": "Resident of Arunachal Pradesh",
+          "ta": "அருணாச்சல பிரதேசத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ar-dulari-kanya",
+    "name": {
+      "en": "Dulari Kanya Scheme (Arunachal Pradesh)",
+      "ta": "துலாரி கன்யா திட்டம் (அருணாச்சல பிரதேசம்)",
+      "hi": "दुलारी कन्या योजना (अरुणाचल प्रदेश)"
+    },
+    "ministry": "Department of Health and Family Welfare, Government of Arunachal Pradesh",
+    "level": "state",
+    "state": "Arunachal Pradesh",
+    "category": "children",
+    "summary": {
+      "en": "Incentive to curb infant mortality and encourage institutional delivery of girl children.",
+      "ta": "குழந்தை இறப்பைக் கட்டுப்படுத்தவும் பெண் குழந்தைகள் மருத்துவமனையில் பிறப்பதை ஊக்குவிக்கவும் வழங்கப்படும் ஊக்கத்தொகை.",
+      "hi": "शिशु मृत्यु दर पर अंकुश लगाने और बालिकाओं के संस्थागत प्रसव को प्रोत्साहित करने के लिए प्रोत्साहन।"
+    },
+    "benefits": {
+      "en": [
+        "Fixed deposit of ₹20,000 made in the name of the girl child payable with interest at age 18"
+      ],
+      "ta": [
+        "பெண் குழந்தையின் பெயரில் ₹20,000 நிலையான வைப்புத்தொகை வைக்கப்பட்டு 18 வயதில் வட்டியுடன் வழங்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Birth certificate issued by government hospital",
+      "Mother Aadhaar card",
+      "Bank account details"
+    ],
+    "howToApply": {
+      "en": [
+        "Deliver girl child in a government health facility or empaneled hospital.",
+        "Submit institutional delivery slip and Aadhaar to the hospital medical officer.",
+        "Government deposits the amount directly in bank fixed deposit."
+      ],
+      "ta": [
+        "அரசு சுகாதார நிலையம் அல்லது அங்கீகரிக்கப்பட்ட மருத்துவமனையில் பெண் குழந்தை பிரசவம் நடைபெற வேண்டும்.",
+        "மருத்துவமனை மருத்துவ அதிகாரியிடம் பிரசவச் சீட்டு மற்றும் ஆதார்க்கார்டை சமர்ப்பிக்கவும்.",
+        "அரசு நேரடியாக வங்கி நிலையான வைப்புத்தொகையில் தொகையை செலுத்துகிறது."
+      ]
+    },
+    "officialUrl": "https://arunachalpradesh.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Arunachal Pradesh",
+        "label": {
+          "en": "Resident of Arunachal Pradesh",
+          "ta": "அருணாச்சல பிரதேசத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a girl child",
+          "ta": "பயனாளி பெண் குழந்தை"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "lte",
+        "value": 1,
+        "label": {
+          "en": "Age up to 1 year",
+          "ta": "1 வயது வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "as-orunodoi",
+    "name": {
+      "en": "Orunodoi Scheme",
+      "ta": "ஒரூணோதோய் திட்டம்",
+      "hi": "ओरुनोदोई योजना"
+    },
+    "ministry": "Finance Department, Government of Assam",
+    "level": "state",
+    "state": "Assam",
+    "category": "women",
+    "summary": {
+      "en": "Monthly financial assistance to the designated female head of underprivileged households in Assam.",
+      "ta": "அசாமில் உள்ள பின்தங்கிய குடும்பங்களின் பெண் தலைவருக்கு மாதாந்திர நிதி உதவி.",
+      "hi": "असम में वंचित परिवारों की नामित महिला मुखिया को मासिक वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "₹1,250 per month credited directly to the woman head bank account on the 10th of every month"
+      ],
+      "ta": [
+        "ஒவ்வொரு மாதமும் 10-ஆம் தேதி பெண் தலைவரின் வங்கிக் கணக்கில் நேரடியாக ₹1,250 வரவு வைக்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Ration card",
+      "Income certificate",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Collect application form from Gaon Panchayat or urban local body office.",
+        "Submit with family details and bank account of female head.",
+        "Approval granted after Gaon Sabha verification."
+      ],
+      "ta": [
+        "கிராம பஞ்சாயத்து அல்லது நகர்ப்புற உள்ளாட்சி அலுவலகத்தில் விண்ணப்பப் படிவத்தைப் பெறவும்.",
+        "குடும்ப விவரங்கள் மற்றும் பெண் தலைவரின் வங்கிக் கணக்குடன் சமர்ப்பிக்கவும்.",
+        "கிராம சபை சரிபார்ப்பிற்குப் பிறகு ஒப்புதல் அளிக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://orunodoi.assam.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Assam",
+        "label": {
+          "en": "Resident of Assam",
+          "ta": "அசாமில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a woman",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 200000,
+        "label": {
+          "en": "Annual family income up to ₹2,00,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹2,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "as-pragyan-bharati",
+    "name": {
+      "en": "Pragyan Bharati Scooty Scheme",
+      "ta": "பிரக்யான் பாரதி ஸ்கூட்டி திட்டம்",
+      "hi": "प्रज्ञान भारती स्कूटी योजना"
+    },
+    "ministry": "Higher Education Department, Government of Assam",
+    "level": "state",
+    "state": "Assam",
+    "category": "education",
+    "summary": {
+      "en": "Award of two-wheelers to meritorious female students who excel in higher secondary examinations.",
+      "ta": "மேல்நிலைப் பொதுத்தேர்வுகளில் சிறந்து விளங்கும் தகுதியான மாணவிகளுக்கு இருசக்கர வாகனங்கள் வழங்கும் திட்டம்.",
+      "hi": "उच्चतर माध्यमिक परीक्षाओं में उत्कृष्ट प्रदर्शन करने वाली मेधावी छात्राओं को दोपहिया वाहन पुरस्कार।"
+    },
+    "benefits": {
+      "en": [
+        "Free two-wheeler (scooty) awarded to facilitate convenient travel for college education"
+      ],
+      "ta": [
+        "கல்லூரி கல்விக்கான வசதியான பயணத்திற்கு இலவச இருசக்கர வாகனம் (ஸ்கூட்டி) வழங்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Class 12 marksheet",
+      "Admit card",
+      "Aadhaar card",
+      "College admission proof"
+    ],
+    "howToApply": {
+      "en": [
+        "Merit list published by AHSEC (Assam Higher Secondary Education Council).",
+        "Eligible students log in to the Pragyan Bharati portal and select vehicle preference.",
+        "Distribution ceremony conducted at district headquarters."
+      ],
+      "ta": [
+        "AHSEC மூலம் தகுதிப் பட்டியல் வெளியிடப்படுகிறது.",
+        "தகுதியான மாணவர்கள் போர்ட்டலில் உள்நுழைந்து வாகன விருப்பத்தைத் தேர்ந்தெடுக்கவும்.",
+        "மாவட்டத் தலைமையகத்தில் விநியோக விழா நடத்தப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://directorateofhighereducation.assam.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Assam",
+        "label": {
+          "en": "Resident of Assam",
+          "ta": "அசாமில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Female student",
+          "ta": "மாணவி"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "isStudent",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Currently a student",
+          "ta": "தற்போது படிக்கும் மாணவர்"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "education",
+        "op": "eq",
+        "value": "higher-secondary",
+        "label": {
+          "en": "Passed higher secondary",
+          "ta": "மேல்நிலை கல்வி முடித்தவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "br-kanya-utthan",
+    "name": {
+      "en": "Mukhyamantri Kanya Utthan Yojana",
+      "ta": "முகியமந்திரி கன்யா உத்தன் திட்டம்",
+      "hi": "मुख्यमंत्री कन्या उत्थान योजना"
+    },
+    "ministry": "Social Welfare Department, Government of Bihar",
+    "level": "state",
+    "state": "Bihar",
+    "category": "women",
+    "summary": {
+      "en": "Staged financial assistance for girl children from birth until graduation in Bihar.",
+      "ta": "பீகாரில் பெண் குழந்தைகளுக்குப் பிறப்பு முதல் பட்டப்படிப்பு வரை படிப்படியாக வழங்கப்படும் நிதி உதவி.",
+      "hi": "बिहार में जन्म से लेकर स्नातक तक बालिकाओं के लिए चरणबद्ध वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Up to ₹50,000 cumulative grant: ₹25,000 on intermediate and ₹50,000 upon graduation"
+      ],
+      "ta": [
+        "₹50,000 வரை ஒட்டுமொத்த மானியம்: பிளஸ் 2 தேர்வில் ₹25,000 மற்றும் பட்டப்படிப்பில் ₹50,000"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Graduation / 12th marksheet",
+      "Residence certificate",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Register online on Medhasoft portal (medhasoft.bih.nic.in).",
+        "Enter student registration number, Aadhaar and bank account details.",
+        "Direct benefit transfer after verification by respective university or board."
+      ],
+      "ta": [
+        "Medhasoft போர்ட்டலில் ஆன்லைனில் பதிவு செய்யவும்.",
+        "மாணவர் பதிவு எண், ஆதார் மற்றும் வங்கிக் கணக்கு விவரங்களை உள்ளிடவும்.",
+        "பல்கலைக்கழகம் அல்லது வாரியத்தால் சரிபார்க்கப்பட்ட பிறகு நேரடி பலன் பரிமாற்றம்."
+      ]
+    },
+    "officialUrl": "https://medhasoft.bih.nic.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Bihar",
+        "label": {
+          "en": "Resident of Bihar",
+          "ta": "பீகாரில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is female",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "isStudent",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Currently studying",
+          "ta": "கல்வி பயில்பவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "br-student-credit-card",
+    "name": {
+      "en": "Bihar Student Credit Card Scheme",
+      "ta": "பீகார் மாணவர் கடன் அட்டை திட்டம்",
+      "hi": "बिहार स्टूडेंट क्रेडिट कार्ड योजना"
+    },
+    "ministry": "Education Department, Government of Bihar",
+    "level": "state",
+    "state": "Bihar",
+    "category": "education",
+    "summary": {
+      "en": "Concessional education loans of up to ₹4 lakh for students pursuing higher education.",
+      "ta": "உயர்கல்வி பயிலும் மாணவர்களுக்கு ₹4 லட்சம் வரை சலுகை வட்டி விகிதத்தில் கல்விக்கடன் வழங்கும் திட்டம்.",
+      "hi": "उच्च शिक्षा प्राप्त करने वाले छात्रों के लिए ₹4 लाख तक का रियायती शिक्षा ऋण।"
+    },
+    "benefits": {
+      "en": [
+        "Education loan up to ₹4 lakh with 4% interest (1% for female/disabled students) backed by government guarantee"
+      ],
+      "ta": [
+        "அரசு உத்தரவாதத்துடன் கூடிய 4% வட்டியில் (பெண்கள்/மாற்றுத்திறனாளிகளுக்கு 1%) ₹4 லட்சம் வரை கல்விக் கடன்"
+      ]
+    },
+    "documents": [
+      "Class 10 and 12 marksheets",
+      "Admission letter from recognized college",
+      "Aadhaar card",
+      "Residence certificate"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply online at the 7 Nishchay portal (7nishchay-yuvaupmission.bihar.gov.in).",
+        "Visit the District Registration and Counseling Center (DRCC) with original documents.",
+        "Loan sanction letter issued after DRCC verification."
+      ],
+      "ta": [
+        "7 நிஸ்சய் போர்ட்டலில் ஆன்லைனில் விண்ணப்பிக்கவும்.",
+        "அசல் ஆவணங்களுடன் மாவட்டப் பதிவு மற்றும் ஆலோசனை மையத்தை (DRCC) பார்வையிடவும்.",
+        "DRCC சரிபார்ப்பிற்குப் பிறகு கடன் அனுமதி கடிதம் வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Bihar",
+        "label": {
+          "en": "Resident of Bihar",
+          "ta": "பீகாரில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "isStudent",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Currently enrolled student",
+          "ta": "தற்போது படிக்கும் மாணவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "lte",
+        "value": 25,
+        "label": {
+          "en": "Age up to 25 years",
+          "ta": "வயது 25 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ch-old-age-pension",
+    "name": {
+      "en": "Chandigarh Old Age Pension Scheme",
+      "ta": "சண்டிகர் முதியோர் ஓய்வூதியத் திட்டம்",
+      "hi": "चंडीगढ़ वृद्धावस्था पेंशन योजना"
+    },
+    "ministry": "Department of Social Welfare, Chandigarh Administration",
+    "level": "state",
+    "state": "Chandigarh",
+    "category": "senior",
+    "summary": {
+      "en": "Social security monthly pension for elderly citizens residing in the Union Territory of Chandigarh.",
+      "ta": "சண்டிகர் யூனியன் பிரதேசத்தில் வசிக்கும் மூத்த குடிமக்களுக்கான மாதாந்திர சமூகப் பாதுகாப்பு ஓய்வூதியம்.",
+      "hi": "चंडीगढ़ केंद्र शासित प्रदेश में रहने वाले वरिष्ठ नागरिकों के लिए सामाजिक सुरक्षा मासिक पेंशन।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly pension of ₹1,000 for age 60-69 and ₹2,000 for age 70 and above"
+      ],
+      "ta": [
+        "60-69 வயதுக்கு ₹1,000 மற்றும் 70 வயதுக்கு மேற்பட்டவர்களுக்கு ₹2,000 மாதாந்திர ஓய்வூதியம்"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Proof of residence in Chandigarh for 3+ years",
+      "Age proof",
+      "Income affidavit"
+    ],
+    "howToApply": {
+      "en": [
+        "Collect application form from the District Social Welfare Office or Sampark Centres.",
+        "Submit with proof of residence and age.",
+        "Monthly pension credited directly to bank account."
+      ],
+      "ta": [
+        "மாவட்ட சமூக நல அலுவலகம் அல்லது சம்பார்க் மையங்களில் இருந்து விண்ணப்பப் படிவத்தைப் பெறவும்.",
+        "இருப்பிடம் மற்றும் வயதுக்கான ஆதாரத்துடன் சமர்ப்பிக்கவும்.",
+        "மாதாந்திர ஓய்வூதியம் நேரடியாக வங்கிக் கணக்கில் வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://chdsw.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Chandigarh",
+        "label": {
+          "en": "Resident of Chandigarh",
+          "ta": "சண்டிகரில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "age",
+        "op": "gte",
+        "value": 60,
+        "label": {
+          "en": "Age 60 years or above",
+          "ta": "60 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 150000,
+        "label": {
+          "en": "Annual family income up to ₹1,50,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹1,50,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ch-widow-pension",
+    "name": {
+      "en": "Chandigarh Financial Assistance to Widows",
+      "ta": "சண்டிகர் விதவைகள் நிதி உதவித் திட்டம்",
+      "hi": "चंडीगढ़ विधवाओं को वित्तीय सहायता"
+    },
+    "ministry": "Department of Social Welfare, Chandigarh Administration",
+    "level": "state",
+    "state": "Chandigarh",
+    "category": "women",
+    "summary": {
+      "en": "Sustenance pension for widows and destitute women living in Chandigarh.",
+      "ta": "சண்டிகரில் வசிக்கும் விதவைகள் மற்றும் ஆதரவற்ற பெண்களுக்கான வாழ்வாதார ஓய்வூதியம்.",
+      "hi": "चंडीगढ़ में रहने वाली विधवाओं और निराश्रित महिलाओं के लिए गुजारा पेंशन।"
+    },
+    "benefits": {
+      "en": [
+        "₹1,000 per month financial assistance paid directly into beneficiary bank account"
+      ],
+      "ta": [
+        "பயனாளியின் வங்கிக் கணக்கில் நேரடியாக செலுத்தப்படும் ₹1,000 மாதாந்திர நிதி உதவி"
+      ]
+    },
+    "documents": [
+      "Death certificate of husband",
+      "Aadhaar card",
+      "Residence certificate (3 years)",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Submit completed form at any Chandigarh e-Sampark centre.",
+        "Attach death certificate of spouse and proof of local stay.",
+        "Approval issued by Social Welfare Department."
+      ],
+      "ta": [
+        "சண்டிகர் இ-சம்பார்க் மையத்தில் பூர்த்தி செய்யப்பட்ட படிவத்தை சமர்ப்பிக்கவும்.",
+        "கணவரின் இறப்புச் சான்றிதழ் மற்றும் உள்ளூர் இருப்பிடச் சான்றை இணைக்கவும்.",
+        "சமூக நலத்துறையால் ஒப்புதல் அளிக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://chdsw.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Chandigarh",
+        "label": {
+          "en": "Resident of Chandigarh",
+          "ta": "சண்டிகரில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a woman",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "isWidow",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Beneficiary is a widow",
+          "ta": "பயனாளி விதவை"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 150000,
+        "label": {
+          "en": "Annual income up to ₹1,50,000",
+          "ta": "ஆண்டு வருமானம் ₹1,50,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cg-kisan-nyay",
+    "name": {
+      "en": "Rajiv Gandhi Kisan Nyay Yojana",
+      "ta": "ராஜீவ் காந்தி கிசான் நியாய் திட்டம்",
+      "hi": "राजीव गांधी किसान न्याय योजना"
+    },
+    "ministry": "Department of Agriculture Development and Farmer Welfare, Government of Chhattisgarh",
+    "level": "state",
+    "state": "Chhattisgarh",
+    "category": "farmer",
+    "summary": {
+      "en": "Crop input subsidy assistance to farmers cultivating paddy and other notified crops in Chhattisgarh.",
+      "ta": "சத்தீஸ்கரில் நெல் மற்றும் பிற அறிவிக்கப்பட்ட பயிர்களை சாகுபடி செய்யும் விவசாயிகளுக்கான இடுபொருள் மானிய உதவி.",
+      "hi": "छत्तीसगढ़ में धान और अन्य अधिसूचित फसलों की खेती करने वाले किसानों को फसल आदान सब्सिडी सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Input subsidy of up to ₹9,000 per acre paid in four quarterly installments directly into bank account"
+      ],
+      "ta": [
+        "ஏக்கருக்கு ₹9,000 வரை இடுபொருள் மானியம் நான்கு காலாண்டு தவணைகளில் நேரடியாக வங்கிக் கணக்கில் வழங்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "B-1 / Khasra land records",
+      "Crop registration slip (RGKNY portal)",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Register on the RGKNY portal through the Primary Agricultural Credit Society (PACS).",
+        "Local patwari verifies crop acreage.",
+        "Direct subsidy transfer credited in four seasonal installments."
+      ],
+      "ta": [
+        "தொடக்க வேளாண் கடன் சங்கம் (PACS) மூலம் RGKNY போர்ட்டலில் பதிவு செய்யவும்.",
+        "உள்ளூர் பட்வாரி பயிர் பரப்பளவைச் சரிபார்க்கிறார்.",
+        "நான்கு பருவத் தவணைகளில் நேரடி மானியப் பரிமாற்றம் வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://agriportal.cg.nic.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Chhattisgarh",
+        "label": {
+          "en": "Resident of Chhattisgarh",
+          "ta": "சத்தீஸ்கரில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "landHoldingAcres",
+        "op": "gt",
+        "value": 0,
+        "label": {
+          "en": "Owns or cultivates land",
+          "ta": "நிலம் வைத்துள்ளவர் அல்லது சாகுபடி செய்பவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cg-mahtari-vandan",
+    "name": {
+      "en": "Mahtari Vandan Yojana",
+      "ta": "மஹ்தாரி வந்தன் திட்டம்",
+      "hi": "महतारी वंदन योजना"
+    },
+    "ministry": "Women and Child Development Department, Government of Chhattisgarh",
+    "level": "state",
+    "state": "Chhattisgarh",
+    "category": "women",
+    "summary": {
+      "en": "Direct financial assistance to married women for economic empowerment and health maintenance.",
+      "ta": "பொருளாதார மேம்பாடு மற்றும் சுகாதாரப் பராமரிப்பிற்காக திருமணமான பெண்களுக்கு வழங்கப்படும் நேரடி நிதி உதவி.",
+      "hi": "आर्थिक सशक्तिकरण और स्वास्थ्य देखभाल के लिए विवाहित महिलाओं को प्रत्यक्ष वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "₹1,000 per month (₹12,000 annually) transferred directly to beneficiary bank account via DBT"
+      ],
+      "ta": [
+        "டிபிடி மூலம் பயனாளியின் வங்கிக் கணக்கிற்கு நேரடியாக மாற்றப்படும் மாதத்திற்கு ₹1,000 (ஆண்டுக்கு ₹12,000)"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Marriage certificate or ration card",
+      "Residence certificate",
+      "Aadhaar-linked bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply through the Mahtari Vandan web portal or mobile app, or at Gram Panchayat / Anganwadi.",
+        "Upload marriage verification and bank details.",
+        "DBT credited on the 1st week of every month."
+      ],
+      "ta": [
+        "மஹ்தாரி வந்தன் இணையதளம் அல்லது மொபைல் செயலி மூலம் அல்லது கிராம பஞ்சாயத்தில் விண்ணப்பிக்கவும்.",
+        "திருமண சரிபார்ப்பு மற்றும் வங்கி விவரங்களை பதிவேற்றவும்.",
+        "ஒவ்வொரு மாதமும் முதல் வாரத்தில் டிபிடி வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://mahtarivandan.cgstate.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Chhattisgarh",
+        "label": {
+          "en": "Resident of Chhattisgarh",
+          "ta": "சத்தீஸ்கரில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a woman",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "gte",
+        "value": 21,
+        "label": {
+          "en": "Age 21 years or older",
+          "ta": "வயது 21 அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dnhdd-saraswati-sadhana",
+    "name": {
+      "en": "Saraswati Sadhana Yojana (DNHDD)",
+      "ta": "சரஸ்வதி சாதனா திட்டம் (தாமன் மற்றும் தியூ)",
+      "hi": "सरस्वती साधना योजना (दादरा और नगर हवेली और दमन और दीव)"
+    },
+    "ministry": "Directorate of Education, UT Administration of DNH and DD",
+    "level": "state",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "category": "education",
+    "summary": {
+      "en": "Free distribution of bicycles to girl students enrolling in class 9 to encourage secondary education.",
+      "ta": "இடைநிலைக் கல்வியை ஊக்குவிக்க 9-ஆம் வகுப்பில் சேரும் மாணவிகளுக்கு இலவச மிதிவண்டிகள் வழங்கும் திட்டம்.",
+      "hi": "माध्यमिक शिक्षा को प्रोत्साहित करने के लिए कक्षा 9 में प्रवेश लेने वाली छात्राओं को मुफ्त साइकिल वितरण।"
+    },
+    "benefits": {
+      "en": [
+        "Free bicycle provided to school-going girl students to ease commute to school"
+      ],
+      "ta": [
+        "பள்ளிக்குச் செல்வதை எளிதாக்க பள்ளி மாணவிகளுக்கு இலவச மிதிவண்டி வழங்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "School enrollment certificate",
+      "Class 8 marksheet"
+    ],
+    "howToApply": {
+      "en": [
+        "School authorities collect student details upon admission into class 9.",
+        "District Education Office procures and distributes bicycles at school premises."
+      ],
+      "ta": [
+        "9-ஆம் வகுப்பு சேர்க்கையின் போது பள்ளி அதிகாரிகள் மாணவர் விவரங்களைச் சேகரிக்கின்றனர்.",
+        "மாவட்டக் கல்வி அலுவலகம் மிதிவண்டிகளை கொள்முதல் செய்து பள்ளிகளில் வழங்குகிறது."
+      ]
+    },
+    "officialUrl": "https://daman.nic.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Dadra and Nagar Haveli and Daman and Diu",
+        "label": {
+          "en": "Resident of DNH and DD",
+          "ta": "டிஎன்ஹெச் மற்றும் டிடியில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is female",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "isStudent",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Currently a student",
+          "ta": "தற்போது படிக்கும் மாணவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dnhdd-destitute-widow",
+    "name": {
+      "en": "DNH & DD Destitute Widow Pension Scheme",
+      "ta": "டிஎன்ஹெச் & டிடி ஆதரவற்ற விதவை ஓய்வூதியத் திட்டம்",
+      "hi": "डीएनएच और डीडी निराश्रित विधवा पेंशन योजना"
+    },
+    "ministry": "Department of Social Welfare, UT Administration of DNH and DD",
+    "level": "state",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "category": "women",
+    "summary": {
+      "en": "Financial relief and pension for indigent widows residing in Dadra, Nagar Haveli, Daman, and Diu.",
+      "ta": "தாதரா, நகர் ஹவேலி, தாமன் மற்றும் தியூவில் வசிக்கும் ஏழை விதவைகளுக்கான நிதி நிவாரணம் மற்றும் ஓய்வூதியம்.",
+      "hi": "दादरा, नगर हवेली, दमन और दीव में रहने वाली गरीब विधवाओं के लिए वित्तीय राहत और पेंशन।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly pension allowance of ₹1,500 transferred to beneficiary bank account"
+      ],
+      "ta": [
+        "பயனாளியின் வங்கிக் கணக்கிற்கு மாற்றப்படும் ₹1,500 மாதாந்திர ஓய்வூதிய உதவித்தொகை"
+      ]
+    },
+    "documents": [
+      "Spouse death certificate",
+      "Aadhaar card",
+      "Income certificate",
+      "Bank account details"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply through the Collectorate Social Welfare cell or Mamlatdar office.",
+        "Submit death certificate and income proof.",
+        "Disbursed quarterly via bank transfer upon sanction."
+      ],
+      "ta": [
+        "கலெக்டரேட் சமூக நலப் பிரிவு அல்லது மாம்லதார் அலுவலகம் மூலம் விண்ணப்பிக்கவும்.",
+        "இறப்புச் சான்றிதழ் மற்றும் வருமானச் சான்றைச் சமர்ப்பிக்கவும்.",
+        "அனுமதி கிடைத்தவுடன் வங்கி பரிமாற்றம் மூலம் காலாண்டுக்கு ஒருமுறை வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://daman.nic.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Dadra and Nagar Haveli and Daman and Diu",
+        "label": {
+          "en": "Resident of DNH and DD",
+          "ta": "டிஎன்ஹெச் மற்றும் டிடியில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a woman",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "isWidow",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Beneficiary is a widow",
+          "ta": "பயனாளி விதவை"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 100000,
+        "label": {
+          "en": "Annual income up to ₹1,00,000",
+          "ta": "ஆண்டு வருமானம் ₹1,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dl-ladli-scheme",
+    "name": {
+      "en": "Delhi Ladli Scheme",
+      "ta": "டெல்லி லாட்லி திட்டம்",
+      "hi": "दिल्ली लाडली योजना"
+    },
+    "ministry": "Department of Women and Child Development, Government of NCT of Delhi",
+    "level": "state",
+    "state": "Delhi",
+    "category": "children",
+    "summary": {
+      "en": "Financial deposits for girl child milestones from birth through school education in Delhi.",
+      "ta": "டெல்லியில் பிறப்பு முதல் பள்ளிப் படிப்பு வரை பெண் குழந்தைகளின் நிலைகளுக்கான நிதி வைப்புத் திட்டம்.",
+      "hi": "दिल्ली में जन्म से लेकर स्कूली शिक्षा तक बालिकाओं के लिए वित्तीय जमा योजना।"
+    },
+    "benefits": {
+      "en": [
+        "Staged deposits up to ₹35,000 maturing with interest when the girl child turns 18 and passes class 10"
+      ],
+      "ta": [
+        "பெண் குழந்தைக்கு 18 வயது பூர்த்தியாகி 10-ஆம் வகுப்பு தேர்ச்சி பெறும்போது வட்டியுடன் முதிர்ச்சியடையும் ₹35,000 வரை வைப்புத்தொகை"
+      ]
+    },
+    "documents": [
+      "Birth certificate of child",
+      "Proof of 3 years residence in Delhi",
+      "Annual income certificate (< ₹1 lakh)",
+      "Aadhaar card"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply at government hospital upon birth or at government recognized school upon admission to classes 1, 6, 9, 10 or 12.",
+        "Submit application with Delhi residence proof.",
+        "SBI Life Insurance manages the maturity trust fund."
+      ],
+      "ta": [
+        "பிறப்பின் போது அரசு மருத்துவமனையிலோ அல்லது 1, 6, 9, 10 அல்லது 12 ஆம் வகுப்புகளில் சேரும்போது பள்ளியிலோ விண்ணப்பிக்கவும்.",
+        "டெல்லி இருப்பிடச் சான்றுடன் விண்ணப்பத்தைச் சமர்ப்பிக்கவும்.",
+        "எஸ்பிஐ ஆயுள் காப்பீடு முதிர்வு அறக்கட்டளை நிதியை நிர்வகிக்கிறது."
+      ]
+    },
+    "officialUrl": "https://wcd.delhi.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Delhi",
+        "label": {
+          "en": "Resident of Delhi",
+          "ta": "டெல்லியில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a girl child",
+          "ta": "பயனாளி பெண் குழந்தை"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 100000,
+        "label": {
+          "en": "Family income up to ₹1,00,000 per year",
+          "ta": "குடும்ப ஆண்டு வருமானம் ₹1,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dl-senior-pension",
+    "name": {
+      "en": "Delhi Financial Assistance to Senior Citizens",
+      "ta": "டெல்லி மூத்த குடிமக்கள் நிதி உதவி",
+      "hi": "दिल्ली वरिष्ठ नागरिकों को वित्तीय सहायता"
+    },
+    "ministry": "Department of Social Welfare, Government of NCT of Delhi",
+    "level": "state",
+    "state": "Delhi",
+    "category": "senior",
+    "summary": {
+      "en": "Monthly old age pension assistance for senior citizens in Delhi belonging to poor families.",
+      "ta": "டெல்லியில் ஏழைக் குடும்பங்களைச் சேர்ந்த மூத்த குடிமக்களுக்கான மாதாந்திர முதியோர் ஓய்வூதிய உதவி.",
+      "hi": "दिल्ली में गरीब परिवारों के वरिष्ठ नागरिकों के लिए मासिक वृद्धावस्था पेंशन सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "₹2,000 per month for ages 60-69 and ₹2,500 per month for age 70 and above"
+      ],
+      "ta": [
+        "60-69 வயதுக்கு மாதம் ₹2,000 மற்றும் 70 வயதுக்கு மேற்பட்டவர்களுக்கு மாதம் ₹2,500"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Proof of 5 years residence in Delhi",
+      "Bank passbook",
+      "Income declaration certificate"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply online on the e-District Delhi portal (edistrict.delhigovt.nic.in).",
+        "Upload age, residence and bank details.",
+        "Pension amount remitted monthly directly to bank account."
+      ],
+      "ta": [
+        "இ-டிஸ்ட்ரிக்ட் டெல்லி போர்ட்டலில் ஆன்லைனில் விண்ணப்பிக்கவும்.",
+        "வயது, இருப்பிடம் மற்றும் வங்கி விவரங்களைப் பதிவேற்றவும்.",
+        "ஓய்வூதியத் தொகை மாதந்தோறும் நேரடியாக வங்கிக் கணக்கிற்கு அனுப்பப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://socialwelfare.delhi.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Delhi",
+        "label": {
+          "en": "Resident of Delhi",
+          "ta": "டெல்லியில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "age",
+        "op": "gte",
+        "value": 60,
+        "label": {
+          "en": "Age 60 years or above",
+          "ta": "60 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 100000,
+        "label": {
+          "en": "Family income up to ₹1,00,000 per year",
+          "ta": "குடும்ப ஆண்டு வருமானம் ₹1,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ga-griha-aadhar",
+    "name": {
+      "en": "Griha Aadhar Scheme",
+      "ta": "கிருஹ ஆதார் திட்டம் (கோவா)",
+      "hi": "गृह आधार योजना (गोवा)"
+    },
+    "ministry": "Directorate of Women and Child Development, Government of Goa",
+    "level": "state",
+    "state": "Goa",
+    "category": "women",
+    "summary": {
+      "en": "Financial support to homemakers and housewives to mitigate the impact of price rise.",
+      "ta": "விலைவாசி உயர்வின் தாக்கத்தைத் தணிக்க இல்லத்தரசிகளுக்கு வழங்கப்படும் நிதி உதவி.",
+      "hi": "मूल्य वृद्धि के प्रभाव को कम करने के लिए गृहणियों को वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly financial disbursement of ₹1,500 directly to the homemaker bank account"
+      ],
+      "ta": [
+        "இல்லத்தரசியின் வங்கிக் கணக்கில் நேரடியாக வழங்கப்படும் ₹1,500 மாதாந்திர நிதி உதவி"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Marriage certificate or 15-year residence certificate",
+      "Income certificate",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Obtain application from Directorate of Women & Child Development or online on Goa portal.",
+        "Submit with income and 15-year residence proof.",
+        "Sanctioned funds transferred monthly to bank."
+      ],
+      "ta": [
+        "பெண்கள் மற்றும் குழந்தைகள் மேம்பாட்டு இயக்குநரகத்திலிருந்து அல்லது ஆன்லைனில் விண்ணப்பத்தைப் பெறவும்.",
+        "வருமானம் மற்றும் 15 ஆண்டு இருப்பிடச் சான்றுடன் சமர்ப்பிக்கவும்.",
+        "அனுமதிக்கப்பட்ட நிதி மாதந்தோறும் வங்கிக்கு மாற்றப்படும்."
+      ]
+    },
+    "officialUrl": "https://www.goa.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Goa",
+        "label": {
+          "en": "Resident of Goa",
+          "ta": "கோவாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is female",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Annual family income up to ₹3,00,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹3,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ga-dayanand-social-security",
+    "name": {
+      "en": "Dayanand Social Security Scheme",
+      "ta": "தயானந்த் சமூகப் பாதுகாப்புத் திட்டம் (கோவா)",
+      "hi": "दयानंद सामाजिक सुरक्षा योजना (गोवा)"
+    },
+    "ministry": "Directorate of Social Welfare, Government of Goa",
+    "level": "state",
+    "state": "Goa",
+    "category": "senior",
+    "summary": {
+      "en": "Financial assistance and pension scheme for senior citizens and destitute persons in Goa.",
+      "ta": "கோவாவில் உள்ள மூத்த குடிமக்கள் மற்றும் ஆதரவற்ற நபர்களுக்கான நிதி உதவி மற்றும் ஓய்வூதியத் திட்டம்.",
+      "hi": "गोवा में वरिष्ठ नागरिकों और निराश्रित व्यक्तियों के लिए वित्तीय सहायता और पेंशन योजना।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly pension of ₹2,000 paid to eligible senior citizens for life"
+      ],
+      "ta": [
+        "தகுதியான மூத்த குடிமக்களுக்கு வாழ்நாள் முழுவதும் வழங்கப்படும் ₹2,000 மாதாந்திர ஓய்வூதியம்"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "15 years Goa residence certificate",
+      "Age proof (birth/voter/school)",
+      "Income certificate"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply at the Directorate of Social Welfare, Panaji or through local village panchayats.",
+        "Submit 15-year residence and age proof.",
+        "Monthly pension credited directly through ECS."
+      ],
+      "ta": [
+        "பனாஜியில் உள்ள சமூக நல இயக்குநரகம் அல்லது கிராம பஞ்சாயத்துகள் மூலம் விண்ணப்பிக்கவும்.",
+        "15 ஆண்டு இருப்பிடம் மற்றும் வயதுக்கான ஆதாரங்களைச் சமர்ப்பிக்கவும்.",
+        "இசிஎஸ் மூலம் மாதாந்திர ஓய்வூதியம் நேரடியாக வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://socialwelfare.goa.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Goa",
+        "label": {
+          "en": "Resident of Goa",
+          "ta": "கோவாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "age",
+        "op": "gte",
+        "value": 60,
+        "label": {
+          "en": "Age 60 years or above",
+          "ta": "60 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 150000,
+        "label": {
+          "en": "Annual income up to ₹1,50,000",
+          "ta": "ஆண்டு வருமானம் ₹1,50,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "gj-mukhyamantri-amrutam",
+    "name": {
+      "en": "Mukhyamantri Amrutam (MA) Yojana",
+      "ta": "முகியமந்திரி அம்ருதம் திட்டம் (குஜராத்)",
+      "hi": "मुख्यमंत्री अमृतम (एमए) योजना (गुजरात)"
+    },
+    "ministry": "Health and Family Welfare Department, Government of Gujarat",
+    "level": "state",
+    "state": "Gujarat",
+    "category": "health",
+    "summary": {
+      "en": "Tertiary healthcare cashless treatment coverage for low-income families in Gujarat.",
+      "ta": "குஜராத்தில் குறைந்த வருமானம் உள்ள குடும்பங்களுக்கு மூன்றாம் நிலை மருத்துவச் சிகிச்சைக்கான பணமில்லா சிகிச்சைத் திட்டம்.",
+      "hi": "गुजरात में कम आय वाले परिवारों के लिए तृतीयक स्वास्थ्य देखभाल कैशलेस उपचार कवरेज।"
+    },
+    "benefits": {
+      "en": [
+        "Cashless medical coverage up to ₹5 lakh per family per year for major catastrophic illnesses"
+      ],
+      "ta": [
+        "பெரிய கொடிய நோய்களுக்கு குடும்பத்திற்கு ஆண்டுக்கு ₹5 லட்சம் வரை பணமில்லா மருத்துவக் காப்பீடு"
+      ]
+    },
+    "documents": [
+      "MA Card / Ayushman Card",
+      "Aadhaar card",
+      "Income certificate issued by Taluka Mamlatdar",
+      "Ration card"
+    ],
+    "howToApply": {
+      "en": [
+        "Enroll at Taluka kiosk, civic center, or district hospital.",
+        "Provide biometric verification and income proof.",
+        "QR-coded MA card issued instantly for hospital admissions."
+      ],
+      "ta": [
+        "தாலுகா கியோஸ்க், குடிமை மையம் அல்லது மாவட்ட மருத்துவமனையில் பதிவு செய்யவும்.",
+        "பயோமெட்ரிக் சரிபார்ப்பு மற்றும் வருமானச் சான்றை வழங்கவும்.",
+        "மருத்துவமனை சேர்க்கைக்கு க்யூஆர்-குறியீட்டுடன் கூடிய எம்ஏ அட்டை உடனடியாக வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://www.magujarat.com/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Gujarat",
+        "label": {
+          "en": "Resident of Gujarat",
+          "ta": "குஜராத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 400000,
+        "label": {
+          "en": "Annual family income up to ₹4,00,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹4,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "gj-vahali-dikri",
+    "name": {
+      "en": "Vahali Dikri Yojana",
+      "ta": "வாஹ்லி திக்ரி திட்டம் (குஜராத்)",
+      "hi": "व्हाली डिक्री योजना (गुजरात)"
+    },
+    "ministry": "Women and Child Development Department, Government of Gujarat",
+    "level": "state",
+    "state": "Gujarat",
+    "category": "children",
+    "summary": {
+      "en": "Financial incentives at key educational and life milestones for girl children in Gujarat.",
+      "ta": "குஜராத்தில் பெண் குழந்தைகளுக்கான கல்வி மற்றும் வாழ்க்கையின் முக்கிய நிலைகளில் வழங்கப்படும் நிதி ஊக்கத்தொகை.",
+      "hi": "गुजरात में बालिकाओं के लिए प्रमुख शैक्षिक और जीवन चरणों में वित्तीय प्रोत्साहन।"
+    },
+    "benefits": {
+      "en": [
+        "Total financial assistance of ₹1,10,000 provided in three instalments: ₹4,000 at class 1, ₹6,000 at class 9, and ₹1,00,000 at age 18"
+      ],
+      "ta": [
+        "மூன்று தவணைகளில் மொத்தம் ₹1,10,000 நிதி உதவி: 1 ஆம் வகுப்பில் ₹4,000, 9 ஆம் வகுப்பில் ₹6,000 மற்றும் 18 வயதில் ₹1,00,000"
+      ]
+    },
+    "documents": [
+      "Birth certificate of girl child",
+      "Parents Aadhaar card",
+      "Income certificate (< ₹2 lakh)",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply at the local Anganwadi centre or Child Development Project Officer within 1 year of birth.",
+        "Submit parent income certificate and birth record.",
+        "Instalments disbursed at designated school/age milestones."
+      ],
+      "ta": [
+        "குழந்தை பிறந்த 1 வருடத்திற்குள் உள்ளூர் அங்கன்வாடி மையம் அல்லது சிடிபிஓவிடம் விண்ணப்பிக்கவும்.",
+        "பெற்றோர் வருமானச் சான்றிதழ் மற்றும் பிறப்புப் பதிவைச் சமர்ப்பிக்கவும்.",
+        "குறிப்பிட்ட பள்ளி/வயது நிலைகளில் தவணைகள் வழங்கப்படுகின்றன."
+      ]
+    },
+    "officialUrl": "https://wcd.gujarat.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Gujarat",
+        "label": {
+          "en": "Resident of Gujarat",
+          "ta": "குஜராத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a girl child",
+          "ta": "பயனாளி பெண் குழந்தை"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 200000,
+        "label": {
+          "en": "Annual family income up to ₹2,00,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹2,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hr-old-age-samman",
+    "name": {
+      "en": "Haryana Old Age Samman Bhatta",
+      "ta": "ஹரியானா முதியோர் சம்மான் பட்டா",
+      "hi": "हरियाणा वृद्धावस्था सम्मान भत्ता"
+    },
+    "ministry": "Department of Social Justice and Empowerment, Government of Haryana",
+    "level": "state",
+    "state": "Haryana",
+    "category": "senior",
+    "summary": {
+      "en": "Monthly social security honorarium for senior citizens of Haryana through Parivar Pehchan Patra.",
+      "ta": "பரிவார் பெஹ்சான் பத்ரா மூலம் ஹரியானாவின் மூத்த குடிமக்களுக்கான மாதாந்திர சமூகப் பாதுகாப்பு உதவித்தொகை.",
+      "hi": "परिवार पहचान पत्र के माध्यम से हरियाणा के वरिष्ठ नागरिकों के लिए मासिक सामाजिक सुरक्षा मानदेय।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly pension allowance of ₹3,000 deposited directly into Aadhaar-seeded bank account"
+      ],
+      "ta": [
+        "ஆதார் இணைக்கப்பட்ட வங்கிக் கணக்கில் நேரடியாக டெபாசிட் செய்யப்படும் ₹3,000 மாதாந்திர ஓய்வூதிய உதவித்தொகை"
+      ]
+    },
+    "documents": [
+      "Parivar Pehchan Patra (Family ID)",
+      "Aadhaar card",
+      "Bank passbook",
+      "Voter card or age proof"
+    ],
+    "howToApply": {
+      "en": [
+        "Automatic proactive enrollment based on verified age (60+) and income in the PPP (Family ID) database.",
+        "Beneficiary gives consent via SMS or through Antyodaya Saral portal.",
+        "Pension starts automatically without physical office visits."
+      ],
+      "ta": [
+        "பிபிபி (குடும்ப ஐடி) தரவுத்தளத்தில் சரிபார்க்கப்பட்ட வயது (60+) மற்றும் வருமானத்தின் அடிப்படையில் தானியங்கி சேர்க்கை.",
+        "பயனாளி எஸ்எம்எஸ் அல்லது அந்த்யோதயா சரல் போர்டல் மூலம் ஒப்புதல் அளிக்கிறார்.",
+        "அலுவலக வருகை இன்றியே ஓய்வூதியம் தானாகவே தொடங்குகிறது."
+      ]
+    },
+    "officialUrl": "https://socialjusticehry.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Haryana",
+        "label": {
+          "en": "Resident of Haryana",
+          "ta": "ஹரியானாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "age",
+        "op": "gte",
+        "value": 60,
+        "label": {
+          "en": "Age 60 years or above",
+          "ta": "60 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Annual family income up to ₹3,00,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹3,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hr-parivar-samridhi",
+    "name": {
+      "en": "Mukhya Mantri Parivar Samridhi Yojana",
+      "ta": "முக்ய மந்திரி பரிவார் சம்ரிதி திட்டம் (ஹரியானா)",
+      "hi": "मुख्यमंत्री परिवार समृद्धि योजना (हरियाणा)"
+    },
+    "ministry": "Finance Department, Government of Haryana",
+    "level": "state",
+    "state": "Haryana",
+    "category": "financial",
+    "summary": {
+      "en": "Social security and financial protection umbrella for low-income families in Haryana.",
+      "ta": "ஹரியானாவில் குறைந்த வருமானம் உள்ள குடும்பங்களுக்கான சமூகப் பாதுகாப்பு மற்றும் நிதிப் பாதுகாப்புத் திட்டம்.",
+      "hi": "हरियाणा में कम आय वाले परिवारों के लिए सामाजिक सुरक्षा और वित्तीय सुरक्षा छत्र।"
+    },
+    "benefits": {
+      "en": [
+        "Financial support of ₹6,000 per family per year to pay life, accident insurance and pension premiums with balance credited as cash"
+      ],
+      "ta": [
+        "ஆயுள், விபத்துக் காப்பீடு மற்றும் ஓய்வூதிய பிரீமியங்களைச் செலுத்த குடும்பத்திற்கு ஆண்டுக்கு ₹6,000 நிதி உதவி, மீதித் தொகை ரொக்கமாக வரவு வைக்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Parivar Pehchan Patra (Family ID)",
+      "Aadhaar card",
+      "Bank account details"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply through the MMPSY web portal (mmpsy.haryana.gov.in) or Saral Kendra.",
+        "Enter Parivar Pehchan Patra ID to fetch verified family data.",
+        "Select preferred insurance / pension schemes; balance is paid into head of family bank account."
+      ],
+      "ta": [
+        "MMPSY இணையதளம் அல்லது சரல் கேந்திரா மூலம் விண்ணப்பிக்கவும்.",
+        "சரிபார்க்கப்பட்ட குடும்பத் தரவைப் பெற குடும்ப ஐடி-ஐ உள்ளிடவும்.",
+        "விருப்பமான காப்பீடு / ஓய்வூதியத் திட்டங்களைத் தேர்ந்தெடுக்கவும்; மீதித் தொகை குடும்பத் தலைவரின் வங்கிக் கணக்கில் செலுத்தப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://mmpsy.haryana.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Haryana",
+        "label": {
+          "en": "Resident of Haryana",
+          "ta": "ஹரியானாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 180000,
+        "label": {
+          "en": "Annual income up to ₹1,80,000",
+          "ta": "ஆண்டு வருமானம் ₹1,80,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hp-mukhyamantri-swavlamban",
+    "name": {
+      "en": "Mukhyamantri Swavlamban Yojana",
+      "ta": "முகியமந்திரி சுவாவலம்பன் திட்டம் (இமாச்சல பிரதேசம்)",
+      "hi": "मुख्यमंत्री स्वावलंबन योजना (हिमाचल प्रदेश)"
+    },
+    "ministry": "Department of Industries, Government of Himachal Pradesh",
+    "level": "state",
+    "state": "Himachal Pradesh",
+    "category": "employment",
+    "summary": {
+      "en": "Capital investment subsidy to youth for setting up micro-enterprises and service ventures in Himachal Pradesh.",
+      "ta": "இமாச்சல பிரதேசத்தில் இளைஞர்கள் சிறு தொழில்கள் மற்றும் சேவை நிறுவனங்களை அமைப்பதற்கான முதலீட்டு மானியத் திட்டம்.",
+      "hi": "हिमाचल प्रदेश में सूक्ष्म उद्यम और सेवा उद्यम स्थापित करने के लिए युवाओं को पूंजी निवेश सब्सिडी।"
+    },
+    "benefits": {
+      "en": [
+        "25% to 35% capital subsidy on project costs up to ₹1 crore plus 5% interest subvention for 3 years"
+      ],
+      "ta": [
+        "₹1 கோடி வரையிலான திட்டச் செலவில் 25% முதல் 35% வரை மூலதன மானியம் மற்றும் 3 ஆண்டுகளுக்கு 5% வட்டி மானியம்"
+      ]
+    },
+    "documents": [
+      "Bonafide Himachali certificate",
+      "Detailed project report (DPR)",
+      "Aadhaar card",
+      "Educational qualification certificate"
+    ],
+    "howToApply": {
+      "en": [
+        "Register and apply online on the MMSY portal (mmsy.hp.gov.in).",
+        "District Level Committee reviews and sanctions project proposal.",
+        "Bank disburses credit and capital subsidy is credited to account."
+      ],
+      "ta": [
+        "MMSY போர்ட்டலில் ஆன்லைனில் பதிவு செய்து விண்ணப்பிக்கவும்.",
+        "மாவட்ட அளவிலான குழு திட்ட முன்மொழிவை மதிப்பாய்வு செய்து அனுமதி அளிக்கிறது.",
+        "வங்கி கடனை வழங்குகிறது மற்றும் மூலதன மானியம் கணக்கில் வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://mmsy.hp.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Himachal Pradesh",
+        "label": {
+          "en": "Resident of Himachal Pradesh",
+          "ta": "இமாச்சல பிரதேசத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age 18 years or above",
+          "ta": "18 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "lte",
+        "value": 45,
+        "label": {
+          "en": "Age up to 45 years",
+          "ta": "45 வயது வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hp-pyari-behna",
+    "name": {
+      "en": "Indira Gandhi Pyari Behna Sukh Samman Nidhi",
+      "ta": "இந்திரா காந்தி பியாரி பெஹ்னா சுக் சம்மான் நிதி",
+      "hi": "इंदिरा गांधी प्यारी बहना सुख सम्मान निधि"
+    },
+    "ministry": "Department of Social Justice and Empowerment, Government of Himachal Pradesh",
+    "level": "state",
+    "state": "Himachal Pradesh",
+    "category": "women",
+    "summary": {
+      "en": "Monthly financial assistance to adult women in Himachal Pradesh for self-reliance and empowerment.",
+      "ta": "இமாச்சல பிரதேசத்தில் உள்ள வயதுவந்த பெண்களுக்கு சுயசார்பு மற்றும் அதிகாரமளித்தலுக்கான மாதாந்திர நிதி உதவி.",
+      "hi": "हिमाचल प्रदेश में वयस्क महिलाओं को आत्मनिर्भरता और सशक्तिकरण के लिए मासिक वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "₹1,500 per month credited directly into beneficiary bank account via DBT"
+      ],
+      "ta": [
+        "டிபிடி மூலம் பயனாளியின் வங்கிக் கணக்கில் நேரடியாக மாதந்தோறும் ₹1,500 வரவு வைக்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Himachali bonafide certificate",
+      "Bank passbook copy",
+      "Ration card copy"
+    ],
+    "howToApply": {
+      "en": [
+        "Submit physical form at the Tehsil Welfare Office or Gram Panchayat.",
+        "Welfare Officer verifies family composition and eligibility.",
+        "Monthly DBT starts upon sanction by District Welfare Officer."
+      ],
+      "ta": [
+        "வட்டாட்சியர் நல அலுவலகம் அல்லது கிராம பஞ்சாயத்தில் படிவத்தை சமர்ப்பிக்கவும்.",
+        "நல அலுவலர் குடும்ப அமைப்பையும் தகுதியையும் சரிபார்க்கிறார்.",
+        "மாவட்ட நல அலுவலரின் ஒப்புதலுக்குப் பிறகு மாதாந்திர டிபிடி தொடங்குகிறது."
+      ]
+    },
+    "officialUrl": "https://himachal.nic.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Himachal Pradesh",
+        "label": {
+          "en": "Resident of Himachal Pradesh",
+          "ta": "இமாச்சல பிரதேசத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a woman",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age 18 years or above",
+          "ta": "18 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jk-ladli-beti",
+    "name": {
+      "en": "Ladli Beti Scheme (J&K)",
+      "ta": "லாட்லி பேட்டி திட்டம் (ஜம்மு & காஷ்மீர்)",
+      "hi": "लाडली बेटी योजना (जम्मू और कश्मीर)"
+    },
+    "ministry": "Social Welfare Department, Government of Jammu and Kashmir",
+    "level": "state",
+    "state": "Jammu and Kashmir",
+    "category": "children",
+    "summary": {
+      "en": "Social security and financial grant scheme for girl children in Jammu & Kashmir born in poor households.",
+      "ta": "ஜம்மு காஷ்மீரில் ஏழைக் குடும்பங்களில் பிறக்கும் பெண் குழந்தைகளுக்கான சமூகப் பாதுகாப்பு மற்றும் நிதி உதவித் திட்டம்.",
+      "hi": "जम्मू और कश्मीर में गरीब परिवारों में जन्मी बालिकाओं के लिए सामाजिक सुरक्षा और वित्तीय अनुदान योजना।"
+    },
+    "benefits": {
+      "en": [
+        "Government deposits ₹1,000 per month into recurring deposit until the child turns 14, maturing to approx. ₹6.5 lakh at age 21"
+      ],
+      "ta": [
+        "குழந்தைக்கு 14 வயது ஆகும் வரை அரசு மாதம் ₹1,000 வைப்புத்தொகையாக செலுத்துகிறது, 21 வயதில் சுமார் ₹6.5 லட்சமாக முதிர்ச்சியடைகிறது"
+      ]
+    },
+    "documents": [
+      "Birth certificate of girl child",
+      "Parents Aadhaar card",
+      "Income certificate (< ₹75,000 per year)",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply through Child Development Project Officer (CDPO) or District Social Welfare Officer within six months of birth.",
+        "Documents scrutinized and sanctioned by district administration.",
+        "Funds managed via J&K Bank special deposit account."
+      ],
+      "ta": [
+        "குழந்தை பிறந்த ஆறு மாதங்களுக்குள் சிடிபிஓ அல்லது மாவட்ட சமூக நல அலுவலர் மூலம் விண்ணப்பிக்கவும்.",
+        "ஆவணங்கள் மாவட்ட நிர்வாகத்தால் பரிசீலிக்கப்பட்டு அனுமதிக்கப்படுகின்றன.",
+        "ஜே&கே வங்கியின் சிறப்பு வைப்புக் கணக்கு மூலம் நிதி நிர்வகிக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://jksocialwelfare.nic.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Jammu and Kashmir",
+        "label": {
+          "en": "Resident of Jammu and Kashmir",
+          "ta": "ஜம்மு காஷ்மீரில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a girl child",
+          "ta": "பயனாளி பெண் குழந்தை"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "lte",
+        "value": 1,
+        "label": {
+          "en": "Age up to 1 year",
+          "ta": "1 வயது வரை"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 75000,
+        "label": {
+          "en": "Annual family income up to ₹75,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹75,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jk-marriage-assistance",
+    "name": {
+      "en": "State Marriage Assistance Scheme (SMAS J&K)",
+      "ta": "மாநில திருமண உதவித் திட்டம் (ஜம்மு & காஷ்மீர்)",
+      "hi": "राज्य विवाह सहायता योजना (जम्मू और कश्मीर)"
+    },
+    "ministry": "Social Welfare Department, Government of Jammu and Kashmir",
+    "level": "state",
+    "state": "Jammu and Kashmir",
+    "category": "women",
+    "summary": {
+      "en": "One-time financial assistance to poor unmarried girls and women in J&K for marriage expenses.",
+      "ta": "ஜம்மு காஷ்மீரில் உள்ள ஏழைப் பெண்களுக்குத் திருமணச் செலவுகளுக்காக வழங்கப்படும் ஒரு முறை நிதி உதவி.",
+      "hi": "जम्मू और कश्मीर में गरीब अविवाहित लड़कियों और महिलाओं को शादी के खर्च के लिए एकमुश्त वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "One-time financial grant of ₹50,000 directly transferred to the bride bank account prior to marriage"
+      ],
+      "ta": [
+        "திருமணத்திற்கு முன் மணமகளின் வங்கிக் கணக்கிற்கு நேரடியாக மாற்றப்படும் ₹50,000 ஒருமுறை நிதி உதவி"
+      ]
+    },
+    "documents": [
+      "Aadhaar card of bride",
+      "BPL ration card (PHH/AAY)",
+      "Age proof showing 18+ years",
+      "Unmarried declaration"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply online at the J&K Services portal (jansugam.jk.gov.in) or at District Social Welfare Office.",
+        "Attach age proof and PHH/AAY ration card.",
+        "Assistance sanctioned following physical verification by tehsil officials."
+      ],
+      "ta": [
+        "ஜே&கே போர்ட்டலில் ஆன்லைனில் அல்லது மாவட்ட சமூக நல அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+        "வயதுச் சான்று மற்றும் ரேஷன் கார்டை இணைக்கவும்.",
+        "வட்டார அதிகாரிகளின் கள சரிபார்ப்பிற்குப் பிறகு உதவி அனுமதிக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://jksocialwelfare.nic.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Jammu and Kashmir",
+        "label": {
+          "en": "Resident of Jammu and Kashmir",
+          "ta": "ஜம்மு காஷ்மீரில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is female",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age 18 years or above",
+          "ta": "18 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "bplCard",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Household holds BPL / PHH ration card",
+          "ta": "குடும்பத்தில் வறுமைக் கோட்டிற்கு கீழ் / முன்னுரிமை ரேஷன் அட்டை உள்ளது"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jh-maiya-samman",
+    "name": {
+      "en": "Mukhyamantri Maiya Samman Yojana",
+      "ta": "முகியமந்திரி மையா சம்மான் திட்டம் (ஜார்க்கண்ட்)",
+      "hi": "मुख्यमंत्री मइयां सम्मान योजना (झारखंड)"
+    },
+    "ministry": "Department of Women, Child Development and Social Security, Government of Jharkhand",
+    "level": "state",
+    "state": "Jharkhand",
+    "category": "women",
+    "summary": {
+      "en": "Direct financial assistance to adult women in Jharkhand for economic dignity and nutritional support.",
+      "ta": "பொருளாதார கௌரவம் மற்றும் ஊட்டச்சத்து ஆதரவிற்காக ஜார்க்கண்டில் உள்ள வயதுவந்த பெண்களுக்கு வழங்கப்படும் நேரடி நிதி உதவி.",
+      "hi": "आर्थिक सम्मान और पोषण संबंधी सहायता के लिए झारखंड में वयस्क महिलाओं को प्रत्यक्ष वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Financial support of ₹1,000 per month deposited directly into Aadhaar-linked bank accounts"
+      ],
+      "ta": [
+        "ஆதார் இணைக்கப்பட்ட வங்கிக் கணக்குகளில் நேரடியாக டெபாசிட் செய்யப்படும் மாதம் ₹1,000 நிதி உதவி"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Ration card",
+      "Income certificate / declaration",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Submit application at special camps held in Gram Panchayats and Ward offices.",
+        "Upload verified Aadhaar and single bank account details.",
+        "Approved beneficiaries receive ₹1,000 monthly through DBT."
+      ],
+      "ta": [
+        "கிராம பஞ்சாயத்துகள் மற்றும் வார்டு அலுவலகங்களில் நடைபெறும் சிறப்பு முகாம்களில் விண்ணப்பத்தை சமர்ப்பிக்கவும்.",
+        "சரிபார்க்கப்பட்ட ஆதார் மற்றும் வங்கி கணக்கு விவரங்களை பதிவேற்றவும்.",
+        "அனுமதிக்கப்பட்ட பயனாளிகள் டிபிடி மூலம் மாதந்தோறும் ₹1,000 பெறுவார்கள்."
+      ]
+    },
+    "officialUrl": "https://jharkhand.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Jharkhand",
+        "label": {
+          "en": "Resident of Jharkhand",
+          "ta": "ஜார்க்கண்டில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a woman",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "gte",
+        "value": 21,
+        "label": {
+          "en": "Age 21 years or older",
+          "ta": "வயது 21 அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "age",
+        "op": "lte",
+        "value": 50,
+        "label": {
+          "en": "Age up to 50 years",
+          "ta": "வயது 50 வரை"
+        }
+      },
+      {
+        "id": "r5",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 800000,
+        "label": {
+          "en": "Annual family income up to ₹8,00,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹8,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jh-birsa-harit-gram",
+    "name": {
+      "en": "Birsa Harit Gram Yojana",
+      "ta": "பிர்சா ஹரித் கிராமத் திட்டம் (ஜார்க்கண்ட்)",
+      "hi": "बिरसा हरित ग्राम योजना (झारखंड)"
+    },
+    "ministry": "Department of Rural Development, Government of Jharkhand",
+    "level": "state",
+    "state": "Jharkhand",
+    "category": "farmer",
+    "summary": {
+      "en": "Afforestation and horticulture-based livelihood program on fallow rural land under MGNREGA in Jharkhand.",
+      "ta": "ஜார்க்கண்டில் மகாத்மா காந்தி ஊரக வேலைவாய்ப்புத் திட்டத்தின் கீழ் தரிசு நிலங்களில் தோட்டக்கலை அடிப்படையிலான வாழ்வாதாரத் திட்டம்.",
+      "hi": "झारखंड में मनरेगा के तहत परती ग्रामीण भूमि पर वनीकरण और बागवानी आधारित आजीविका कार्यक्रम।"
+    },
+    "benefits": {
+      "en": [
+        "Free saplings of mango/guava with wage support for 3 years, generating sustainable annual income of ₹50,000+ per family"
+      ],
+      "ta": [
+        "3 ஆண்டுகளுக்கு ஊதிய ஆதரவுடன் மா/கொய்யா மரக்கன்றுகள் இலவசமாக வழங்கப்பட்டு ஆண்டுக்கு ₹50,000+ நிலையான வருமானம் ஈட்ட உதவுகிறது"
+      ]
+    },
+    "documents": [
+      "MGNREGA Job Card",
+      "Aadhaar card",
+      "Land records showing unutilized land"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply at Gram Sabha meeting during annual plan formulation.",
+        "Panchayat Sevak and Rozgar Sevak verify land suitability.",
+        "Plantation work executed with MGNREGA material and labor muster rolls."
+      ],
+      "ta": [
+        "ஆண்டுத் திட்ட உருவாக்கத்தின் போது கிராம சபைக் கூட்டத்தில் விண்ணப்பிக்கவும்.",
+        "பஞ்சாயத்து சேவகர் நிலத்தின் பொருத்தத்தை சரிபார்க்கிறார்.",
+        "மகாத்மா காந்தி வேலைவாய்ப்பு திட்டத்தின் கீழ் தோட்டப் பணிகள் செயல்படுத்தப்படுகின்றன."
+      ]
+    },
+    "officialUrl": "https://rural.jharkhand.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Jharkhand",
+        "label": {
+          "en": "Resident of Jharkhand",
+          "ta": "ஜார்க்கண்டில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "area",
+        "op": "eq",
+        "value": "rural",
+        "label": {
+          "en": "Rural resident",
+          "ta": "கிராமப்புறத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ka-gruha-lakshmi",
+    "name": {
+      "en": "Gruha Lakshmi Scheme",
+      "ta": "கிருஹ லக்ஷ்மி திட்டம் (கர்நாடகா)",
+      "hi": "गृह लक्ष्मी योजना (कर्नाटक)"
+    },
+    "ministry": "Department of Women and Child Development, Government of Karnataka",
+    "level": "state",
+    "state": "Karnataka",
+    "category": "women",
+    "summary": {
+      "en": "Monthly financial empowerment assistance to the designated woman head of household in Karnataka.",
+      "ta": "கர்நாடகாவில் குடும்பத்தின் பெண் தலைவருக்கு மாதாந்திர நிதியுதவி வழங்கும் திட்டம்.",
+      "hi": "कर्नाटक में परिवार की नामित महिला मुखिया को मासिक वित्तीय सशक्तिकरण सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "₹2,000 per month credited directly into bank account via DBT to help manage household expenditure"
+      ],
+      "ta": [
+        "குடும்பச் செலவுகளை நிர்வகிக்க உதவும் வகையில் டிபிடி மூலம் வங்கிக் கணக்கில் நேரடியாக மாதந்தோறும் ₹2,000 வரவு வைக்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Aadhaar card of woman head",
+      "Ration card (AAY / BPL / APL)",
+      "Aadhaar-linked bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Register through Seva Sindhu portal or visit Karnataka One / Grama One / Bangalore One centres.",
+        "Verification linked to woman head indicated on the ration card.",
+        "Direct benefit transfer disbursed every month."
+      ],
+      "ta": [
+        "சேவா சிந்து போர்டல் மூலம் பதிவு செய்யவும் அல்லது கர்நாடகா ஒன் / கிராம ஒன் மையங்களை அணுகவும்.",
+        "ரேஷன் கார்டில் குறிப்பிடப்பட்டுள்ள பெண் தலைவருடன் சரிபார்ப்பு இணைக்கப்பட்டுள்ளது.",
+        "நேரடி பலன் பரிமாற்றம் ஒவ்வொரு மாதமும் வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://sevasindhuservices.karnataka.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Karnataka",
+        "label": {
+          "en": "Resident of Karnataka",
+          "ta": "கர்நாடகாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is female",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "relation",
+        "op": "eq",
+        "value": "self",
+        "label": {
+          "en": "Primary household head",
+          "ta": "குடும்ப முதன்மைத் தலைவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ka-yuva-nidhi",
+    "name": {
+      "en": "Yuva Nidhi Scheme",
+      "ta": "யுவ நிதி திட்டம் (கர்நாடகா)",
+      "hi": "युवा निधि योजना (कर्नाटक)"
+    },
+    "ministry": "Department of Skill Development, Entrepreneurship and Livelihood, Government of Karnataka",
+    "level": "state",
+    "state": "Karnataka",
+    "category": "employment",
+    "summary": {
+      "en": "Unemployment allowance and skill training assistance for recent graduates and diploma holders in Karnataka.",
+      "ta": "கர்நாடகாவில் அண்மையில் பட்டம் மற்றும் பட்டயம் முடித்த வேலையற்ற பட்டதாரிகளுக்கான உதவித்தொகை மற்றும் திறன் பயிற்சித் திட்டம்.",
+      "hi": "कर्नाटक में हाल ही में स्नातक और डिप्लोमा धारकों के लिए बेरोजगारी भत्ता और कौशल प्रशिक्षण सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly allowance of ₹3,000 for degree holders and ₹1,500 for diploma holders for up to two years of unemployment"
+      ],
+      "ta": [
+        "வேலையின்றி இருக்கும் இரண்டு ஆண்டுகள் வரை பட்டதாரிகளுக்கு மாதம் ₹3,000 மற்றும் டிப்ளமோ முடித்தவர்களுக்கு மாதம் ₹1,500 உதவித்தொகை"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Degree / Diploma marksheet and passing certificate",
+      "Karnataka domicile certificate",
+      "Unemployment self-declaration"
+    ],
+    "howToApply": {
+      "en": [
+        "Enroll online on the Seva Sindhu Yuva Nidhi portal.",
+        "Authenticate Aadhaar and upload qualification details.",
+        "Submit monthly self-declaration of continuing unemployment online."
+      ],
+      "ta": [
+        "சேவா சிந்து யுவ நிதி போர்ட்டலில் ஆன்லைனில் பதிவு செய்யவும்.",
+        "ஆதாரை அங்கீகரித்து தகுதி விவரங்களை பதிவேற்றவும்.",
+        "தொடர்ந்து வேலையின்றி இருப்பதை உறுதி செய்யும் மாதாந்திர சுய அறிவிப்பை ஆன்லைனில் சமர்ப்பிக்கவும்."
+      ]
+    },
+    "officialUrl": "https://sevasindhuservices.karnataka.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Karnataka",
+        "label": {
+          "en": "Resident of Karnataka",
+          "ta": "கர்நாடகாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "unemployed",
+        "label": {
+          "en": "Currently unemployed",
+          "ta": "தற்போது வேலையில்லாதவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "education",
+        "op": "in",
+        "value": [
+          "graduate",
+          "postgraduate"
+        ],
+        "label": {
+          "en": "Completed graduation or post-graduation",
+          "ta": "பட்டப்படிப்பு அல்லது முதுகலை முடித்தவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "kl-kasp-health",
+    "name": {
+      "en": "Karunya Arogya Suraksha Padhathi (KASP)",
+      "ta": "காருண்யா ஆரோக்கிய சுரக்ஷா திட்டம் (கேரளா)",
+      "hi": "कारुण्या आरोग्य सुरक्षा पद्धति (केरल)"
+    },
+    "ministry": "Health and Family Welfare Department, Government of Kerala",
+    "level": "state",
+    "state": "Kerala",
+    "category": "health",
+    "summary": {
+      "en": "Comprehensive cashless healthcare insurance for poor and vulnerable families in Kerala.",
+      "ta": "கேரளாவில் உள்ள ஏழை மற்றும் எளிய குடும்பங்களுக்கான விரிவான பணமில்லா மருத்துவக் காப்பீட்டுத் திட்டம்.",
+      "hi": "केरल में गरीब और कमजोर परिवारों के लिए व्यापक कैशलेस स्वास्थ्य देखभाल बीमा।"
+    },
+    "benefits": {
+      "en": [
+        "Cashless medical coverage of up to ₹5 lakh per family per year across empaneled public and private hospitals"
+      ],
+      "ta": [
+        "அரசு மற்றும் தனியார் மருத்துவமனைகளில் குடும்பத்திற்கு ஆண்டுக்கு ₹5 லட்சம் வரை பணமில்லா மருத்துவக் காப்பீடு"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Ration card (BPL / Priority)",
+      "KASP Health Card"
+    ],
+    "howToApply": {
+      "en": [
+        "Check eligibility online at sha.kerala.gov.in using ration card number.",
+        "Visit any empaneled hospital helpdesk with Aadhaar and ration card.",
+        "KASP Arogya Mitra facilitates instant hospital pre-authorization."
+      ],
+      "ta": [
+        "ரேஷன் கார்டு எண்ணைப் பயன்படுத்தி sha.kerala.gov.in தளத்தில் ஆன்லைனில் தகுதியைச் சரிபார்க்கவும்.",
+        "ஆதார் மற்றும் ரேஷன் கார்டுடன் அங்கீகரிக்கப்பட்ட மருத்துவமனை உதவி மையத்தை அணுகவும்.",
+        "காருண்யா ஆரோக்கிய மித்ரா உடனடி மருத்துவமனை அனுமதியை எளிதாக்குகிறார்."
+      ]
+    },
+    "officialUrl": "https://sha.kerala.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Kerala",
+        "label": {
+          "en": "Resident of Kerala",
+          "ta": "கேரளாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "bplCard",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Household holds BPL / Priority ration card",
+          "ta": "குடும்பத்தில் வறுமைக் கோட்டிற்கு கீழ் / முன்னுரிமை ரேஷன் அட்டை உள்ளது"
+        }
+      }
+    ]
+  },
+  {
+    "id": "kl-aaswasakiranam",
+    "name": {
+      "en": "Aaswasakiranam Scheme",
+      "ta": "ஆஸ்வாசகிரணம் திட்டம் (கேரளா)",
+      "hi": "आश्वासकिरणम योजना (केरल)"
+    },
+    "ministry": "Social Justice Department, Government of Kerala",
+    "level": "state",
+    "state": "Kerala",
+    "category": "disability",
+    "summary": {
+      "en": "Monthly financial assistance to family caregivers of bedridden individuals and persons with severe disabilities.",
+      "ta": "படுக்கையிலேயே இருக்கும் நோயாளிகள் மற்றும் கடுமையான மாற்றுத்திறனாளிகளைப் பராமரிக்கும் குடும்ப பராமரிப்பாளர்களுக்கு மாதாந்திர நிதி உதவி.",
+      "hi": "बिस्तर पर पड़े व्यक्तियों और गंभीर विकलांग व्यक्तियों की देखभाल करने वाले पारिवारिक देखभालकर्ताओं को मासिक वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly caregiver allowance of ₹600 credited to bank account to support home care"
+      ],
+      "ta": [
+        "வீட்டுப் பராமரிப்பை ஆதரிக்க வங்கிக் கணக்கில் வரவு வைக்கப்படும் மாதாந்திர பராமரிப்பாளர் உதவித்தொகை ₹600"
+      ]
+    },
+    "documents": [
+      "Disability certificate (UDID) / Medical board certificate",
+      "Aadhaar card of patient and caregiver",
+      "BPL certificate / ration card",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Submit application along with medical board certificate to the local Anganwadi worker or ICDS supervisor.",
+        "Child Development Project Officer verifies and forwards to Social Justice Department.",
+        "Caregiver pension credited through DBT."
+      ],
+      "ta": [
+        "மருத்துவ வாரியச் சான்றிதழுடன் உள்ளூர் அங்கன்வாடி பணியாளர் அல்லது ஐசிடிஎஸ் மேற்பார்வையாளரிடம் விண்ணப்பத்தை சமர்ப்பிக்கவும்.",
+        "சிடிபிஓ சரிபார்த்து சமூக நீதித்துறைக்கு அனுப்புகிறார்.",
+        "டிபிடி மூலம் பராமரிப்பாளர் ஓய்வூதியம் வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://sjd.kerala.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Kerala",
+        "label": {
+          "en": "Resident of Kerala",
+          "ta": "கேரளாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "hasDisability",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Member has severe disability",
+          "ta": "உறுப்பினர் கடுமையான மாற்றுத்திறனாளி"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "disabilityPercent",
+        "op": "gte",
+        "value": 40,
+        "label": {
+          "en": "Disability 40% or more",
+          "ta": "மாற்றுத்திறன் 40% அல்லது அதற்கு மேல்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "la-old-age-pension",
+    "name": {
+      "en": "Ladakh Old Age Pension Scheme",
+      "ta": "லடாக் முதியோர் ஓய்வூதியத் திட்டம்",
+      "hi": "लद्दाख वृद्धावस्था पेंशन योजना"
+    },
+    "ministry": "Social and Tribal Welfare Department, Administration of UT of Ladakh",
+    "level": "state",
+    "state": "Ladakh",
+    "category": "senior",
+    "summary": {
+      "en": "Monthly pension support for indigent senior citizens living in the high-altitude remote terrain of Ladakh.",
+      "ta": "லடாக்கின் உயரமான தொலைதூரப் பகுதிகளில் வாழும் ஏழை மூத்த குடிமக்களுக்கான மாதாந்திர ஓய்வூதிய ஆதரவு.",
+      "hi": "लद्दाख के ऊंचे दूरदराज के इलाकों में रहने वाले गरीब वरिष्ठ नागरिकों के लिए मासिक पेंशन सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly pension of ₹1,000 transferred directly into beneficiary bank account"
+      ],
+      "ta": [
+        "பயனாளியின் வங்கிக் கணக்கிற்கு நேரடியாக மாற்றப்படும் மாதாந்திர ஓய்வூதியம் ₹1,000"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Resident certificate of Ladakh",
+      "Age certificate",
+      "Income declaration certificate"
+    ],
+    "howToApply": {
+      "en": [
+        "Submit completed form to the Tehsil Social Welfare Officer or Block Development Office in Leh or Kargil.",
+        "District Social Welfare Officer sanctions upon verification.",
+        "Disbursed monthly via electronic transfer."
+      ],
+      "ta": [
+        "லே அல்லது கார்கிலில் உள்ள வட்டார சமூக நல அலுவலர் அல்லது வட்டார வளர்ச்சி அலுவலகத்தில் சமர்ப்பிக்கவும்.",
+        "சரிபார்ப்பிற்குப் பிறகு மாவட்ட சமூக நல அலுவலர் அனுமதி அளிக்கிறார்.",
+        "மின்னணு பரிமாற்றம் மூலம் மாதந்தோறும் வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://ladakh.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Ladakh",
+        "label": {
+          "en": "Resident of Ladakh",
+          "ta": "லடாக்கில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "age",
+        "op": "gte",
+        "value": 60,
+        "label": {
+          "en": "Age 60 years or above",
+          "ta": "60 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 100000,
+        "label": {
+          "en": "Annual income up to ₹1,00,000",
+          "ta": "ஆண்டு வருமானம் ₹1,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "la-rewa-scheme",
+    "name": {
+      "en": "Rewa Scheme for Higher Education (Ladakh)",
+      "ta": "ரேவா உயர்கல்வித் திட்டம் (லடாக்)",
+      "hi": "उच्च शिक्षा के लिए रेवा योजना (लद्दाख)"
+    },
+    "ministry": "Higher Education Department, Administration of UT of Ladakh",
+    "level": "state",
+    "state": "Ladakh",
+    "category": "education",
+    "summary": {
+      "en": "Financial assistance and coaching subsidy for meritorious students of Ladakh pursuing undergraduate degrees and competitive examinations.",
+      "ta": "இளங்கலை பட்டப்படிப்பு மற்றும் போட்டித் தேர்வுகளை எழுதும் லடாக் மாணவர்களுக்கான நிதி உதவி மற்றும் பயிற்சி மானியத் திட்டம்.",
+      "hi": "स्नातक डिग्री और प्रतियोगी परीक्षाओं की तैयारी कर रहे लद्दाख के मेधावी छात्रों के लिए वित्तीय सहायता और कोचिंग सब्सिडी।"
+    },
+    "benefits": {
+      "en": [
+        "Financial scholarship of up to ₹1,00,000 for coaching fees and national competitive entrance courses"
+      ],
+      "ta": [
+        "பயிற்சி கட்டணம் மற்றும் தேசிய போட்டி நுழைவு படிப்புகளுக்கு ₹1,00,000 வரை நிதி உதவித்தொகை"
+      ]
+    },
+    "documents": [
+      "Class 10 and 12 marksheets",
+      "Aadhaar card",
+      "Ladakh resident certificate",
+      "College admission / coaching receipt"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply online on the official Ladakh UT administration portal.",
+        "Upload academic marks and coaching institute enrollment certificate.",
+        "Scholarship disbursed directly to student bank account upon screening."
+      ],
+      "ta": [
+        "அதிகாரப்பூர்வ லடாக் யூனியன் பிரதேச போர்ட்டலில் ஆன்லைனில் விண்ணப்பிக்கவும்.",
+        "கல்வி மதிப்பெண்கள் மற்றும் பயிற்சி நிறுவன சேர்க்கை சான்றிதழைப் பதிவேற்றவும்.",
+        "பரிசீலனைக்குப் பிறகு மாணவர் வங்கிக் கணக்கில் உதவித்தொகை நேரடியாக வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://ladakh.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Ladakh",
+        "label": {
+          "en": "Resident of Ladakh",
+          "ta": "லடாக்கில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "isStudent",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Currently studying student",
+          "ta": "தற்போது படிக்கும் மாணவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "studyLevel",
+        "op": "eq",
+        "value": "ug",
+        "label": {
+          "en": "Undergraduate student",
+          "ta": "இளங்கலை பட்டதாரி மாணவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ld-destitute-pension",
+    "name": {
+      "en": "Lakshadweep Destitute Old Age Pension",
+      "ta": "லட்சத்தீவு ஆதரவற்ற முதியோர் ஓய்வூதியம்",
+      "hi": "लक्षद्वीप निराश्रित वृद्धावस्था पेंशन"
+    },
+    "ministry": "Directorate of Social Welfare, Lakshadweep Administration",
+    "level": "state",
+    "state": "Lakshadweep",
+    "category": "senior",
+    "summary": {
+      "en": "Monthly social welfare sustenance for indigent elderly persons across Lakshadweep coral islands.",
+      "ta": "லட்சத்தீவு பவளத் தீவுகளில் உள்ள ஏழை முதியவர்களுக்கான மாதாந்திர சமூக நல உதவித்தொகை.",
+      "hi": "लक्षद्वीप के मूंगा द्वीपों में गरीब बुजुर्गों के लिए मासिक सामाजिक कल्याण निर्वाह।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly pension grant of ₹1,500 transferred to beneficiary postal or bank account"
+      ],
+      "ta": [
+        "பயனாளியின் அஞ்சலகம் அல்லது வங்கிக் கணக்கிற்கு மாற்றப்படும் ₹1,500 மாதாந்திர ஓய்வூதிய மானியம்"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Island native certificate",
+      "Age certificate",
+      "BPL ration card"
+    ],
+    "howToApply": {
+      "en": [
+        "Submit application to the Block Development Officer or Island Village Dweep Panchayat.",
+        "Verification conducted by social welfare field inspectors.",
+        "Monthly allowance disbursed via DBT."
+      ],
+      "ta": [
+        "வட்டார வளர்ச்சி அலுவலர் அல்லது தீவு கிராம த்வீப் பஞ்சாயத்தில் விண்ணப்பத்தை சமர்ப்பிக்கவும்.",
+        "சமூக நலத்துறை கள ஆய்வாளர்களால் சரிபார்ப்பு நடத்தப்படுகிறது.",
+        "டிபிடி மூலம் மாதாந்திர உதவித்தொகை வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://lakshadweep.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Lakshadweep",
+        "label": {
+          "en": "Resident of Lakshadweep",
+          "ta": "லட்சத்தீவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "age",
+        "op": "gte",
+        "value": 60,
+        "label": {
+          "en": "Age 60 years or above",
+          "ta": "60 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "bplCard",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Holds BPL ration card",
+          "ta": "வறுமைக் கோட்டிற்கு கீழ் ரேஷன் அட்டை வைத்துள்ளார்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ld-island-scholarship",
+    "name": {
+      "en": "Lakshadweep Scholarship for Island Students",
+      "ta": "லட்சத்தீவு தீவு மாணவர்களுக்கான கல்வி உதவித்தொகை",
+      "hi": "द्वीप के छात्रों के लिए लक्षद्वीप छात्रवृत्ति"
+    },
+    "ministry": "Department of Education, Lakshadweep Administration",
+    "level": "state",
+    "state": "Lakshadweep",
+    "category": "education",
+    "summary": {
+      "en": "Tuition and travel scholarship support for island students pursuing professional and degree courses on the mainland.",
+      "ta": "இந்திய பிரதான நிலப்பரப்பில் தொழில்முறை மற்றும் பட்டப் படிப்புகளைப் பயிலும் தீவு மாணவர்களுக்கான கல்விக்கட்டணம் மற்றும் பயண உதவித்தொகை.",
+      "hi": "मुख्य भूमि पर व्यावसायिक और डिग्री पाठ्यक्रमों की पढ़ाई करने वाले द्वीप के छात्रों के लिए शिक्षण और यात्रा छात्रवृत्ति सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Full reimbursement of approved college tuition fees plus sea-passage ship travel allowance twice a year"
+      ],
+      "ta": [
+        "அங்கீகரிக்கப்பட்ட கல்லூரிக் கட்டணம் முழுமையாகத் திரும்பப் பெறுதல் மற்றும் ஆண்டுக்கு இருமுறை கப்பல் பயண உதவித்தொகை"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Admission allotment letter from college",
+      "Island native/ST certificate",
+      "College fee receipts"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply through the Lakshadweep Education Department scholarship portal.",
+        "Attach fee structure and principal certification of attendance.",
+        "Fund transferred directly to student bank account."
+      ],
+      "ta": [
+        "லட்சத்தீவு கல்வித்துறை உதவித்தொகை போர்ட்டல் மூலம் விண்ணப்பிக்கவும்.",
+        "கட்டண விவரம் மற்றும் வருகைக்கான முதல்வர் சான்றிதழை இணைக்கவும்.",
+        "மாணவர் வங்கிக் கணக்கில் நேரடியாக நிதி மாற்றப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://lakshadweep.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Lakshadweep",
+        "label": {
+          "en": "Resident of Lakshadweep",
+          "ta": "லட்சத்தீவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "isStudent",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Enrolled student",
+          "ta": "பள்ளியில்/கல்லூரியில் படிக்கும் மாணவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mp-ladli-behna",
+    "name": {
+      "en": "Mukhyamantri Ladli Behna Yojana",
+      "ta": "முகியமந்திரி லாட்லி பெஹ்னா திட்டம் (மத்திய பிரதேசம்)",
+      "hi": "मुख्यमंत्री लाडली बहना योजना (मध्य प्रदेश)"
+    },
+    "ministry": "Women and Child Development Department, Government of Madhya Pradesh",
+    "level": "state",
+    "state": "Madhya Pradesh",
+    "category": "women",
+    "summary": {
+      "en": "Direct monthly financial transfers to women in Madhya Pradesh for nutritional and financial independence.",
+      "ta": "ஊட்டச்சத்து மற்றும் நிதி சுதந்திரத்திற்காக மத்திய பிரதேசத்தில் உள்ள பெண்களுக்கு வழங்கப்படும் நேரடி மாதாந்திர நிதி பரிமாற்றம்.",
+      "hi": "पोषण और वित्तीय स्वतंत्रता के लिए मध्य प्रदेश में महिलाओं को प्रत्यक्ष मासिक वित्तीय हस्तांतरण।"
+    },
+    "benefits": {
+      "en": [
+        "₹1,250 credited directly into the woman Aadhaar-linked bank account on the 10th of every month"
+      ],
+      "ta": [
+        "ஒவ்வொரு மாதமும் 10-ஆம் தேதி பெண்ணின் ஆதார் இணைக்கப்பட்ட வங்கிக் கணக்கில் நேரடியாக ₹1,250 வரவு வைக்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Samagra Family ID",
+      "Aadhaar card",
+      "Aadhaar-linked bank passbook (DBT active)"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply at special Gram Panchayat or Ward camps, or online at ladlibehna.mp.gov.in.",
+        "Authenticate Samagra ID and Aadhaar e-KYC.",
+        "Receive regular monthly DBT installments upon verification."
+      ],
+      "ta": [
+        "கிராம பஞ்சாயத்து முகாம்களில் அல்லது ladlibehna.mp.gov.in தளத்தில் ஆன்லைனில் விண்ணப்பிக்கவும்.",
+        "சமக்ரா ஐடி மற்றும் ஆதார் இ-கேஒய்சி-ஐ அங்கீகரிக்கவும்.",
+        "சரிபார்ப்பிற்குப் பிறகு வழக்கமான மாதாந்திர டிபிடி தவணைகளைப் பெறவும்."
+      ]
+    },
+    "officialUrl": "https://ladlibehna.mp.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Madhya Pradesh",
+        "label": {
+          "en": "Resident of Madhya Pradesh",
+          "ta": "மத்திய பிரதேசத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a woman",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "gte",
+        "value": 21,
+        "label": {
+          "en": "Age 21 years or older",
+          "ta": "வயது 21 அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "age",
+        "op": "lte",
+        "value": 60,
+        "label": {
+          "en": "Age up to 60 years",
+          "ta": "வயது 60 வரை"
+        }
+      },
+      {
+        "id": "r5",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 250000,
+        "label": {
+          "en": "Annual family income up to ₹2,50,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹2,50,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mp-kisan-kalyan",
+    "name": {
+      "en": "Mukhyamantri Kisan Kalyan Yojana",
+      "ta": "முகியமந்திரி கிசான் கல்யாண் திட்டம் (மத்திய பிரதேசம்)",
+      "hi": "मुख्यमंत्री किसान कल्याण योजना (मध्य प्रदेश)"
+    },
+    "ministry": "Department of Farmer Welfare and Agriculture Development, Government of Madhya Pradesh",
+    "level": "state",
+    "state": "Madhya Pradesh",
+    "category": "farmer",
+    "summary": {
+      "en": "Supplementary financial grant to MP farmers over and above PM-KISAN.",
+      "ta": "மத்திய பிரதேச விவசாயிகளுக்கு PM-KISAN தவிர கூடுதலாக வழங்கப்படும் கூடுதல் நிதி மானியம்.",
+      "hi": "पीएम-किसान के अतिरिक्त मध्य प्रदेश के किसानों को पूरक वित्तीय अनुदान।"
+    },
+    "benefits": {
+      "en": [
+        "Additional ₹6,000 per year paid in three installments of ₹2,000 each (taking total assistance with PM-KISAN to ₹12,000)"
+      ],
+      "ta": [
+        "தலா ₹2,000 வீதம் மூன்று தவணைகளில் ஆண்டுக்கு கூடுதலாக ₹6,000 (PM-KISAN உடன் சேர்த்து மொத்தம் ₹12,000)"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Samagra ID",
+      "Land ownership documents (Khasra/Khatauni)",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Automatic enrollment for all farmers registered in PM-KISAN residing in MP.",
+        "Verification verified by village Patwari on SAARA portal (saara.mp.gov.in).",
+        "Direct credit to bank account."
+      ],
+      "ta": [
+        "மத்திய பிரதேசத்தில் வசிக்கும் PM-KISAN-ல் பதிவுசெய்யப்பட்ட அனைத்து விவசாயிகளுக்கும் தானியங்கி சேர்க்கை.",
+        "SAARA போர்ட்டலில் கிராம பட்வாரியால் சரிபார்க்கப்பட்டது.",
+        "நேரடியாக வங்கிக் கணக்கில் வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://saara.mp.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Madhya Pradesh",
+        "label": {
+          "en": "Resident of Madhya Pradesh",
+          "ta": "மத்திய பிரதேசத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "landHoldingAcres",
+        "op": "gt",
+        "value": 0,
+        "label": {
+          "en": "Cultivates agricultural land",
+          "ta": "விவசாய நிலம் வைத்துள்ளார்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mh-ladki-bahin",
+    "name": {
+      "en": "Mukhyamantri Majhi Ladki Bahin Yojana",
+      "ta": "முகியமந்திரி மாஜி லாட்கி பாஹின் திட்டம் (மகாராஷ்டிரா)",
+      "hi": "मुख्यमंत्री माझी लाडकी बहिन योजना (महाराष्ट्र)"
+    },
+    "ministry": "Women and Child Development Department, Government of Maharashtra",
+    "level": "state",
+    "state": "Maharashtra",
+    "category": "women",
+    "summary": {
+      "en": "Direct monthly financial assistance to women in Maharashtra for socio-economic empowerment.",
+      "ta": "சமூக-பொருளாதார மேம்பாட்டிற்காக மகாராஷ்டிராவில் உள்ள பெண்களுக்கு வழங்கப்படும் நேரடி மாதாந்திர நிதி உதவி.",
+      "hi": "सामाजिक-आर्थिक सशक्तिकरण के लिए महाराष्ट्र में महिलाओं को प्रत्यक्ष मासिक वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "₹1,500 per month deposited directly into bank account via Aadhaar-enabled DBT"
+      ],
+      "ta": [
+        "ஆதார் அடிப்படையிலான டிபிடி மூலம் வங்கிக் கணக்கில் நேரடியாக டெபாசிட் செய்யப்படும் மாதம் ₹1,500"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Ration card (yellow or orange)",
+      "Income certificate (< ₹2.5 lakh)",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply online on the Nari Shakti Doot mobile app or at local Setu Kendra / Anganwadi.",
+        "Submit family income proof and Aadhaar details.",
+        "Monthly DBT credited directly to the woman account."
+      ],
+      "ta": [
+        "நாரி சக்தி தூத் மொபைல் செயலியில் அல்லது உள்ளூர் சேது கேந்திராவில் ஆன்லைனில் விண்ணப்பிக்கவும்.",
+        "குடும்ப வருமானச் சான்று மற்றும் ஆதார் விவரங்களைச் சமர்ப்பிக்கவும்.",
+        "மாதாந்திர டிபிடி நேரடியாக பெண்ணின் கணக்கில் வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://ladkibahin.maharashtra.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Maharashtra",
+        "label": {
+          "en": "Resident of Maharashtra",
+          "ta": "மகாராஷ்டிராவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a woman",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "gte",
+        "value": 21,
+        "label": {
+          "en": "Age 21 years or older",
+          "ta": "வயது 21 அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "age",
+        "op": "lte",
+        "value": 65,
+        "label": {
+          "en": "Age up to 65 years",
+          "ta": "வயது 65 வரை"
+        }
+      },
+      {
+        "id": "r5",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 250000,
+        "label": {
+          "en": "Annual family income up to ₹2,50,000",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹2,50,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mh-namo-shetkari",
+    "name": {
+      "en": "Namo Shetkari Mahasanman Nidhi",
+      "ta": "நமோ ஷேத்காரி மகாசன்மான் நிதி (மகாராஷ்டிரா)",
+      "hi": "नमो शेतकरी महासंमान निधि (महाराष्ट्र)"
+    },
+    "ministry": "Department of Agriculture, Government of Maharashtra",
+    "level": "state",
+    "state": "Maharashtra",
+    "category": "farmer",
+    "summary": {
+      "en": "Additional annual income assistance to farmers in Maharashtra over PM-KISAN benefits.",
+      "ta": "மகாராஷ்டிராவில் உள்ள விவசாயிகளுக்கு PM-KISAN பலன்களுக்கு மேல் கூடுதல் வருமான உதவி வழங்கும் திட்டம்.",
+      "hi": "पीएम-किसान लाभों के अतिरिक्त महाराष्ट्र में किसानों को अतिरिक्त वार्षिक आय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "₹6,000 per year in three equal installments of ₹2,000 transferred to farmers alongside PM-KISAN"
+      ],
+      "ta": [
+        "PM-KISAN உடன் விவசாயிகளுக்கு ₹2,000 வீதம் மூன்று தவணைகளில் ஆண்டுக்கு ₹6,000 வழங்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "7/12 extract and 8A land records",
+      "Aadhaar-seeded bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "All farmers registered and verified under PM-KISAN in Maharashtra are onboarded automatically.",
+        "Status verified via the Mahadbt / Krishi portal.",
+        "Direct transfer credited directly to bank account."
+      ],
+      "ta": [
+        "மகாராஷ்டிராவில் PM-KISAN-ன் கீழ் பதிவு செய்யப்பட்டு சரிபார்க்கப்பட்ட அனைத்து விவசாயிகளும் தானாகவே இணைக்கப்படுகிறார்கள்.",
+        "மகாடிபிடி / கிரிஷி போர்ட்டல் மூலம் நிலை சரிபார்க்கப்பட்டது.",
+        "நேரடியாக வங்கிக் கணக்கில் வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://krishi.maharashtra.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Maharashtra",
+        "label": {
+          "en": "Resident of Maharashtra",
+          "ta": "மகாராஷ்டிராவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "landHoldingAcres",
+        "op": "gt",
+        "value": 0,
+        "label": {
+          "en": "Cultivates farmland",
+          "ta": "விவசாய நிலம் வைத்துள்ளார்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mn-cmht-health",
+    "name": {
+      "en": "Chief Minister-gi Hakshelgi Tengbang (CMHT)",
+      "ta": "முதலமைச்சரின் ஹக்ஷெல்கி தெங்பாங் திட்டம் (மணிப்பூர்)",
+      "hi": "चीफ मिनिस्टर-गी हकशेलगी तेंगबांग (सीएमएचटी) (मणिपुर)"
+    },
+    "ministry": "Health and Family Welfare Department, Government of Manipur",
+    "level": "state",
+    "state": "Manipur",
+    "category": "health",
+    "summary": {
+      "en": "Pioneering health insurance scheme offering cashless treatment to underprivileged families in Manipur.",
+      "ta": "மணிப்பூரில் உள்ள ஏழைக் குடும்பங்களுக்குப் பணமில்லா சிகிச்சை அளிக்கும் முன்னோடி மருத்துவக் காப்பீட்டுத் திட்டம்.",
+      "hi": "मणिपुर में वंचित परिवारों को कैशलेस उपचार प्रदान करने वाली अग्रणी स्वास्थ्य बीमा योजना।"
+    },
+    "benefits": {
+      "en": [
+        "Cashless secondary and tertiary hospitalization cover of up to ₹5 lakh per family per year"
+      ],
+      "ta": [
+        "குடும்பத்திற்கு ஆண்டுக்கு ₹5 லட்சம் வரை பணமில்லா மருத்துவமனை சிகிச்சைக் காப்பீடு"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "BPL ration card or income certificate",
+      "Family photograph"
+    ],
+    "howToApply": {
+      "en": [
+        "Enroll at dedicated CMHT enrollment kiosks in district hospitals.",
+        "Biometrics and family details captured.",
+        "CMHT smart card issued for cashless treatment at empanelled hospitals."
+      ],
+      "ta": [
+        "மாவட்ட மருத்துவமனைகளில் உள்ள பிரத்யேக சிஎம்ஹெச்டி பதிவு மையங்களில் பதிவு செய்யவும்.",
+        "பயோமெட்ரிக்ஸ் மற்றும் குடும்ப விவரங்கள் பெறப்படுகின்றன.",
+        "அங்கீகரிக்கப்பட்ட மருத்துவமனைகளில் பணமில்லா சிகிச்சைக்கான ஸ்மார்ட் கார்டு வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://cmhtmanipur.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Manipur",
+        "label": {
+          "en": "Resident of Manipur",
+          "ta": "மணிப்பூரில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "bplCard",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Holds BPL / Antyodaya ration card",
+          "ta": "வறுமைக் கோட்டிற்கு கீழ் ரேஷன் அட்டை வைத்துள்ளார்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mn-covid-livelihood",
+    "name": {
+      "en": "Manipur Livelihood Support Scheme for Daily Wagers",
+      "ta": "மணிப்பூர் தினசரி கூலித் தொழிலாளர்கள் வாழ்வாதார உதவித் திட்டம்",
+      "hi": "मणिपुर दैनिक वेतन भोगियों के लिए आजीविका सहायता योजना"
+    },
+    "ministry": "Department of Social Welfare, Government of Manipur",
+    "level": "state",
+    "state": "Manipur",
+    "category": "employment",
+    "summary": {
+      "en": "Direct livelihood financial relief for informal daily-wage earners and vulnerable workers in Manipur.",
+      "ta": "மணிப்பூரில் தினக்கூலி உழைப்பாளர்கள் மற்றும் பாதிக்கப்படக்கூடிய தொழிலாளர்களுக்கான நேரடி வாழ்வாதார நிதி நிவாரணம்.",
+      "hi": "मणिपुर में अनौपचारिक दैनिक वेतन भोगियों और कमजोर श्रमिकों के लिए प्रत्यक्ष आजीविका वित्तीय राहत।"
+    },
+    "benefits": {
+      "en": [
+        "Direct cash relief of ₹5,000 paid to vulnerable unorganized workers to restore livelihoods"
+      ],
+      "ta": [
+        "வாழ்வாதாரத்தை மீட்டெடுக்க அமைப்புசாரா தொழிலாளர்களுக்கு நேரடியாக வழங்கப்படும் ₹5,000 ரொக்க நிவாரணம்"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Worker registration / self-declaration",
+      "Bank passbook",
+      "Income certificate"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply through the District Social Welfare Office or online at socialwelfare.mn.gov.in.",
+        "Ward / village committee verifies informal employment status.",
+        "Direct benefit transfer credited to bank account."
+      ],
+      "ta": [
+        "மாவட்ட சமூக நல அலுவலகம் மூலம் அல்லது இணையதளம் வழியாக விண்ணப்பிக்கவும்.",
+        "வார்டு / கிராமக் குழு தொழிலாளர் நிலையை சரிபார்க்கிறது.",
+        "நேரடி பலன் பரிமாற்றம் வங்கிக் கணக்கில் வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://socialwelfare.mn.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Manipur",
+        "label": {
+          "en": "Resident of Manipur",
+          "ta": "மணிப்பூரில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 100000,
+        "label": {
+          "en": "Annual income up to ₹1,00,000",
+          "ta": "ஆண்டு வருமானம் ₹1,00,000 வரை"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "occupation",
+        "op": "in",
+        "value": [
+          "daily-wage",
+          "unemployed"
+        ],
+        "label": {
+          "en": "Daily wage worker or unemployed",
+          "ta": "தினக்கூலி அல்லது வேலையில்லாதவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ml-mhis-health",
+    "name": {
+      "en": "Meghalaya Health Insurance Scheme (MHIS)",
+      "ta": "மேகாலயா சுகாதாரக் காப்பீட்டுத் திட்டம் (MHIS)",
+      "hi": "मेघालय स्वास्थ्य बीमा योजना (एमएचआईएस)"
+    },
+    "ministry": "Department of Health and Family Welfare, Government of Meghalaya",
+    "level": "state",
+    "state": "Meghalaya",
+    "category": "health",
+    "summary": {
+      "en": "Universal health insurance cover for all residents of Meghalaya irrespective of household income.",
+      "ta": "குடும்ப வருமானத்தைப் பொருட்படுத்தாமல் மேகாலயாவில் உள்ள அனைத்து மக்களுக்கும் வழங்கப்படும் உலகளாவிய மருத்துவக் காப்பீடு.",
+      "hi": "पारिवारिक आय पर ध्यान दिए बिना मेघालय के सभी निवासियों के लिए सार्वभौमिक स्वास्थ्य बीमा कवर।"
+    },
+    "benefits": {
+      "en": [
+        "Cashless in-patient hospital care of up to ₹5,30,000 per family per year across empaneled hospitals"
+      ],
+      "ta": [
+        "அங்கீகரிக்கப்பட்ட மருத்துவமனைகளில் குடும்பத்திற்கு ஆண்டுக்கு ₹5,30,000 வரை பணமில்லா உள்நோயாளி சிகிச்சைக் காப்பீடு"
+      ]
+    },
+    "documents": [
+      "Aadhaar card / voter ID",
+      "Ration card or electoral roll entry",
+      "MHIS beneficiary card"
+    ],
+    "howToApply": {
+      "en": [
+        "Enroll at village enrollment drives or community health centres.",
+        "Smart MHIS card printed on spot with family biometric mapping.",
+        "Produce card at empaneled hospitals for seamless cashless admission."
+      ],
+      "ta": [
+        "கிராம பதிவு முகாம்கள் அல்லது சமூக சுகாதார மையங்களில் பதிவு செய்யவும்.",
+        "குடும்ப பயோமெட்ரிக் வரைபடத்துடன் கூடிய ஸ்மார்ட் அட்டை உடனடியாக அச்சிடப்படுகிறது.",
+        "பணமில்லா சேர்க்கைக்கு மருத்துவமனைகளில் அட்டையைக் காட்டவும்."
+      ]
+    },
+    "officialUrl": "https://mhis.org.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Meghalaya",
+        "label": {
+          "en": "Resident of Meghalaya",
+          "ta": "மேகாலயாவில் வசிப்பவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ml-focus-farmer",
+    "name": {
+      "en": "FOCUS Farmers Collective Scheme (Meghalaya)",
+      "ta": "போக்கஸ் விவசாயிகள் கூட்டமைப்பு திட்டம் (மேகாலயா)",
+      "hi": "फोकस किसान सामूहिक योजना (मेघालय)"
+    },
+    "ministry": "Department of Agriculture and Farmers Welfare, Government of Meghalaya",
+    "level": "state",
+    "state": "Meghalaya",
+    "category": "farmer",
+    "summary": {
+      "en": "Financial assistance to rural producer groups for value chain aggregation and farming inputs in Meghalaya.",
+      "ta": "மேகாலயாவில் விவசாய இடுபொருட்கள் மற்றும் சந்தைப்படுத்தலுக்காக கிராமப்புற உற்பத்தியாளர் குழுக்களுக்கு வழங்கப்படும் நிதி உதவி.",
+      "hi": "मेघालय में मूल्य श्रृंखला एकत्रीकरण और कृषि आदानों के लिए ग्रामीण उत्पादक समूहों को वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Direct financial grant of ₹5,000 per producer household (up to ₹50,000 per 10-member group) for agri-inputs and tools"
+      ],
+      "ta": [
+        "விவசாய இடுபொருட்கள் மற்றும் கருவிகளுக்காக ஒரு விவசாயக் குடும்பத்திற்கு ₹5,000 (10 பேர் கொண்ட குழுவிற்கு ₹50,000 வரை) நேரடி நிதி மானியம்"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Producer Group registration details",
+      "Bank account details of producer group"
+    ],
+    "howToApply": {
+      "en": [
+        "Form a 10-20 member Producer Group in the village.",
+        "Register the group on the FOCUS portal or through the Block Agriculture Office.",
+        "Funds transferred directly to group account for farming procurement."
+      ],
+      "ta": [
+        "கிராமத்தில் 10-20 உறுப்பினர்களைக் கொண்ட உற்பத்தியாளர் குழுவை உருவாக்கவும்.",
+        "போக்கஸ் போர்ட்டலில் அல்லது வட்டார வேளாண் அலுவலகம் மூலம் குழுவைப் பதிவு செய்யவும்.",
+        "விவசாய கொள்முதலுக்காக குழு கணக்கிற்கு நேரடியாக நிதி மாற்றப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://focus.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Meghalaya",
+        "label": {
+          "en": "Resident of Meghalaya",
+          "ta": "மேகாலயாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mz-mshcs-health",
+    "name": {
+      "en": "Mizoram State Health Care Scheme (MSHCS)",
+      "ta": "மிசோரம் மாநில சுகாதாரப் பராமரிப்புத் திட்டம்",
+      "hi": "मिजोरम राज्य स्वास्थ्य देखभाल योजना"
+    },
+    "ministry": "Health and Family Welfare Department, Government of Mizoram",
+    "level": "state",
+    "state": "Mizoram",
+    "category": "health",
+    "summary": {
+      "en": "State government healthcare cover ensuring financial relief against critical illnesses for Mizoram families.",
+      "ta": "மிசோரம் குடும்பங்களுக்குக் கொடிய நோய்களுக்கு எதிராக நிதி நிவாரணம் உறுதி செய்யும் மாநில அரசு மருத்துவக் காப்பீட்டுத் திட்டம்.",
+      "hi": "मिजोरम के परिवारों के लिए गंभीर बीमारियों के खिलाफ वित्तीय राहत सुनिश्चित करने वाली राज्य सरकार की स्वास्थ्य देखभाल योजना।"
+    },
+    "benefits": {
+      "en": [
+        "Medical expenditure reimbursement up to ₹3 lakh per family per year for inpatient treatment"
+      ],
+      "ta": [
+        "உள்நோயாளி சிகிச்சைக்கு குடும்பத்திற்கு ஆண்டுக்கு ₹3 லட்சம் வரை மருத்துவச் செலவு திருப்பிச் செலுத்துதல்"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Ration card / Voter card",
+      "Medical bills and discharge summary",
+      "Income certificate"
+    ],
+    "howToApply": {
+      "en": [
+        "Register during annual enrollment window at the office of Chief Medical Officer (CMO).",
+        "Obtain MSHCS health card on nominal premium.",
+        "Submit medical claims within 60 days of hospital discharge."
+      ],
+      "ta": [
+        "தலைமை மருத்துவ அலுவலர் (CMO) அலுவலகத்தில் வருடாந்திர பதிவு காலத்தில் பதிவு செய்யவும்.",
+        "குறைந்த பிரீமியத்தில் சுகாதார அட்டையைப் பெறவும்.",
+        "மருத்துவமனையிலிருந்து வெளியேறிய 60 நாட்களுக்குள் மருத்துவக் கோரிக்கைகளை சமர்ப்பிக்கவும்."
+      ]
+    },
+    "officialUrl": "https://health.mizoram.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Mizoram",
+        "label": {
+          "en": "Resident of Mizoram",
+          "ta": "மிசோரமில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Annual income up to ₹3,00,000",
+          "ta": "ஆண்டு வருமானம் ₹3,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mz-sedp-livelihood",
+    "name": {
+      "en": "Socio-Economic Development Policy (SEDP Mizoram)",
+      "ta": "சமூக-பொருளாதார மேம்பாட்டுக் கொள்கை திட்டம் (மிசோரம்)",
+      "hi": "सामाजिक-आर्थिक विकास नीति (एसईडीपी मिजोरम)"
+    },
+    "ministry": "Planning and Programme Implementation Department, Government of Mizoram",
+    "level": "state",
+    "state": "Mizoram",
+    "category": "farmer",
+    "summary": {
+      "en": "Livelihood support grant to farming households in Mizoram to accelerate sustainable agriculture and entrepreneurship.",
+      "ta": "நிலையான விவசாயம் மற்றும் தொழில்முனைவை விரைவுபடுத்த மிசோரமில் உள்ள விவசாயக் குடும்பங்களுக்கு வழங்கப்படும் வாழ்வாதார மானியம்.",
+      "hi": "सतत कृषि और उद्यमिता को गति देने के लिए मिजोरम में कृषक परिवारों को आजीविका सहायता अनुदान।"
+    },
+    "benefits": {
+      "en": [
+        "Financial livelihood grant of ₹50,000 per family disbursed in stages for agricultural and allied activities"
+      ],
+      "ta": [
+        "விவசாயம் மற்றும் தொடர்புடைய நடவடிக்கைகளுக்காக குடும்பத்திற்கு ₹50,000 நிதி வாழ்வாதார மானியம் படிப்படியாக வழங்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Voter identity card",
+      "Bank passbook",
+      "Local council / VCP recommendation"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply through Village Council or Local Council office.",
+        "District SEDP Screening Board approves trade-specific proposals.",
+        "Direct credit of incentive to beneficiary bank account."
+      ],
+      "ta": [
+        "கிராம கவுன்சில் அல்லது உள்ளூர் கவுன்சில் அலுவலகம் மூலம் விண்ணப்பிக்கவும்.",
+        "மாவட்ட SEDP திரையிடல் வாரியம் திட்ட முன்மொழிவுகளுக்கு ஒப்புதல் அளிக்கிறது.",
+        "பயனாளியின் வங்கிக் கணக்கிற்கு நேரடியாக ஊக்கத்தொகை வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://planning.mizoram.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Mizoram",
+        "label": {
+          "en": "Resident of Mizoram",
+          "ta": "மிசோரமில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      }
+    ]
+  },
+  {
+    "id": "nl-cmhis-health",
+    "name": {
+      "en": "Chief Minister Health Insurance Scheme (CMHIS)",
+      "ta": "முதலமைச்சரின் மருத்துவக் காப்பீட்டுத் திட்டம் (நாகாலாந்து)",
+      "hi": "मुख्यमंत्री स्वास्थ्य बीमा योजना (सीएमएचआईएस) (नागालैंड)"
+    },
+    "ministry": "Department of Health and Family Welfare, Government of Nagaland",
+    "level": "state",
+    "state": "Nagaland",
+    "category": "health",
+    "summary": {
+      "en": "Universal healthcare initiative providing hospital cover to all indigenous and permanent residents of Nagaland.",
+      "ta": "நாகாலாந்தின் அனைத்து பழங்குடி மற்றும் நிரந்தர மக்களுக்கு மருத்துவமனை சிகிச்சைக் காப்பீடு வழங்கும் உலகளாவிய சுகாதாரத் திட்டம்.",
+      "hi": "नागालैंड के सभी स्वदेशी और स्थायी निवासियों को अस्पताल कवर प्रदान करने वाली सार्वभौमिक स्वास्थ्य देखभाल पहल।"
+    },
+    "benefits": {
+      "en": [
+        "Cashless medical coverage of up to ₹5 lakh per family per year for secondary and tertiary hospitalization"
+      ],
+      "ta": [
+        "இரண்டாம் நிலை மற்றும் மூன்றாம் நிலை மருத்துவமனை சிகிச்சைக்கு குடும்பத்திற்கு ஆண்டுக்கு ₹5 லட்சம் வரை பணமில்லா காப்பீடு"
+      ]
+    },
+    "documents": [
+      "Indigenous Inhabitant Certificate (IIC) / Permanent Resident Certificate",
+      "Aadhaar card",
+      "Ration card"
+    ],
+    "howToApply": {
+      "en": [
+        "Register online at cmhis.nagaland.gov.in or through designated common service centres.",
+        "Authenticate Aadhaar and upload Indigenous Inhabitant Certificate.",
+        "Download CMHIS E-Card for hospital treatment."
+      ],
+      "ta": [
+        "cmhis.nagaland.gov.in தளத்தில் அல்லது பொது சேவை மையங்கள் மூலம் ஆன்லைனில் பதிவு செய்யவும்.",
+        "ஆதாரை அங்கீகரித்து பூர்வீக குடியுரிமைச் சான்றிதழைப் பதிவேற்றவும்.",
+        "மருத்துவமனை சிகிச்சைக்காக சிஎம்ஹெச்ஐஎஸ் இ-கார்டைப் பதிவிறக்கவும்."
+      ]
+    },
+    "officialUrl": "https://cmhis.nagaland.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Nagaland",
+        "label": {
+          "en": "Resident of Nagaland",
+          "ta": "நாகாலாந்தில் வசிப்பவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "nl-cmmfi-credit",
+    "name": {
+      "en": "Chief Minister Micro Finance Initiative (CMMFI)",
+      "ta": "முதலமைச்சரின் மைக்ரோ நிதி முன்முயற்சி (நாகாலாந்து)",
+      "hi": "मुख्यमंत्री सूक्ष्म वित्त पहल (सीएमएमएफआई) (नागालैंड)"
+    },
+    "ministry": "Department of Planning and Coordination, Government of Nagaland",
+    "level": "state",
+    "state": "Nagaland",
+    "category": "financial",
+    "summary": {
+      "en": "Subsidized institutional credit and capital grant scheme to encourage rural enterprises and farming ventures in Nagaland.",
+      "ta": "நாகாலாந்தில் கிராமப்புற நிறுவனங்கள் மற்றும் விவசாய முயற்சிகளை ஊக்குவிப்பதற்கான மானியத்துடன் கூடிய கடன் மற்றும் மூலதன மானியத் திட்டம்.",
+      "hi": "नागालैंड में ग्रामीण उद्यमों और कृषि उद्यमों को प्रोत्साहित करने के लिए रियायती संस्थागत ऋण और पूंजी अनुदान योजना।"
+    },
+    "benefits": {
+      "en": [
+        "Collateral-free subsidized loans up to ₹15 lakh with 4% interest subvention and up to 30% capital subsidy"
+      ],
+      "ta": [
+        "4% வட்டி மானியம் மற்றும் 30% வரை மூலதன மானியத்துடன் ₹15 லட்சம் வரை பிணையமில்லா சலுகைக் கடன்கள்"
+      ]
+    },
+    "documents": [
+      "Indigenous Certificate of Nagaland",
+      "Detailed business proposal",
+      "Aadhaar card",
+      "Bank account details"
+    ],
+    "howToApply": {
+      "en": [
+        "Submit application to the District Level Implementation Committee (DLIC) headed by the Deputy Commissioner.",
+        "Selected candidates are recommended to participating commercial banks.",
+        "Subsidy released directly to bank account upon loan sanction."
+      ],
+      "ta": [
+        "துணை ஆணையர் தலைமையிலான மாவட்ட அளவிலான செயல்படுத்தல் குழுவிடம் (டிஎல்ஐசி) விண்ணப்பத்தை சமர்ப்பிக்கவும்.",
+        "தேர்ந்தெடுக்கப்பட்ட விண்ணப்பதாரர்கள் வங்கிகளுக்கு பரிந்துரைக்கப்படுகிறார்கள்.",
+        "கடன் அனுமதிக்கப்பட்டவுடன் மானியம் நேரடியாக வங்கிக் கணக்கில் விடுவிக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://nagaland.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Nagaland",
+        "label": {
+          "en": "Resident of Nagaland",
+          "ta": "நாகாலாந்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "age",
+        "op": "gte",
+        "value": 21,
+        "label": {
+          "en": "Age 21 years or older",
+          "ta": "வயது 21 அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "lte",
+        "value": 55,
+        "label": {
+          "en": "Age up to 55 years",
+          "ta": "வயது 55 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "od-kalia-farmer",
+    "name": {
+      "en": "KALIA Scheme for Farmers (Odisha)",
+      "ta": "காளியா திட்டம் (ஒடிசா)",
+      "hi": "कालिया योजना (ओडिशा)"
+    },
+    "ministry": "Department of Agriculture and Farmers Empowerment, Government of Odisha",
+    "level": "state",
+    "state": "Odisha",
+    "category": "farmer",
+    "summary": {
+      "en": "All-inclusive livelihood and cultivation support scheme for small, marginal, and landless agricultural households in Odisha.",
+      "ta": "ஒடிசாவில் உள்ள சிறு, குறு மற்றும் நிலமற்ற விவசாயக் குடும்பங்களுக்கான விரிவான வாழ்வாதாரம் மற்றும் சாகுபடி ஆதரவுத் திட்டம்.",
+      "hi": "ओडिशा में छोटे, सीमांत और भूमिहीन कृषि परिवारों के लिए समावेशी आजीविका और खेती सहायता योजना।"
+    },
+    "benefits": {
+      "en": [
+        "₹4,000 per year per farm family for cultivation inputs plus ₹10,000 for landless agricultural households"
+      ],
+      "ta": [
+        "விவசாய இடுபொருட்களுக்கு ஒரு விவசாயக் குடும்பத்திற்கு ஆண்டுக்கு ₹4,000 மற்றும் நிலமற்ற விவசாயக் குடும்பங்களுக்கு ₹10,000"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Ration card",
+      "Land records / Landless declaration",
+      "Aadhaar-seeded bank account"
+    ],
+    "howToApply": {
+      "en": [
+        "Check name on Gram Panchayat draft beneficiary list or apply on kalia.odisha.gov.in.",
+        "Fill online grievance / new registration form with land details.",
+        "DBT credited directly to bank account ahead of Kharif and Rabi seasons."
+      ],
+      "ta": [
+        "கிராம பஞ்சாயத்து வரைவுப் பட்டியலில் பெயரைச் சரிபார்க்கவும் அல்லது kalia.odisha.gov.in தளத்தில் விண்ணப்பிக்கவும்.",
+        "நில விவரங்களுடன் புதிய பதிவுப் படிவத்தைப் பூர்த்தி செய்யவும்.",
+        "பயிர் பருவத்திற்கு முன்னதாக டிபிடி நேரடியாக வங்கிக் கணக்கில் வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://kalia.odisha.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Odisha",
+        "label": {
+          "en": "Resident of Odisha",
+          "ta": "ஒடிசாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      }
+    ]
+  },
+  {
+    "id": "od-bsky-health",
+    "name": {
+      "en": "Biju Swasthya Kalyan Yojana (BSKY)",
+      "ta": "பிஜு ஸ்வஸ்த்ய கல்யாண் திட்டம் (ஒடிசா)",
+      "hi": "बीजू स्वास्थ्य कल्याण योजना (ओडिशा)"
+    },
+    "ministry": "Health and Family Welfare Department, Government of Odisha",
+    "level": "state",
+    "state": "Odisha",
+    "category": "health",
+    "summary": {
+      "en": "Universal cashless treatment cover across premier hospitals for all ration-card holding families in Odisha.",
+      "ta": "ஒடிசாவில் ரேஷன் அட்டை வைத்துள்ள அனைத்துக் குடும்பங்களுக்கும் முதன்மை மருத்துவமனைகளில் பணமில்லா சிகிச்சை அளிக்கும் திட்டம்.",
+      "hi": "ओडिशा में सभी राशन कार्ड धारक परिवारों के लिए प्रमुख अस्पतालों में सार्वभौमिक कैशलेस उपचार कवर।"
+    },
+    "benefits": {
+      "en": [
+        "Cashless coverage of ₹5 lakh per family per year, with enhanced cover up to ₹10 lakh for women members"
+      ],
+      "ta": [
+        "குடும்பத்திற்கு ஆண்டுக்கு ₹5 லட்சம் பணமில்லா காப்பீடு, பெண் உறுப்பினர்களுக்கு ₹10 லட்சம் வரை நீட்டிக்கப்பட்ட காப்பீடு"
+      ]
+    },
+    "documents": [
+      "BSKY Smart Card / NFSA / SFSA Ration card",
+      "Aadhaar card of patient"
+    ],
+    "howToApply": {
+      "en": [
+        "All National and State Food Security Scheme ration card holders automatically covered.",
+        "Show BSKY smart card at any empaneled hospital in Odisha and neighboring states.",
+        "Swasthya Mitra provides cashless inpatient assistance."
+      ],
+      "ta": [
+        "தேசிய மற்றும் மாநில உணவுப் பாதுகாப்பு திட்ட அட்டைதாரர்கள் அனைவரும் தானாகவே இணைக்கப்படுகிறார்கள்.",
+        "அங்கீகரிக்கப்பட்ட எந்தவொரு மருத்துவமனையிலும் ஸ்மார்ட் கார்டைக் காட்டவும்.",
+        "ஸ்வஸ்த்ய மித்ரா பணமில்லா உள்நோயாளி சிகிச்சைக்கு உதவுகிறார்."
+      ]
+    },
+    "officialUrl": "https://bsky.odisha.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Odisha",
+        "label": {
+          "en": "Resident of Odisha",
+          "ta": "ஒடிசாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "rationCard",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Holds NFSA / SFSA ration card",
+          "ta": "உணவுப் பாதுகாப்பு ரேஷன் அட்டை வைத்துள்ளார்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "py-old-age-pension",
+    "name": {
+      "en": "Puducherry Old Age Pension Scheme",
+      "ta": "புதுச்சேரி முதியோர் ஓய்வூதியத் திட்டம்",
+      "hi": "पुडुचेरी वृद्धावस्था पेंशन योजना"
+    },
+    "ministry": "Department of Social Welfare, Government of Puducherry",
+    "level": "state",
+    "state": "Puducherry",
+    "category": "senior",
+    "summary": {
+      "en": "Generous monthly social security pension to senior citizens residing in the Union Territory of Puducherry.",
+      "ta": "புதுச்சேரி யூனியன் பிரதேசத்தில் வசிக்கும் மூத்த குடிமக்களுக்கான மாதாந்திர சமூகப் பாதுகாப்பு ஓய்வூதியம்.",
+      "hi": "पुडुचेरी केंद्र शासित प्रदेश में रहने वाले वरिष्ठ नागरिकों के लिए मासिक सामाजिक सुरक्षा पेंशन।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly pension of ₹2,000 for age 60-69, ₹2,500 for age 70-79, and ₹3,000 for age 80 and above"
+      ],
+      "ta": [
+        "60-69 வயதுக்கு மாதம் ₹2,000, 70-79 வயதுக்கு மாதம் ₹2,500, மற்றும் 80 வயதுக்கு மேற்பட்டவர்களுக்கு மாதம் ₹3,000"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Puducherry resident/electoral certificate",
+      "Age certificate",
+      "Income certificate (< ₹1.2 lakh)"
+    ],
+    "howToApply": {
+      "en": [
+        "Obtain and submit application form at the Directorate of Social Welfare or Taluk office.",
+        "Field inquiry verified by Social Welfare Inspector.",
+        "Disbursed directly into bank account every month."
+      ],
+      "ta": [
+        "சமூக நல இயக்குநரகம் அல்லது தாலுகா அலுவலகத்தில் விண்ணப்பப் படிவத்தைப் பெற்றுச் சமர்ப்பிக்கவும்.",
+        "சமூக நல ஆய்வாளரால் கள விசாரணை நடத்தப்படுகிறது.",
+        "ஒவ்வொரு மாதமும் நேரடியாக வங்கிக் கணக்கில் வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://socwelfare.py.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Puducherry",
+        "label": {
+          "en": "Resident of Puducherry",
+          "ta": "புதுச்சேரியில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "age",
+        "op": "gte",
+        "value": 60,
+        "label": {
+          "en": "Age 60 years or above",
+          "ta": "60 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 120000,
+        "label": {
+          "en": "Annual income up to ₹1,20,000",
+          "ta": "ஆண்டு வருமானம் ₹1,20,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "py-kamarajar-financial",
+    "name": {
+      "en": "Perunthalaivar Kamarajar Financial Assistance Scheme",
+      "ta": "பெருந்தலைவர் காமராஜர் நிதி உதவித் திட்டம் (புதுச்சேரி)",
+      "hi": "पेरुंथलैवर कामराजर वित्तीय सहायता योजना (पुडुचेरी)"
+    },
+    "ministry": "Directorate of Higher and Technical Education, Government of Puducherry",
+    "level": "state",
+    "state": "Puducherry",
+    "category": "education",
+    "summary": {
+      "en": "Tuition fee financial assistance for students admitted to professional undergraduate courses through CENTAC in Puducherry.",
+      "ta": "புதுச்சேரியில் செண்டாக் (CENTAC) மூலம் தொழில்முறை இளங்கலைப் படிப்புகளில் சேரும் மாணவர்களுக்கான கல்விக் கட்டண நிதி உதவி.",
+      "hi": "पुडुचेरी में सेंटैक (CENTAC) के माध्यम से व्यावसायिक स्नातक पाठ्यक्रमों में प्रवेश पाने वाले छात्रों के लिए शिक्षण शुल्क वित्तीय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Full or partial coverage of tuition fees for MBBS, Engineering, B.Sc Nursing, and other professional courses"
+      ],
+      "ta": [
+        "மருத்துவம், பொறியியல், செவிலியர் மற்றும் பிற தொழில்முறைப் படிப்புகளுக்கான கல்விக் கட்டணம் முழுமையாக அல்லது பகுதியாக ஏற்றுக்கொள்ளப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "CENTAC allotment order",
+      "Puducherry residence certificate",
+      "Class 12 marksheet",
+      "College fee receipt"
+    ],
+    "howToApply": {
+      "en": [
+        "Secure seat through CENTAC government quota counseling.",
+        "Submit application endorsed by the college principal to DHTE Puducherry.",
+        "Tuition fees sanctioned and paid directly to institution."
+      ],
+      "ta": [
+        "செண்டாக் அரசு ஒதுக்கீட்டு கலந்தாய்வு மூலம் இடத்தைப் பெறவும்.",
+        "கல்லூரி முதல்வரால் சான்றளிக்கப்பட்ட விண்ணப்பத்தை புதுச்சேரி உயர் கல்வி இயக்குநரகத்தில் சமர்ப்பிக்கவும்.",
+        "கல்விக் கட்டணம் நேரடியாக கல்வி நிறுவனத்திற்கு செலுத்தப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://dhte.py.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Puducherry",
+        "label": {
+          "en": "Resident of Puducherry",
+          "ta": "புதுச்சேரியில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "isStudent",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Currently studying",
+          "ta": "தற்போது கல்வி பயில்பவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "studyLevel",
+        "op": "eq",
+        "value": "ug",
+        "label": {
+          "en": "Undergraduate student",
+          "ta": "இளங்கலை மாணவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pb-sehat-bima",
+    "name": {
+      "en": "Mukh Mantri Sehat Bima Yojana (Punjab)",
+      "ta": "முக் மந்திரி சேஹத் பீமா திட்டம் (பஞ்சாப்)",
+      "hi": "मुख्य मंत्री सेहत बीमा योजना (पंजाब)"
+    },
+    "ministry": "Department of Health and Family Welfare, Government of Punjab",
+    "level": "state",
+    "state": "Punjab",
+    "category": "health",
+    "summary": {
+      "en": "Cashless hospital health insurance cover for farmers, traders, and blue-ration-card families in Punjab.",
+      "ta": "பஞ்சாபில் உள்ள விவசாயிகள், வர்த்தகர்கள் மற்றும் நீல ரேஷன் அட்டை வைத்துள்ள குடும்பங்களுக்கான பணமில்லா மருத்துவக் காப்பீடு.",
+      "hi": "पंजाब में किसानों, व्यापारियों और नीले राशन कार्ड वाले परिवारों के लिए कैशलेस अस्पताल स्वास्थ्य बीमा कवर।"
+    },
+    "benefits": {
+      "en": [
+        "Cashless secondary and tertiary healthcare coverage of up to ₹5 lakh per family per year in empanelled hospitals"
+      ],
+      "ta": [
+        "அங்கீகரிக்கப்பட்ட மருத்துவமனைகளில் குடும்பத்திற்கு ஆண்டுக்கு ₹5 லட்சம் வரை பணமில்லா மருத்துவ சிகிச்சை காப்பீடு"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Smart Ration Card (NFSA) / J-Form (farmers)",
+      "Ayushman/Sehat Card"
+    ],
+    "howToApply": {
+      "en": [
+        "Verify eligibility on sha.punjab.gov.in with Aadhaar or ration card number.",
+        "Generate e-card at Common Service Centre or empanelled hospital.",
+        "Avail cashless admissions across public and private hospitals."
+      ],
+      "ta": [
+        "sha.punjab.gov.in தளத்தில் ஆதார் அல்லது ரேஷன் கார்டு எண் கொண்டு தகுதியைச் சரிபார்க்கவும்.",
+        "பொது சேவை மையம் அல்லது மருத்துவமனையில் இ-கார்டை உருவாக்கவும்.",
+        "பணமில்லா மருத்துவமனை சேர்க்கையைப் பயன்படுத்திக் கொள்ளவும்."
+      ]
+    },
+    "officialUrl": "https://sha.punjab.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Punjab",
+        "label": {
+          "en": "Resident of Punjab",
+          "ta": "பஞ்சாபில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "rationCard",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Holds Smart Ration Card",
+          "ta": "ஸ்மார்ட் ரேஷன் அட்டை வைத்துள்ளார்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pb-ashirwad-scheme",
+    "name": {
+      "en": "Ashirwad Scheme (Punjab)",
+      "ta": "ஆசிர்வாத் திட்டம் (பஞ்சாப்)",
+      "hi": "आशीर्वाद योजना (पंजाब)"
+    },
+    "ministry": "Department of Social Justice, Empowerment and Minorities, Government of Punjab",
+    "level": "state",
+    "state": "Punjab",
+    "category": "women",
+    "summary": {
+      "en": "Financial marriage grant for daughters of low-income families belonging to scheduled castes, backward classes, and EWS in Punjab.",
+      "ta": "பஞ்சாபில் உள்ள குறைந்த வருமானம் கொண்ட குடும்பங்களைச் சேர்ந்த பெண்களின் திருமணத்திற்கு வழங்கப்படும் நிதி உதவி.",
+      "hi": "पंजाब में अनुसूचित जातियों, पिछड़े वर्गों और ईडब्ल्यूएस से संबंधित कम आय वाले परिवारों की बेटियों के लिए वित्तीय विवाह अनुदान।"
+    },
+    "benefits": {
+      "en": [
+        "One-time financial assistance of ₹51,000 deposited directly into the bank account of the girl or her parents"
+      ],
+      "ta": [
+        "பெண் அல்லது அவரது பெற்றோரின் வங்கிக் கணக்கில் நேரடியாக செலுத்தப்படும் ₹51,000 ஒருமுறை நிதி உதவி"
+      ]
+    },
+    "documents": [
+      "Aadhaar card of bride and groom",
+      "Caste certificate (SC/BC/OBC)",
+      "Income certificate (< ₹32,790)",
+      "Age proof (18+)"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply online on the e-Sewa Punjab portal or District Social Justice Office at least 30 days before or after marriage.",
+        "Tehsildar verifies caste and income status.",
+        "Grant transferred directly via DBT."
+      ],
+      "ta": [
+        "திருமணத்திற்கு 30 நாட்களுக்கு முன் அல்லது பின் இ-சேவா பஞ்சாப் போர்ட்டலில் விண்ணப்பிக்கவும்.",
+        "வட்டாட்சியர் சாதி மற்றும் வருமான நிலையை சரிபார்க்கிறார்.",
+        "டிபிடி மூலம் நேரடியாக மானியம் மாற்றப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://punjab.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Punjab",
+        "label": {
+          "en": "Resident of Punjab",
+          "ta": "பஞ்சாபில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is female",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age 18 years or above",
+          "ta": "18 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 32790,
+        "label": {
+          "en": "Annual family income up to ₹32,790",
+          "ta": "ஆண்டு குடும்ப வருமானம் ₹32,790 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "rj-ayushman-arogya",
+    "name": {
+      "en": "Mukhyamantri Ayushman Arogya Yojana (MAAY)",
+      "ta": "முகியமந்திரி ஆயுஷ்மான் ஆரோக்கிய திட்டம் (ராஜஸ்தான்)",
+      "hi": "मुख्यमंत्री आयुष्मान आरोग्य योजना (राजस्थान)"
+    },
+    "ministry": "Medical, Health and Family Welfare Department, Government of Rajasthan",
+    "level": "state",
+    "state": "Rajasthan",
+    "category": "health",
+    "summary": {
+      "en": "Universal health insurance coverage providing extensive medical treatment cover to families across Rajasthan.",
+      "ta": "ராஜஸ்தான் முழுவதும் உள்ள குடும்பங்களுக்கு விரிவான மருத்துவ சிகிச்சை காப்பீட்டை வழங்கும் உலகளாவிய மருத்துவக் காப்பீட்டுத் திட்டம்.",
+      "hi": "राजस्थान भर के परिवारों को व्यापक चिकित्सा उपचार कवर प्रदान करने वाला सार्वभौमिक स्वास्थ्य बीमा कवरेज।"
+    },
+    "benefits": {
+      "en": [
+        "Cashless medical coverage of up to ₹25 lakh per family per year for secondary and tertiary care"
+      ],
+      "ta": [
+        "குடும்பத்திற்கு ஆண்டுக்கு ₹25 லட்சம் வரை இரண்டாம் மற்றும் மூன்றாம் நிலை மருத்துவ சிகிச்சைகளுக்கான பணமில்லா காப்பீடு"
+      ]
+    },
+    "documents": [
+      "Jan Aadhaar Card",
+      "Aadhaar card of family members"
+    ],
+    "howToApply": {
+      "en": [
+        "Families registered with Jan Aadhaar card in Rajasthan are covered automatically (free for NFSA/SMF/SECC, subsidized for others).",
+        "Produce Jan Aadhaar card at any empanelled hospital in Rajasthan.",
+        "Swasthya Margdarshak facilitates cashless treatment."
+      ],
+      "ta": [
+        "ராஜஸ்தானில் ஜன் ஆதார் அட்டையுடன் பதிவுசெய்யப்பட்ட குடும்பங்கள் தானாகவே இணைக்கப்படுகிறார்கள்.",
+        "அங்கீகரிக்கப்பட்ட எந்தவொரு மருத்துவமனையிலும் ஜன் ஆதார் அட்டையைக் காட்டவும்.",
+        "ஸ்வஸ்த்ய மார்கதர்ஷக் பணமில்லா சிகிச்சையை எளிதாக்குகிறார்."
+      ]
+    },
+    "officialUrl": "https://health.rajasthan.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Rajasthan",
+        "label": {
+          "en": "Resident of Rajasthan",
+          "ta": "ராஜஸ்தானில் வசிப்பவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "rj-indira-rasoi",
+    "name": {
+      "en": "Indira Rasoi Yojana",
+      "ta": "இந்திரா உணவகத் திட்டம் (ராஜஸ்தான்)",
+      "hi": "इंदिरा रसोई योजना (राजस्थान)"
+    },
+    "ministry": "Local Self Government Department, Government of Rajasthan",
+    "level": "state",
+    "state": "Rajasthan",
+    "category": "financial",
+    "summary": {
+      "en": "Subsidized nutritious and hygienic cooked meals served with dignity to urban poor and laborers across Rajasthan.",
+      "ta": "ராஜஸ்தானில் உள்ள நகர்ப்புற ஏழைகள் மற்றும் உழைப்பாளர்களுக்கு மலிவு விலையில் சத்தான உணவை வழங்கும் திட்டம்.",
+      "hi": "राजस्थान भर में शहरी गरीबों और श्रमिकों को रियायती पौष्टिक और स्वच्छ पका हुआ भोजन उपलब्ध कराने की योजना।"
+    },
+    "benefits": {
+      "en": [
+        "Wholesome balanced hot cooked meal (100g dal, 100g vegetables, 250g chapati and pickles) provided at ₹8 per plate"
+      ],
+      "ta": [
+        "முழுமையான சூடான சமைத்த உணவு (100 கிராம் பருப்பு, 100 கிராம் காய்கறி, 250 கிராம் சப்பாத்தி மற்றும் ஊறுகாய்) தட்டு ஒன்றுக்கு ₹8 விலையில் வழங்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Any photo identity card or Aadhaar card"
+    ],
+    "howToApply": {
+      "en": [
+        "Walk in to any designated Indira Rasoi center located across municipal towns and bus stations in Rajasthan.",
+        "Register mobile number / Aadhaar at the counter.",
+        "Pay nominal ₹8 charge and collect meal coupon."
+      ],
+      "ta": [
+        "நகராட்சிகள் மற்றும் பேருந்து நிலையங்களில் உள்ள இந்திரா உணவகத்திற்கு நேரடியாகச் செல்லவும்.",
+        "கவுண்டரில் மொபைல் எண் / ஆதார்க்கார்டைப் பதிவு செய்யவும்.",
+        "₹8 கட்டணம் செலுத்தி உணவு கூப்பனைப் பெறவும்."
+      ]
+    },
+    "officialUrl": "https://urban.rajasthan.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Rajasthan",
+        "label": {
+          "en": "Resident of Rajasthan",
+          "ta": "ராஜஸ்தானில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "area",
+        "op": "eq",
+        "value": "urban",
+        "label": {
+          "en": "Urban resident",
+          "ta": "நகர்ப்புறத்தில் வசிப்பவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sk-aama-yojana",
+    "name": {
+      "en": "Aama Yojana (Sikkim)",
+      "ta": "ஆமா திட்டம் (சிக்கிம்)",
+      "hi": "आमा योजना (सिक्किम)"
+    },
+    "ministry": "Women and Child Development Department, Government of Sikkim",
+    "level": "state",
+    "state": "Sikkim",
+    "category": "women",
+    "summary": {
+      "en": "Annual financial grant to non-working rural mothers in Sikkim to foster self-reliance and recognition of unpaid domestic work.",
+      "ta": "சிக்கிமில் ஊதியம் பெறாத வீட்டு வேலைகளை அங்கீகரிக்கும் வகையில் வேலை செய்யாத கிராமப்புற தாய்மார்களுக்கு வழங்கப்படும் ஆண்டு நிதி மானியம்.",
+      "hi": "सिक्किम में अवैतनिक घरेलू काम को मान्यता देने के लिए गैर-कामकाजी ग्रामीण माताओं को वार्षिक वित्तीय अनुदान।"
+    },
+    "benefits": {
+      "en": [
+        "Annual financial assistance of ₹40,000 deposited directly into the bank account of non-employed mothers"
+      ],
+      "ta": [
+        "வேலை செய்யாத தாய்மார்களின் வங்கிக் கணக்கில் நேரடியாக டெபாசிட் செய்யப்படும் ₹40,000 ஆண்டு நிதி உதவி"
+      ]
+    },
+    "documents": [
+      "Sikkim Subject Certificate / Certificate of Identification",
+      "Aadhaar card",
+      "Bank passbook",
+      "Unemployment self-declaration"
+    ],
+    "howToApply": {
+      "en": [
+        "Submit application through the Gram Panchayat or Child Development Project Officer.",
+        "Village council verifies non-working status.",
+        "Grant sanctioned and transferred annually through DBT."
+      ],
+      "ta": [
+        "கிராம பஞ்சாயத்து அல்லது சிடிபிஓ மூலம் விண்ணப்பத்தை சமர்ப்பிக்கவும்.",
+        "கிராம சபை வேலை செய்யாத நிலையை சரிபார்க்கிறது.",
+        "டிபிடி மூலம் ஆண்டுதோறும் மானியம் அனுமதிக்கப்பட்டு மாற்றப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://sikkim.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Sikkim",
+        "label": {
+          "en": "Resident of Sikkim",
+          "ta": "சிக்கிமில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a mother / woman",
+          "ta": "பயனாளி பெண் / தாய்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "occupation",
+        "op": "eq",
+        "value": "homemaker",
+        "label": {
+          "en": "Homemaker without formal employment",
+          "ta": "வேலையில்லாத இல்லத்தரசி"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age 18 years or above",
+          "ta": "18 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sk-garib-awas",
+    "name": {
+      "en": "Sikkim Garib Awas Yojana (SGAY)",
+      "ta": "சிக்கிம் கரீப் ஆவாஸ் திட்டம்",
+      "hi": "सिक्किम गरीब आवास योजना"
+    },
+    "ministry": "Rural Development Department, Government of Sikkim",
+    "level": "state",
+    "state": "Sikkim",
+    "category": "housing",
+    "summary": {
+      "en": "Comprehensive housing scheme to construct pucca houses with basic amenities for houseless and poor families in Sikkim.",
+      "ta": "சிக்கிமில் வீடற்ற மற்றும் ஏழைக் குடும்பங்களுக்கு அடிப்படை வசதிகளுடன் கூடிய கான்கிரீட் வீடுகளைக் கட்டித் தரும் திட்டம்.",
+      "hi": "सिक्किम में बेघर और गरीब परिवारों के लिए बुनियादी सुविधाओं के साथ पक्के मकान बनाने की व्यापक आवास योजना।"
+    },
+    "benefits": {
+      "en": [
+        "Financial grant of ₹17.51 lakh per beneficiary family for constructing a concrete pucca house with basic furniture"
+      ],
+      "ta": [
+        "அடிப்படை தளபாடங்களுடன் கூடிய கான்கிரீட் வீடு கட்ட ஒரு குடும்பத்திற்கு ₹17.51 லட்சம் நிதி மானியம்"
+      ]
+    },
+    "documents": [
+      "Certificate of Identification / Sikkim Subject",
+      "Aadhaar card",
+      "Proof of land ownership",
+      "BPL ration card"
+    ],
+    "howToApply": {
+      "en": [
+        "Gram Sabha prioritizes eligible houseless BPL families.",
+        "Block Development Officer conducts physical site inspection.",
+        "House construction approved and funds released in milestone-linked tranches."
+      ],
+      "ta": [
+        "கிராம சபை தகுதியான வீடற்ற குடும்பங்களை முன்னுரிமைப்படுத்துகிறது.",
+        "வட்டார வளர்ச்சி அலுவலர் தள ஆய்வு நடத்துகிறார்.",
+        "கட்டுமானப் பணிகள் கண்காணிக்கப்பட்டு தவணைகளாக நிதி விடுவிக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://sikkim.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Sikkim",
+        "label": {
+          "en": "Resident of Sikkim",
+          "ta": "சிக்கிமில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "ownsHouse",
+        "op": "false",
+        "value": false,
+        "label": {
+          "en": "Does not own a pucca house",
+          "ta": "சொந்தமாக கான்கிரீட் வீடு இல்லை"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "bplCard",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Household holds BPL card",
+          "ta": "குடும்பத்தில் வறுமைக் கோட்டிற்கு கீழ் அட்டை உள்ளது"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tg-rythu-bandhu",
+    "name": {
+      "en": "Rythu Bandhu (Rythu Bharosa Telangana)",
+      "ta": "ரைத்து பந்து திட்டம் (தெலுங்கானா)",
+      "hi": "रायथू बंधु (रायथू भरोसा तेलंगाना)"
+    },
+    "ministry": "Agriculture and Cooperation Department, Government of Telangana",
+    "level": "state",
+    "state": "Telangana",
+    "category": "farmer",
+    "summary": {
+      "en": "Agricultural investment support scheme providing direct financial aid per acre to farmers in Telangana.",
+      "ta": "தெலுங்கானாவில் உள்ள விவசாயிகளுக்கு ஏக்கருக்கு நேரடி நிதி உதவி வழங்கும் விவசாய முதலீட்டு ஆதரவு திட்டம்.",
+      "hi": "तेलंगाना में किसानों को प्रति एकड़ प्रत्यक्ष वित्तीय सहायता प्रदान करने वाली कृषि निवेश सहायता योजना।"
+    },
+    "benefits": {
+      "en": [
+        "Financial investment support of ₹10,000 per acre per year (₹5,000 per crop season) directly to bank accounts"
+      ],
+      "ta": [
+        "ஆண்டுக்கு ஏக்கருக்கு ₹10,000 (பருவத்திற்கு ₹5,000) நேரடி முதலீட்டு உதவி வங்கிக் கணக்குகளில் வரவு வைக்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Pattadar passbook (Dharani portal)",
+      "Aadhaar card",
+      "Aadhaar-seeded bank account"
+    ],
+    "howToApply": {
+      "en": [
+        "Farmers possessing a Pattadar passbook on Dharani are enrolled automatically.",
+        "Agriculture Extension Officer verifies land records and crop cultivation.",
+        "Direct transfer disbursed before every Kharif and Rabi season."
+      ],
+      "ta": [
+        "தாராணி போர்ட்டலில் பட்டாதாரர் பாஸ்புக் உள்ள விவசாயிகள் தானாகவே சேர்க்கப்படுகிறார்கள்.",
+        "வேளாண் விரிவாக்க அலுவலர் நில பதிவேடுகளை சரிபார்க்கிறார்.",
+        "ஒவ்வொரு காரிஃப் மற்றும் ரபி பருவத்திற்கு முன்பும் நேரடி பரிமாற்றம் செய்யப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://rythubandhu.telangana.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Telangana",
+        "label": {
+          "en": "Resident of Telangana",
+          "ta": "தெலுங்கானாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "landHoldingAcres",
+        "op": "gt",
+        "value": 0,
+        "label": {
+          "en": "Owns agricultural land",
+          "ta": "விவசாய நிலம் வைத்துள்ளார்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tg-aasara-pension",
+    "name": {
+      "en": "Aasara Pension Scheme",
+      "ta": "ஆசரா ஓய்வூதியத் திட்டம் (தெலுங்கானா)",
+      "hi": "आसरा पेंशन योजना (तेलंगाना)"
+    },
+    "ministry": "Panchayat Raj and Rural Development, Government of Telangana",
+    "level": "state",
+    "state": "Telangana",
+    "category": "senior",
+    "summary": {
+      "en": "Social safety net monthly pension for elderly, widows, and vulnerable citizens in Telangana.",
+      "ta": "தெலுங்கானாவில் உள்ள முதியவர்கள், விதவைகள் மற்றும் நலிந்த பிரிவினருக்கான மாதாந்திர சமூகப் பாதுகாப்பு ஓய்வூதியம்.",
+      "hi": "तेलंगाना में बुजुर्गों, विधवाओं और कमजोर नागरिकों के लिए सामाजिक सुरक्षा जाल मासिक पेंशन।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly pension of ₹2,016 disbursed directly into beneficiary bank or post office accounts"
+      ],
+      "ta": [
+        "பயனாளியின் வங்கி அல்லது அஞ்சலகக் கணக்குகளில் நேரடியாக வழங்கப்படும் ₹2,016 மாதாந்திர ஓய்வூதியம்"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Food Security Card (Ration card)",
+      "Age proof showing 57+ years",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Submit application at local MeeSeva center or Gram Panchayat / Ward secretariat.",
+        "MPDO / Municipal Commissioner conducts field verification.",
+        "Pension disbursed monthly through biometric authentication."
+      ],
+      "ta": [
+        "உள்ளூர் மீசேவா மையம் அல்லது கிராம பஞ்சாயத்தில் விண்ணப்பத்தை சமர்ப்பிக்கவும்.",
+        "அதிகாரிகளால் கள சரிபார்ப்பு நடத்தப்படுகிறது.",
+        "பயோமெட்ரிக் அங்கீகாரம் மூலம் மாதந்தோறும் ஓய்வூதியம் வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://aasara.telangana.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Telangana",
+        "label": {
+          "en": "Resident of Telangana",
+          "ta": "தெலுங்கானாவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "age",
+        "op": "gte",
+        "value": 57,
+        "label": {
+          "en": "Age 57 years or above",
+          "ta": "57 வயது அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 150000,
+        "label": {
+          "en": "Annual income up to ₹1,50,000",
+          "ta": "ஆண்டு வருமானம் ₹1,50,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tr-matru-pushti",
+    "name": {
+      "en": "Mukhyamantri Matru Pushti Uphaar",
+      "ta": "முகியமந்திரி மாத்ரு புஷ்டி உபகார் (திரிபுரா)",
+      "hi": "मुख्यमंत्री मातृ पुष्टि उपहार (त्रिपुरा)"
+    },
+    "ministry": "Department of Social Welfare and Social Education, Government of Tripura",
+    "level": "state",
+    "state": "Tripura",
+    "category": "women",
+    "summary": {
+      "en": "Nutritional basket support scheme for pregnant and lactating mothers to combat malnutrition in Tripura.",
+      "ta": "திரிபுராவில் ஊட்டச்சத்துக் குறைபாட்டை எதிர்த்துப் போராட கர்ப்பிணி மற்றும் பாலூட்டும் தாய்மார்களுக்கு வழங்கப்படும் ஊட்டச்சத்து ஆதரவுத் திட்டம்.",
+      "hi": "त्रिपुरा में कुपोषण से निपटने के लिए गर्भवती और स्तनपान कराने वाली माताओं के लिए पोषण टोकरी सहायता योजना।"
+    },
+    "benefits": {
+      "en": [
+        "Nutritional food kit (worth ₹500 containing ghee, dal, soybean, and multivitamin supplements) provided during antenatal checkups"
+      ],
+      "ta": [
+        "மகப்பேறுக்கு முந்தைய பரிசோதனைகளின் போது ஊட்டச்சத்து உணவுப் பொருட்கள் அடங்கிய தொகுப்பு இலவசமாக வழங்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Mother-Child Protection (MCP) card",
+      "Aadhaar card",
+      "Ration card"
+    ],
+    "howToApply": {
+      "en": [
+        "Register pregnancy at the local Primary Health Centre (PHC) or Anganwadi Centre.",
+        "Attend periodic Antenatal Care (ANC) medical checkups.",
+        "Kit distributed by health workers at the PHC."
+      ],
+      "ta": [
+        "உள்ளூர் ஆரம்ப சுகாதார நிலையம் அல்லது அங்கன்வாடி மையத்தில் கர்ப்பத்தைப் பதிவு செய்யவும்.",
+        "வழக்கமான மகப்பேறுக்கு முந்தைய மருத்துவப் பரிசோதனைகளில் கலந்து கொள்ளவும்.",
+        "ஆரம்ப சுகாதார நிலையத்தில் சுகாதாரப் பணியாளர்களால் பொருட்கள் வழங்கப்படுகின்றன."
+      ]
+    },
+    "officialUrl": "https://socialwelfare.tripura.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Tripura",
+        "label": {
+          "en": "Resident of Tripura",
+          "ta": "திரிபுராவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is female",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "isPregnant",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Currently pregnant",
+          "ta": "தற்போது கர்ப்பமாக இருப்பவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tr-gramin-farmers-credit",
+    "name": {
+      "en": "Tripura Farmers Credit Scheme",
+      "ta": "திரிபுரா விவசாயிகள் கடன் திட்டம்",
+      "hi": "त्रिपुरा किसान ऋण योजना"
+    },
+    "ministry": "Department of Agriculture and Farmers Welfare, Government of Tripura",
+    "level": "state",
+    "state": "Tripura",
+    "category": "farmer",
+    "summary": {
+      "en": "Subsidized agricultural crop credit and interest subvention for small and marginal farmers of Tripura.",
+      "ta": "திரிபுராவின் சிறு மற்றும் குறு விவசாயிகளுக்கான மானியத்துடன் கூடிய விவசாயப் பயிர்க் கடன் மற்றும் வட்டி மானியத் திட்டம்.",
+      "hi": "त्रिपुरा के छोटे और सीमांत किसानों के लिए रियायती कृषि फसल ऋण और ब्याज अनुदान।"
+    },
+    "benefits": {
+      "en": [
+        "Crop credit loans up to ₹1.6 lakh without collateral backed by state interest subvention"
+      ],
+      "ta": [
+        "மாநில வட்டி மானியத்துடன் ₹1.6 லட்சம் வரை பிணையமில்லா பயிர்க்கடன் வழங்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Kisan Credit Card passbook",
+      "RoR / land allotment certificate"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply through the Agri-Sector Officer at the local Agri Sub-Division or Tripura Gramin Bank branch.",
+        "Officer verifies cultivable area.",
+        "Sanction and credit disbursement directly through KCC account."
+      ],
+      "ta": [
+        "உள்ளூர் வேளாண் துணைப் பிரிவு அல்லது திரிபுரா கிராமின் வங்கி கிளையில் விண்ணப்பிக்கவும்.",
+        "அலுவலர் சாகுபடி பரப்பளவை சரிபார்க்கிறார்.",
+        "கேசிசி கணக்கு மூலம் கடன் நேரடியாக வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://agri.tripura.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Tripura",
+        "label": {
+          "en": "Resident of Tripura",
+          "ta": "திரிபுராவில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      }
+    ]
+  },
+  {
+    "id": "up-kanya-sumangala",
+    "name": {
+      "en": "Mukhyamantri Kanya Sumangala Yojana",
+      "ta": "முகியமந்திரி கன்யா சுமங்கலா திட்டம் (உத்தர பிரதேசம்)",
+      "hi": "मुख्यमंत्री कन्या सुमंगला योजना (उत्तर प्रदेश)"
+    },
+    "ministry": "Women and Child Development Department, Government of Uttar Pradesh",
+    "level": "state",
+    "state": "Uttar Pradesh",
+    "category": "children",
+    "summary": {
+      "en": "Conditional cash transfers to girl children in UP at six stages from birth through admission to higher education.",
+      "ta": "உத்தரப் பிரதேசத்தில் பெண் குழந்தைகளுக்குப் பிறப்பு முதல் உயர்கல்வி வரை ஆறு நிலைகளில் வழங்கப்படும் நிதி உதவி.",
+      "hi": "उत्तर प्रदेश में बालिकाओं को जन्म से लेकर उच्च शिक्षा में प्रवेश तक छह चरणों में सशर्त नकद हस्तांतरण।"
+    },
+    "benefits": {
+      "en": [
+        "Total financial assistance of ₹25,000 released across 6 stages (birth, vaccination, class 1, class 6, class 9, and graduation/diploma enrollment)"
+      ],
+      "ta": [
+        "பிறப்பு, தடுப்பூசி, 1, 6, 9 ஆம் வகுப்புகள் மற்றும் பட்டப்படிப்பு சேர்க்கை என 6 நிலைகளில் மொத்தம் ₹25,000 நிதி உதவி"
+      ]
+    },
+    "documents": [
+      "Birth certificate of child",
+      "Parents Aadhaar card",
+      "Income certificate (< ₹3 lakh)",
+      "School / College admission receipt"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply online on the MKSY portal (mksy.up.gov.in) or through Citizen Service Centres (CSC).",
+        "Upload milestone-specific proof (birth/vaccination/admission).",
+        "DBT disbursed directly into the account."
+      ],
+      "ta": [
+        "MKSY இணையதளத்தில் ஆன்லைனில் அல்லது பொது சேவை மையங்கள் மூலம் விண்ணப்பிக்கவும்.",
+        "குறிப்பிட்ட நிலைகளுக்கான சான்றுகளைப் பதிவேற்றவும்.",
+        "டிபிடி நேரடியாக கணக்கில் வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://mksy.up.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Uttar Pradesh",
+        "label": {
+          "en": "Resident of Uttar Pradesh",
+          "ta": "உத்தரப் பிரதேசத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a girl child",
+          "ta": "பயனாளி பெண் குழந்தை"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Family income up to ₹3,00,000 per year",
+          "ta": "குடும்ப ஆண்டு வருமானம் ₹3,00,000 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "up-krishak-durghatna",
+    "name": {
+      "en": "Mukhyamantri Krishak Durghatna Kalyan Yojana",
+      "ta": "முகியமந்திரி கிரிஷக் துர்கட்னா கல்யாண் திட்டம் (உத்தர பிரதேசம்)",
+      "hi": "मुख्यमंत्री कृषक दुर्घटना कल्याण योजना (उत्तर प्रदेश)"
+    },
+    "ministry": "Department of Revenue, Government of Uttar Pradesh",
+    "level": "state",
+    "state": "Uttar Pradesh",
+    "category": "farmer",
+    "summary": {
+      "en": "Accidental death and disability insurance cover for farmers and agricultural laborers in Uttar Pradesh.",
+      "ta": "உத்தரப் பிரதேசத்தில் உள்ள விவசாயிகள் மற்றும் விவசாயத் தொழிலாளர்களுக்கான விபத்து மரணம் மற்றும் இயலாமைக் காப்பீட்டுத் திட்டம்.",
+      "hi": "उत्तर प्रदेश में किसानों और खेतिहर मजदूरों के लिए आकस्मिक मृत्यु और विकलांगता बीमा कवर।"
+    },
+    "benefits": {
+      "en": [
+        "Financial compensation of up to ₹5 lakh to the family in case of accidental death or permanent disability while farming"
+      ],
+      "ta": [
+        "விவசாயப் பணிகளின் போது விபத்து காரணமாக மரணம் அல்லது நிரந்தர ஊனம் ஏற்பட்டால் குடும்பத்திற்கு ₹5 லட்சம் வரை நிதி இழப்பீடு"
+      ]
+    },
+    "documents": [
+      "Khatauni land record or agriculture worker card",
+      "Post-mortem / medical disability certificate",
+      "Aadhaar card of claimant",
+      "FIR / police report"
+    ],
+    "howToApply": {
+      "en": [
+        "Submit claim form to the Sub-Divisional Magistrate (SDM) / Tehsildar within 45 days of accident.",
+        "Revenue and police departments verify accidental nature of incident.",
+        "Compensation approved by District Collector and paid via DBT."
+      ],
+      "ta": [
+        "விபத்து நடந்த 45 நாட்களுக்குள் சார் ஆட்சியர் (SDM) / வட்டாட்சியரிடம் கோரிக்கை படிவத்தை சமர்ப்பிக்கவும்.",
+        "வருவாய் மற்றும் காவல்துறை சம்பவத்தை சரிபார்க்கிறது.",
+        "மாவட்ட ஆட்சியரால் இழப்பீடு அங்கீகரிக்கப்பட்டு டிபிடி மூலம் வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://up.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Uttar Pradesh",
+        "label": {
+          "en": "Resident of Uttar Pradesh",
+          "ta": "உத்தரப் பிரதேசத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer or farm laborer",
+          "ta": "உறுப்பினர் விவசாயி அல்லது விவசாயத் தொழிலாளி"
+        }
+      }
+    ]
+  },
+  {
+    "id": "uk-gaura-devi",
+    "name": {
+      "en": "Gaura Devi Kanya Dhan Yojana",
+      "ta": "கௌரா தேவி கன்யா தன் திட்டம் (உத்தராகண்ட்)",
+      "hi": "गौरा देवी कन्या धन योजना (उत्तराखंड)"
+    },
+    "ministry": "Women Empowerment and Child Development, Government of Uttarakhand",
+    "level": "state",
+    "state": "Uttarakhand",
+    "category": "education",
+    "summary": {
+      "en": "Financial incentive for 12th-pass girl students from poor families in Uttarakhand to pursue higher education.",
+      "ta": "உத்தராகண்டில் 12-ஆம் வகுப்பு தேர்ச்சி பெற்ற ஏழை மாணவிகள் உயர்கல்வி பயில்வதற்காக வழங்கப்படும் நிதி ஊக்கத்தொகை.",
+      "hi": "उच्च शिक्षा प्राप्त करने के लिए उत्तराखंड में गरीब परिवारों की 12वीं पास छात्राओं के लिए वित्तीय प्रोत्साहन।"
+    },
+    "benefits": {
+      "en": [
+        "One-time grant of ₹51,000 transferred to girl student upon passing class 12 from recognized board"
+      ],
+      "ta": [
+        "அங்கீகரிக்கப்பட்ட வாரியத்தில் 12 ஆம் வகுப்பு தேர்ச்சி பெற்றவுடன் மாணவிக்கு ₹51,000 ஒருமுறை மானியமாக மாற்றப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Class 12 passing marksheet and certificate",
+      "BPL ration card or income certificate",
+      "Aadhaar card",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply online on the e-Swaraj / Uttarakhand scholarship portal after class 12 board results.",
+        "Submit verified application to Block Development Office.",
+        "Grant released to student bank account."
+      ],
+      "ta": [
+        "12 ஆம் வகுப்பு தேர்வு முடிவுகளுக்குப் பிறகு உத்தராகண்ட் போர்ட்டலில் ஆன்லைனில் விண்ணப்பிக்கவும்.",
+        "சரிபார்க்கப்பட்ட விண்ணப்பத்தை வட்டார வளர்ச்சி அலுவலகத்தில் சமர்ப்பிக்கவும்.",
+        "மாணவர் வங்கிக் கணக்கில் மானியம் வழங்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://wecd.uk.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Uttarakhand",
+        "label": {
+          "en": "Resident of Uttarakhand",
+          "ta": "உத்தராகண்டில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is female",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "isStudent",
+        "op": "true",
+        "value": true,
+        "label": {
+          "en": "Currently studying student",
+          "ta": "கல்வி பயிலும் மாணவர்"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "education",
+        "op": "eq",
+        "value": "higher-secondary",
+        "label": {
+          "en": "Completed higher secondary (12th)",
+          "ta": "மேல்நிலைக் கல்வி (12-ஆம் வகுப்பு) முடித்தவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "uk-atal-ayushman",
+    "name": {
+      "en": "Atal Ayushman Uttarakhand Yojana",
+      "ta": "அடல் ஆயுஷ்மான் உத்தராகண்ட் திட்டம்",
+      "hi": "अटल आयुष्मान उत्तराखंड योजना"
+    },
+    "ministry": "Department of Medical Health and Family Welfare, Government of Uttarakhand",
+    "level": "state",
+    "state": "Uttarakhand",
+    "category": "health",
+    "summary": {
+      "en": "Universal secondary and tertiary health cover for all permanent resident families of Uttarakhand.",
+      "ta": "உத்தராகண்டின் அனைத்து நிரந்தரக் குடும்பங்களுக்கும் இரண்டாம் மற்றும் மூன்றாம் நிலை பணமில்லா மருத்துவக் காப்பீடு.",
+      "hi": "उत्तराखंड के सभी स्थायी निवासी परिवारों के लिए सार्वभौमिक द्वितीयक और तृतीयक स्वास्थ्य कवर।"
+    },
+    "benefits": {
+      "en": [
+        "Cashless medical treatment cover of up to ₹5 lakh per family per year across empaneled public and private hospitals"
+      ],
+      "ta": [
+        "அரசு மற்றும் தனியார் மருத்துவமனைகளில் குடும்பத்திற்கு ஆண்டுக்கு ₹5 லட்சம் வரை பணமில்லா மருத்துவச் சிகிச்சைக் காப்பீடு"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Ration card / National Family ID",
+      "Golden Card / Ayushman Card"
+    ],
+    "howToApply": {
+      "en": [
+        "Generate Golden Health Card at any CSC center or government hospital.",
+        "Produce card at empanelled hospital help desk.",
+        "Arogya Mitra assists with admission and cashless clearance."
+      ],
+      "ta": [
+        "எந்தவொரு சிஎஸ்சி மையம் அல்லது அரசு மருத்துவமனையில் கோல்டன் கார்டை உருவாக்கவும்.",
+        "மருத்துவமனை உதவி மையத்தில் அட்டையைக் காட்டவும்.",
+        "ஆரோக்கிய மித்ரா பணமில்லா சிகிச்சைக்கு உதவுகிறார்."
+      ]
+    },
+    "officialUrl": "https://ayushmanuttarakhand.org/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "Uttarakhand",
+        "label": {
+          "en": "Resident of Uttarakhand",
+          "ta": "உத்தராகண்டில் வசிப்பவர்"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wb-lakshmir-bhandar",
+    "name": {
+      "en": "Lakshmir Bhandar Scheme",
+      "ta": "லக்ஷ்மிர் பந்தர் திட்டம் (மேற்கு வங்காளம்)",
+      "hi": "लक्ष्मी भंडार योजना (पश्चिम बंगाल)"
+    },
+    "ministry": "Department of Women and Child Development and Social Welfare, Government of West Bengal",
+    "level": "state",
+    "state": "West Bengal",
+    "category": "women",
+    "summary": {
+      "en": "Basic income support to female heads of families in West Bengal for economic empowerment.",
+      "ta": "பொருளாதார மேம்பாட்டிற்காக மேற்கு வங்காளத்தில் உள்ள குடும்பப் பெண் தலைவர்களுக்கு வழங்கப்படும் அடிப்படை வருமான உதவி.",
+      "hi": "आर्थिक सशक्तिकरण के लिए पश्चिम बंगाल में परिवारों की महिला मुखियाओं को बुनियादी आय सहायता।"
+    },
+    "benefits": {
+      "en": [
+        "Monthly financial grant of ₹1,000 for General category and ₹1,200 for SC/ST women directly transferred to bank account"
+      ],
+      "ta": [
+        "பொதுப் பிரிவினருக்கு மாதம் ₹1,000 மற்றும் பட்டியல்/பழங்குடிப் பெண்களுக்கு மாதம் ₹1,200 நேரடியாக வங்கிக் கணக்கில் வழங்கப்படுகிறது"
+      ]
+    },
+    "documents": [
+      "Swasthya Sathi card",
+      "Aadhaar card",
+      "SC/ST certificate (if applicable)",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Apply at Duare Sarkar (Government at Doorstep) outreach camps.",
+        "Submit application with Swasthya Sathi card and Aadhaar.",
+        "Benefit transferred on the first week of every month via DBT."
+      ],
+      "ta": [
+        "துவாரே சர்க்கார் முகாம்களில் விண்ணப்பிக்கவும்.",
+        "ஸ்வஸ்த்ய சாதி அட்டை மற்றும் ஆதாருடன் விண்ணப்பத்தைச் சமர்ப்பிக்கவும்.",
+        "ஒவ்வொரு மாதமும் முதல் வாரத்தில் டிபிடி மூலம் பலன் மாற்றப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://socialwelfare.wb.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "West Bengal",
+        "label": {
+          "en": "Resident of West Bengal",
+          "ta": "மேற்கு வங்காளத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Beneficiary is a woman",
+          "ta": "பயனாளி பெண்"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "age",
+        "op": "gte",
+        "value": 25,
+        "label": {
+          "en": "Age 25 years or older",
+          "ta": "வயது 25 அல்லது அதற்கு மேற்பட்டவர்"
+        }
+      },
+      {
+        "id": "r4",
+        "field": "age",
+        "op": "lte",
+        "value": 60,
+        "label": {
+          "en": "Age up to 60 years",
+          "ta": "வயது 60 வரை"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wb-krishak-bandhu",
+    "name": {
+      "en": "Krishak Bandhu Scheme (West Bengal)",
+      "ta": "கிருஷக் பந்து திட்டம் (மேற்கு வங்காளம்)",
+      "hi": "कृषक बंधु योजना (पश्चिम बंगाल)"
+    },
+    "ministry": "Department of Agriculture, Government of West Bengal",
+    "level": "state",
+    "state": "West Bengal",
+    "category": "farmer",
+    "summary": {
+      "en": "Financial assistance and death benefit insurance coverage for agricultural landholders in West Bengal.",
+      "ta": "மேற்கு வங்காளத்தில் விவசாய நில உரிமையாளர்களுக்கான நிதி உதவி மற்றும் இறப்பு நலக் காப்பீட்டுத் திட்டம்.",
+      "hi": "पश्चिम बंगाल में कृषि भूमि धारकों के लिए वित्तीय सहायता और मृत्यु लाभ बीमा कवरेज।"
+    },
+    "benefits": {
+      "en": [
+        "Annual financial assistance of up to ₹10,000 per year (minimum ₹4,000) in two equal installments plus ₹2 lakh life insurance cover"
+      ],
+      "ta": [
+        "ஆண்டுக்கு ₹10,000 வரை நிதி உதவி (குறைந்தபட்சம் ₹4,000) மற்றும் ₹2 லட்சம் ஆயுள் காப்பீட்டுப் பாதுகாப்பு"
+      ]
+    },
+    "documents": [
+      "RoR / land record (porcha)",
+      "Aadhaar card",
+      "Voter identity card",
+      "Bank passbook"
+    ],
+    "howToApply": {
+      "en": [
+        "Register at Duare Sarkar camps or the Assistant Director of Agriculture (ADA) office in the block.",
+        "Submit land porcha and bank details.",
+        "Direct bank transfer credited in Kharif and Rabi seasons."
+      ],
+      "ta": [
+        "துவாரே சர்க்கார் முகாம்கள் அல்லது வட்டார வேளாண்மை உதவி இயக்குநர் அலுவலகத்தில் பதிவு செய்யவும்.",
+        "நில ஆவணங்கள் மற்றும் வங்கி விவரங்களைச் சமர்ப்பிக்கவும்.",
+        "காரிஃப் மற்றும் ரபி பருவங்களில் நேரடி வங்கிப் பரிமாற்றம் வரவு வைக்கப்படுகிறது."
+      ]
+    },
+    "officialUrl": "https://krishakbandhu.wb.gov.in/",
+    "sourceUrl": null,
+    "lastVerified": "2026-11-21",
+    "dataStatus": "demo-curated",
+    "deadline": null,
+    "rules": [
+      {
+        "id": "r1",
+        "field": "state",
+        "op": "eq",
+        "value": "West Bengal",
+        "label": {
+          "en": "Resident of West Bengal",
+          "ta": "மேற்கு வங்காளத்தில் வசிப்பவர்"
+        }
+      },
+      {
+        "id": "r2",
+        "field": "occupation",
+        "op": "eq",
+        "value": "farmer",
+        "label": {
+          "en": "Member is a farmer",
+          "ta": "உறுப்பினர் விவசாயி"
+        }
+      },
+      {
+        "id": "r3",
+        "field": "landHoldingAcres",
+        "op": "gt",
+        "value": 0,
+        "label": {
+          "en": "Owns cultivable land",
+          "ta": "சாகுபடி நிலம் வைத்துள்ளார்"
+        }
+      }
+    ]
   }
 ]

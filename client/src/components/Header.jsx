@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { NavLink, Link, useNavigate } from 'react-router-dom';
-import { useI18n } from '../i18n/index.jsx';
+import { useI18n, LANGUAGES } from '../i18n/index.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { API } from '../api/client.js';
 import { listOf } from '../lib/useAsync.js';
@@ -75,9 +75,38 @@ export default function Header() {
           {user?.role === 'admin' && <NavLink to="/admin">{t('nav.admin')}</NavLink>}
         </nav>
         <div className="head-tools">
-          <div className="lang-switch" role="group" aria-label={t('lang.label')}>
-            <button aria-pressed={lang === 'en'} onClick={() => setLang('en')} lang="en">EN</button>
-            <button aria-pressed={lang === 'ta'} onClick={() => setLang('ta')} lang="ta">தமிழ்</button>
+          <div className="lang-picker-wrap" style={{ display: 'inline-flex', alignItems: 'center' }}>
+            <label htmlFor="lang-select" style={{ position: 'absolute', width: 1, height: 1, padding: 0, margin: -1, overflow: 'hidden', clip: 'rect(0,0,0,0)', border: 0 }}>{t('lang.label')}</label>
+            <select
+              id="lang-select"
+              value={lang}
+              onChange={(e) => setLang(e.target.value)}
+              aria-label={t('lang.label')}
+              style={{
+                height: 32,
+                padding: '0 24px 0 10px',
+                borderRadius: '9999px',
+                border: '1px solid var(--rule, #e4e1d8)',
+                background: 'var(--sunken, #f5f4f0)',
+                color: 'var(--ink-900, #0b2545)',
+                fontSize: '13px',
+                fontWeight: 600,
+                cursor: 'pointer',
+                appearance: 'none',
+                WebkitAppearance: 'none',
+                maxWidth: '115px',
+                outline: 'none',
+                backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230b2545' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`,
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'right 8px center'
+              }}
+            >
+              {LANGUAGES.map((l) => (
+                <option key={l.code} value={l.code} lang={l.code} style={{ background: '#fff', color: '#0b2545' }}>
+                  {l.nativeName}
+                </option>
+              ))}
+            </select>
           </div>
           {user && (
             <button className="icon-btn" onClick={() => setOpen(true)} aria-label={t('notif.open', { n: unread })}>

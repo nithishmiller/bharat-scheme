@@ -4,9 +4,12 @@ import { useI18n } from '../i18n/index.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { ErrorBox, PageHead, Spinner } from '../components/Common.jsx';
 import { Icon, Mark } from '../components/Brand.jsx';
+import PhotoFrame from '../components/photo/PhotoFrame.jsx';
+import { getCategoryCaption } from '../components/photo/captions.js';
 
 export default function Login() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
+  const sideCap = getCategoryCaption('family', lang);
   const { login, register } = useAuth();
   const nav = useNavigate();
   const loc = useLocation();
@@ -30,6 +33,15 @@ export default function Login() {
         <ul>
           {['auth.side1', 'auth.side2', 'auth.side3'].map((k) => <li key={k}><Icon name="check" />{t(k)}</li>)}
         </ul>
+        <div style={{ marginTop: 'var(--s-6, 32px)' }}>
+          <PhotoFrame
+            variant="card"
+            image={sideCap.image}
+            alt={sideCap.alt}
+            title={sideCap.title}
+            text={sideCap.text}
+          />
+        </div>
       </aside>
       <div className="auth-card">
       <PageHead kicker={t('auth.kicker')} title={mode === 'login' ? t('auth.login') : t('auth.register')} />

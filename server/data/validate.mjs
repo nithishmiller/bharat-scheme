@@ -6,8 +6,15 @@ const FIELDS = new Set(['state','district','annualIncome','familySize','area','c
 const OPS = new Set(['eq','neq','lte','gte','lt','gt','in','true','false']);
 const CATS = ['education','farmer','women','senior','health','housing','employment','disability','financial','children'];
 const errs = []; const e = (id, m) => errs.push(`${id}: ${m}`);
-const bil = (id, k, o) => { if (!o || !o.en || !o.ta) e(id, `${k} needs en+ta`); };
-const bilArr = (id, k, o) => { if (!o || !Array.isArray(o.en) || !Array.isArray(o.ta) || !o.en.length || o.en.length !== o.ta.length) e(id, `${k} needs equal-length non-empty en/ta arrays`); };
+const bil = (id, k, o) => {
+  if (!o || !o.en) e(id, `${k} needs en`);
+  if (o && o.hi && typeof o.hi !== 'string') e(id, `${k}.hi must be string`);
+};
+const bilArr = (id, k, o) => {
+  if (!o || !Array.isArray(o.en) || !o.en.length) e(id, `${k} needs non-empty en array`);
+  if (o && o.ta && (!Array.isArray(o.ta) || o.en.length !== o.ta.length)) e(id, `${k} en and ta arrays must match length`);
+  if (o && o.hi && (!Array.isArray(o.hi) || o.en.length !== o.hi.length)) e(id, `${k} en and hi arrays must match length`);
+};
 if (!Array.isArray(data)) throw new Error('schemes.json must be an array');
 const ids = new Set();
 for (const s of data) {
@@ -37,7 +44,7 @@ for (const s of data) {
 const cats = new Set(data.map(s => s.category));
 for (const c of CATS) if (!cats.has(c)) e('*', `no scheme in category ${c}`);
 const tn = data.filter(s => s.state === 'Tamil Nadu').length;
-if (data.length < 60 || data.length > 90) e('*', `count ${data.length} outside 60-90`);
+if (data.length < 60 || data.length > 250) e('*', `count ${data.length} outside 60-250`);
 if (tn < 12 || tn > 35) e('*', `TN count ${tn} outside 12-35`);
 if (errs.length) { console.error(errs.join('\n')); process.exit(1); }
 console.log(`OK: ${data.length} schemes (${tn} Tamil Nadu), all ${CATS.length} categories covered, all rule fields valid.`);

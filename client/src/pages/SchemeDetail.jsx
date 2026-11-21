@@ -10,6 +10,8 @@ import { AmountTag } from './Results.jsx';
 import { StrengthNote, WhyList } from '../components/Why.jsx';
 import { loadGuest } from '../lib/guest.js';
 import { benefitLine, isHouseholdScheme, RANK, trackerNext } from '../lib/elig.js';
+import PhotoFrame from '../components/photo/PhotoFrame.jsx';
+import { getCategoryCaption } from '../components/photo/captions.js';
 
 // The family's result for this one scheme, from the rules engine.
 function useFamilyMatch(schemeId) {
@@ -204,9 +206,24 @@ export default function SchemeDetail() {
   const benefits = LA(s.benefits); const steps = LA(s.howToApply);
   const docs = s.documents || [];
   const nDone = done.filter((d) => docs.includes(d)).length;
+  const cap = getCategoryCaption(s.category, lang);
   return (
     <>
       <Link to="/schemes" className="back">← {t('nav.schemes')}</Link>
+      <div className="det-photo-header" style={{ margin: '14px 0 20px 0' }}>
+        <PhotoFrame
+          variant="strip"
+          image={cap.image}
+          alt={cap.alt}
+          title={cap.title}
+          text={cap.text}
+          badge={
+            <span className="tag" style={{ background: 'var(--marigold)', color: 'var(--ink-900)', fontWeight: 600 }}>
+              {t(`cat.${s.category}`)} · {s.level === 'state' ? s.state || t('level.state') : t('level.central')}
+            </span>
+          }
+        />
+      </div>
       <div className="detail">
         <article className="detail-main">
           <div className="det-tags">
